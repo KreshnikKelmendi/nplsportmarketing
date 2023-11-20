@@ -84,7 +84,7 @@ const Law = () => {
                     <h5 className="mb-3 text-uppercase">
                         RREGULLORE PËR SISTEMATIZIMIN E PUNËVE DHE DETYRAVE TË PUNËS
                     </h5>
-                    <a classNameName="text-uppercase text-decoration-none" href={statusi6} alt="" target="_blank" rel="noopener noreferrer">SHKARKO</a>
+                    <a className="text-uppercase text-decoration-none" href={statusi6} alt="" target="_blank" rel="noopener noreferrer">SHKARKO</a>
                 </div>
             </div>
         </div>

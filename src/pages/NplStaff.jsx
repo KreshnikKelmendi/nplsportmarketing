@@ -36,7 +36,7 @@ const NplStaff = () => {
                   <div className="col-lg-4 col-md-6">
                       <div className="team-item">
                           <div className="overflow-hidden position-relative">
-                              <img className="img-fluid" src={firstStaff} alt="" />
+                              {/* <img className="img-fluid" src={firstStaff} alt="" /> */}
                           </div>
                           <div className="text-center border border-5 border-light border-top-0 p-4">
                               <h5 className="mb-0 textOn">Arlinda Uka</h5>
