@@ -42,7 +42,6 @@ const AdsPage = () => {
                                         <Link onClick={() => window.scrollTo({
                                                 top: 0,
                                                 left: 0,
-                                                behavior: "smooth",
                                             })}  to={`/ads/${element.id}`} className="text-uppercase text-decoration-none">shiko konkursin<i className="bi bi-arrow-right"></i></Link>
                                     </div>
                                 </div>

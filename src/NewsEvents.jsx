@@ -59,7 +59,6 @@ const NewsEvents = () => {
                                                 <Link onClick={() => window.scrollTo({
                                                         top: 0,
                                                         left: 0,
-                                                        behavior: "smooth",
                                                     })} to={`/news/${item.id}`} 
                                                     className="text-uppercase text-primary textOn text-decoration-none">
                                                         Lexo më shumë<i className="mx-2 bi bi-arrow-right"></i>

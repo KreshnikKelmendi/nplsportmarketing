@@ -16,12 +16,12 @@ const OurServices = () => {
                                 <i className="material-symbols-outlined text-white">waves</i>
                             </div>
                             
-                            <Link onClick={() => window.scrollTo({
-                            top: 0,
-                            left: 0,
-                            behavior: "smooth",
-                        })} className="text-decoration-none text-dark" to="/pishina-germise">
-                            <h5 className="text-darkBlack textPoppins linkHover">PISHINA E GËRMISË</h5>
+                            <Link onClick={() => window.scrollTo({ top: 0, left: 0 })} 
+                                  className="text-decoration-none text-dark" 
+                                  to="/pishina-germise">
+                                    <h5 className="text-darkBlack textPoppins linkHover">
+                                        PISHINA E GËRMISË
+                                    </h5>
                             </Link>
                             
                         </div>
@@ -32,12 +32,11 @@ const OurServices = () => {
                                 <i className="material-symbols-outlined text-white">sports_tennis</i>
                             </div>
                             
-                            <Link onClick={() => window.scrollTo({
-                        top: 0,
-                        left: 0,
-                        behavior: "smooth",
-                    })} className="text-decoration-none text-dark" to="/fusha-tenisit">
-                            <h5 className=" mb-3 text-darkBlack textPoppins linkHover">FUSHA E TENISIT</h5>
+                            <Link onClick={() => window.scrollTo({ top: 0, left: 0})} 
+                                  className="text-decoration-none text-dark" to="/fusha-tenisit">
+                                    <h5 className=" mb-3 text-darkBlack textPoppins linkHover">
+                                        FUSHA E TENISIT
+                                    </h5>
                             </Link>
                         </div>
                     </div>
@@ -47,12 +46,12 @@ const OurServices = () => {
                                 <i className="material-symbols-outlined text-white">stadium</i>
                             </div>
                             
-                            <Link onClick={() => window.scrollTo({
-                        top: 0,
-                        left: 0,
-                        behavior: "smooth",
-                    })} className="text-decoration-none text-dark" to="/amfiteatri">
-                            <h5 className="mb-3 text-darkBlack textPoppins linkHover">AMFITEATRI</h5>
+                            <Link onClick={() => window.scrollTo({ top: 0,left: 0 })} 
+                                  className="text-decoration-none text-dark" 
+                                  to="/amfiteatri">
+                                    <h5 className="mb-3 text-darkBlack textPoppins linkHover">
+                                        AMFITEATRI
+                                    </h5>
                             </Link>
                         </div>
                     </div>
@@ -61,13 +60,12 @@ const OurServices = () => {
                             <div className="service-icon">
                                 <i className="material-symbols-outlined text-white">pool</i>
                             </div>
-                            <Link onClick={() => window.scrollTo({
-                        top: 0,
-                        left: 0,
-                        behavior: "smooth",
-                    })} className="text-decoration-none text-dark " to="/shkolla-notit">
-                            <h5 className="mb-3 text-darkBlack linkHover textPoppins">SHKOLLA E NOTIT</h5>
-
+                            <Link onClick={() => window.scrollTo({ top: 0,left: 0 })} 
+                                  className="text-decoration-none text-dark " 
+                                  to="/shkolla-notit">
+                                    <h5 className="mb-3 text-darkBlack linkHover textPoppins">
+                                        SHKOLLA E NOTIT
+                                    </h5>
                             </Link>
                         </div>
                     </div>
@@ -78,12 +76,12 @@ const OurServices = () => {
                                     downhill_skiing
                                     </span></i>
                             </div>
-                            <Link onClick={() => window.scrollTo({
-                        top: 0,
-                        left: 0,
-                        behavior: "smooth",
-                    })} className="text-decoration-none text-dark" to="/skijimi">
-                                    <h5 className="mb-3 text-darkBlack textPoppins linkHover">SHKOLLA E SKIJIMIT DHE SHTËPIA E GURIT NË BREZOVICË</h5>
+                            <Link onClick={() => window.scrollTo({ top: 0, left: 0})} 
+                                  className="text-decoration-none text-dark" 
+                                  to="/skijimi">
+                                    <h5 className="mb-3 text-darkBlack textPoppins linkHover">
+                                        SHKOLLA E SKIJIMIT DHE SHTËPIA E GURIT NË BREZOVICË
+                                    </h5>
                             </Link>
                         </div>
                     </div>
@@ -94,12 +92,12 @@ const OurServices = () => {
                                     camping
                                     </span></i>
                             </div>
-                            <Link onClick={() => window.scrollTo({
-                        top: 0,
-                        left: 0,
-                        behavior: "smooth",
-                    })} className="text-decoration-none text-dark" to="/kampshtepiza">
-                            <h5 className="mb-3 text-darkBlack textPoppins linkHover">FESTIVALET</h5>
+                            <Link onClick={() => window.scrollTo({ top: 0, left: 0 })} 
+                                  className="text-decoration-none text-dark" 
+                                  to="/kampshtepiza">
+                                    <h5 className="mb-3 text-darkBlack textPoppins linkHover">
+                                        FESTIVALET
+                                    </h5>
                             </Link>
                         </div>
                     </div>

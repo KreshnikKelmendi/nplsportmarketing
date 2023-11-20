@@ -14,7 +14,7 @@ const Kryeshefi = () => {
       </div>
 
     <div className="container-fluid py-lg-5">
-        <div className="container py-1 ">
+        <div className="py-1 ">
             <div className="d-flex kryeshefi">
                 <div className="col-lg-7">
                     <div className="section-title position-relative pb-5">

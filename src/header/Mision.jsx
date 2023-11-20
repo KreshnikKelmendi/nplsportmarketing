@@ -33,12 +33,11 @@ const Mision = () => {
                                 shërbimeve cilësore rekreativo-sportive. . .
                             </p>
                             <Link onClick={() => window.scrollTo({
-                            top: 0,
-                            left: 0,
-                            behavior: "smooth",
-                            })} to="/about-us" 
-                            className="btn btn-sm py-2 px-4 rounded-2 misionBtn textOn3">
-                                Lexo më shumë
+                                top: 0,
+                                left: 0,
+                                })} to="/about-us" 
+                                className="btn btn-sm py-2 px-4 rounded-2 misionBtn textOn3">
+                                    Lexo më shumë
                             </Link>
                       </div>
                         <div className="col-lg-5">
@@ -55,7 +54,7 @@ const Mision = () => {
 
     {/* VIDEO CONTENT */}
 
-    <div className="container-fluid py-5" data-aos="fade-up">
+    <div className="container-fluid " data-aos="fade-up">
         <div className="container py-5">
             <div className="section-title text-center position-relative pb-3 mb-5 mx-auto" style={{maxWidth: "600px"}}>
                 <h5 className="text-primary text-uppercase textPoppins">Promovim i sportit</h5>

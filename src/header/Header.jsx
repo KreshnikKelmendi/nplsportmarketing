@@ -36,7 +36,6 @@ const Header = () => {
          window.scrollTo({
             top: 0,
             left: 0,
-            behavior: "smooth",
         })
     }
      
@@ -48,7 +47,6 @@ const Header = () => {
               <Link onClick={() => window.scrollTo({
                       top: 0,
                       left: 0,
-                      behavior: "smooth",
                   })} to="/"><img className="logo-npl" src={logoNpl} alt="npl" /></Link>
          </div>
          <ul className={active}>

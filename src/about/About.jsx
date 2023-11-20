@@ -47,15 +47,15 @@ const About = () => {
 
 
         <div className="container-fluid py-lg-5">
-        <div className="container">
+        <div className="container-fluid">
             <div className="row g-5">
-                <div className="col-lg-5" style={{minHeight: "500px"}}>
+                <div className="col-lg-5" style={{minHeight: "190px"}}>
                     <div className="position-relative h-100">
                         <img className="position-absolute w-100 h-100 object-fit-contain staffPhoto rounded-4" alt="" src={objekti} style={{objectFit: "cover"}} />
                     </div>
                 </div>
                 <div className="col-lg-7">
-                    <div className="section-title position-relative mb-5">
+                    <div className="section-title position-relative mb-lg-5">
                         <h5 className="text-primary text-uppercase historyHeading">Historiku i ndërmarrjes</h5>
                     </div>
                     <p className="mb-4 textOn3">
@@ -117,12 +117,12 @@ const About = () => {
         </div>
     </div> */}
 
-    <div class="choose">
-         <div class="container">
-            <div class="d-lg-flex">
-               <div class="col-lg-6 col-md-7 ">
-                  <div class="titlepage textOn3">
-                  <div className="section-title position-relative mb-5">
+    <div className="choose">
+         <div className="container">
+            <div className="d-lg-flex">
+               <div className="col-lg-6 col-md-7 px-3 px-lg-0">
+                  <div className="titlepage textOn3">
+                  <div className="section-title position-relative mb-lg-5">
                         <h5 className="text-primary text-uppercase">Misioni & Vizioni</h5>
                     </div>
                     NPL "Sport Marketing" është ndërmarrje publike dhe mision i saj është zhvillimi dhe 
@@ -141,18 +141,18 @@ const About = () => {
                            <i><img className="img-fluid w-75" src={natyra} alt="#"/></i>
                            <strong>Natyra</strong>
                         </div>
-                        <div id="awa_ho" class="award_icon text_align_center">
+                        <div id="awa_ho" className="award_icon text_align_center">
                            <i><img className="img-fluid w-75" src={kultura} alt="#"/></i>
                            <strong>Kultura</strong>
                         </div>
-                        <div id="awa_ho" class="award_icon text_align_center">
+                        <div id="awa_ho" className="award_icon text_align_center">
                            <i><img className="img-fluid w-75" src={marketing} alt="#"/></i>
                            <strong>Marketingu</strong>
                         </div>
                      </div>
                   </div>
                </div>
-               <div className="col-lg-6 mx-4 my-5 position-relative">
+               <div className="col-lg-6 mx-lg-4 my-5 position-relative">
                         <img className="img-fluid p-lg-4 rounded-5" alt="" src={staff2} style={{objectFit: "cover"}}/>
                     </div>
             </div>
@@ -161,7 +161,7 @@ const About = () => {
 
     <div className="container-fluid my-5">
         <div className="container">
-            <div className="section-title text-center position-relative pb-3 mb-5 mx-auto" style={{maxWidth: "600px"}}>
+            <div className="section-title text-center position-relative pb-2 mb-lg-5 mx-auto" style={{maxWidth: "600px"}}>
                 <h5 className="text-primary text-uppercase">galeria</h5>
             </div>
                     <div className="row g-4">
@@ -175,7 +175,7 @@ const About = () => {
             </div>
         </div>
     </div>
-    <div className="my-5 py-5 section-title text-center position-relative pb-3 mb-5 mx-auto" style={{maxWidth: "600px"}}>
+    <div className="my-5 py-5 section-title text-center position-relative pb-3 mb-3 mx-auto" style={{maxWidth: "600px"}}>
                 <h5 className="textOn text-primary text-uppercase">Pyetje të shpeshta</h5>
         </div>
     <Accordion title="Kur është themeluar Ndërmarrja Publike Lokale Sport Marketing" content="Është themeluar me vendimin e Pleqësisë së Fondit të Kulturës Fizike dhe Sportit të Komunës së Prishtinës, nr. 499 të datës: 23.12.2091, viti i regjistrimit në regjistrin e Gjyqit Ekonomik të Prishtinës nën nr FI-2642/2091." />
