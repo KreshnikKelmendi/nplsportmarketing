@@ -119,18 +119,20 @@ const About = () => {
 
     <div className="choose">
          <div className="container-fluid px-lg-5">
-            <div className="d-lg-flex">
-               <div className="col-lg-6 col-md-7 px-3 px-lg-0">
+            <div className="d-lg-flex justify-content-center align-items-center">
+               <div className="col-lg-6 col-md-7 px-3 px-lg-5">
                   <div className="titlepage textOn3">
-                  <div className="section-title position-relative mb-lg-5">
+                  <div className="section-title position-relative">
                         <h5 className="text-primary text-uppercase">Misioni & Vizioni</h5>
                     </div>
+                    <div className="mt-4">
                     NPL "Sport Marketing" është ndërmarrje publike dhe mision i saj është zhvillimi dhe 
                     ofrimi i shërbimeve, sic jane aktivitetet sportive, kulturore, komerciale të mirefillta 
                     me fokus në qytetarin, të rinjët dhe të rejat e kryeqytetit tonë. Ne jemi ndërmarrja 
                     publike e vetme, kujdestare për zhvillimin dhe përkrahjen e ideve dhe projekteve për 
                     qytetin tonë dhe më gjerë! <br /> <br/>
                     Janë katër shtylla të cilat e karakterizojnë dhe ndërlidhin në mënyrë perfekte veprimtarinë e ndërmarrjes, ato janë:
+                    </div>
                      <div class="award">
                         <div id="awa_ho" className="award_icon text_align_center">
                            <i><img className="img-fluid w-75" src={sport} alt="#"/>
