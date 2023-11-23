@@ -121,7 +121,7 @@ const About = () => {
          <div className="container-fluid px-lg-5">
             <div className="d-lg-flex justify-content-center align-items-center">
                <div className="col-lg-6 col-md-7 px-3 px-lg-5">
-                  <div className="titlepage textOn3">
+                  <div className="titlepage textOn3 px-xxl-4">
                   <div className="section-title position-relative">
                         <h5 className="text-primary text-uppercase">Misioni & Vizioni</h5>
                     </div>
@@ -154,7 +154,7 @@ const About = () => {
                      </div>
                   </div>
                </div>
-               <div className="col-lg-6 mx-lg-4 my-5 position-relative">
+               <div className="col-lg-6 px-xxl-5 mx-lg-4 my-5 position-relative">
                         <img className="img-fluid p-lg-4 rounded-5" alt="" src={staff2} style={{objectFit: "cover"}}/>
                     </div>
             </div>
