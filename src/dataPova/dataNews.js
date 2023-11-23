@@ -23,7 +23,7 @@ import basket6 from "../img/basket6.jpg";
 
 
 const DataNews = [{
-    id: 1,
+    id: 4,
     name: "NJOFTIM PËR TREGUN E FUNDVITIT \"VERË N'DIMËR\"",
     photo: verDimer,
     date: "21 Nëntor 2023",
