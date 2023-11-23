@@ -5,7 +5,7 @@ const ContactPage = () => {
       <>
         <div className="container-fluid py-5 bg-contact" style={{marginBottom: "90px"}}>
             <div className="row py-5">
-                <div className="col-12 pt-lg-5 mt-lg-5 text-center">
+                <div className="col-12 text-center">
                     <h1 className="display-4 text-white">Kontakti</h1>
                 </div>
             </div>

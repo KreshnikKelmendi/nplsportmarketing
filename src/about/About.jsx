@@ -37,10 +37,10 @@ const galery = [{
 const About = () => {
     return(
        <>
-        <div className="container-fluid py-5 aboutBg" style={{marginBottom: "90px"}}>
+        <div className="container-fluid py-5 aboutBg" style={{marginBottom: "50px"}}>
             <div className="row py-5">
-                <div className="col-12 pt-lg-5 mt-lg-5 text-center">
-                    <h1 className="display-5 text-white">Rreth Nesh</h1>
+                <div className="col-12 text-center">
+                    <h1 className="display-4 headingH1">Rreth Nesh</h1>
                 </div>
             </div>
         </div>
@@ -61,7 +61,7 @@ const About = () => {
                     <p className="mb-4 textOn3">
                         Kompania Publike Komunale “Sport Marketing” sh.a, Prishtinë është themeluar me vendimin
                         e Pleqësisë së Fondit të Kulturës Fizike dhe Sportit të Komunës së Prishtinës, nr. 499 të 
-                        datës: 23.12.2091, viti i regjistrimit në regjistrin e Gjyqit Ekonomik të Prishtinës nën nr FI-2642/2091. 
+                        datës: 23.12.1991, viti i regjistrimit në regjistrin e Gjyqit Ekonomik të Prishtinës nën nr FI-2642/2091. 
                         Pas luftës NPK”Sportmarketing”- Prishtinë është regjistruar në administratën e UNMIK-ut me nr. 80283741.
                         Sipas Ligjit për  ndërmarrjet publike  (ligji nr.03/L-087) dhe Ligji për  ndyshimin dhe plotësimin e Ligjit 
                         nr.03/L-087 në Ligjin nr. 04/L-11. Ndërrmarrja ka Statusin e Shoqërisë Aksionare me 100% aksione të Komunës 

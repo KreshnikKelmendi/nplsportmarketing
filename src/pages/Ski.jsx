@@ -3,7 +3,7 @@ const Ski = () => {
        <>
           <div className="container-fluid py-5 skiSingle" style={{marginBottom: "90px"}}>
             <div className="row py-5">
-                <div className="col-12 pt-lg-5 mt-lg-5 text-center">
+                <div className="col-12 text-center">
                     <h5 className="display-6 text-light animated zoomIn">SHKOLLA E SKIJIMIT DHE SHTËPIA E GURIT NË BREZOVICË</h5>
                 </div>
             </div>

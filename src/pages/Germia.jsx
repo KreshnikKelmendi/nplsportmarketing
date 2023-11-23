@@ -3,7 +3,7 @@ const Germia = () => {
          <>
            <div className="container-fluid py-5 germiaSingle" style={{marginBottom: "90px"}}>
             <div className="row py-5">
-                <div className="col-12 pt-lg-5 mt-lg-5 text-center">
+                <div className="col-12 text-center">
                     <h1 className="display-4 text-light animated zoomIn">Pishina e Gërmisë</h1>
                 </div>
             </div>

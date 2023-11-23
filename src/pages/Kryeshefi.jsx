@@ -5,16 +5,16 @@ import 'animate.css';
 const Kryeshefi = () => {
     return(
        <>
-       <div className="container-fluid py-5 bg-info" style={{marginBottom: "30px"}}>
+       {/* <div className="container-fluid py-5 bg-info" style={{marginBottom: "30px"}}>
         <div className="row py-5">
             <div className="col-12 pt-lg-5 mt-lg-5 text-center">
                 <h1 className="display-5 text-white animate__animated animate__slideInUp animate__slow">Kryeshefi Ekzekutiv</h1>
             </div>
         </div>
-      </div>
+      </div> */}
 
     <div className="container-fluid py-lg-5">
-        <div className="py-1 ">
+        <div className="py-1 px-lg-5 ">
             <div className="d-flex kryeshefi">
                 <div className="col-lg-7">
                     <div className="section-title position-relative pb-5">

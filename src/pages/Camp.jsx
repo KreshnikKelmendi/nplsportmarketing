@@ -3,7 +3,7 @@ const Camp = () => {
        <>
         <div className="container-fluid py-5 kampshtepiza" style={{marginBottom: "90px"}}>
             <div className="row py-5">
-                <div className="col-12 pt-lg-5 mt-lg-5 text-center">
+                <div className="col-12 text-center">
                     <h1 className="display-4 text-light animated zoomIn">Akull n'Verë & Verë n'dimër</h1>
                 </div>
             </div>

@@ -9,9 +9,9 @@ import 'animate.css';
 const Law = () => {
     return(
       <>
-        <div className="container-fluid py-5 lawBg" style={{marginBottom: "90px"}}>
+        <div className="container-fluid py-5 lawBg" style={{marginBottom: "50px"}}>
             <div className="row py-5">
-                <div className="col-12 pt-lg-5 mt-lg-5 text-center">
+                <div className="col-12 text-center">
                     <h1 className="display-4 text-white animate__animated animate__slideInUp animate__slow">Korniza ligjore</h1>
                 </div>
             </div>

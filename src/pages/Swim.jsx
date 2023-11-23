@@ -3,7 +3,7 @@ const Swim = () => {
       <>
         <div className="container-fluid py-5 swimSingle" style={{marginBottom: "90px"}}>
             <div className="row py-5">
-                <div className="col-12 pt-lg-5 mt-lg-5 text-center">
+                <div className="col-12 text-center">
                     <h1 className="display-4 text-light animated zoomIn">Shkolla e notit</h1>
                 </div>
             </div>

@@ -746,6 +746,16 @@ li{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    filter:grayscale(60%);
+
+    color: white;
+}
+.headingH1{
+    /* background-color: #1555A2; */
+    width: fit-content;
+    margin: 0 auto;
+    padding: 15px;
+    border-radius: 20px;
 }
 .historyHeading{
     font-family: 'Roboto Light', sans-serif;  
@@ -764,20 +774,25 @@ li{
     margin-top: 25%;
 }
 .germiaSingle{
-    background-image: url(./img/pishina-e-germise.jpg);
+    background-image: url(./img/22.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
+    filter:grayscale(60%);
 }
 .tennisSingle{
     background-image: url(./img/tennis2023.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position:center;
+    filter:grayscale(60%);
 }
 .amfiteatriSingle{
     background-image: url(./img/amfiteatriAmfiteatri.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
+    filter:grayscale(60%);
 }
 .sportBackground{
     background-image: url(./img/Sport.png);
@@ -803,11 +818,15 @@ li{
     background-image: url(./img/swim3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    filter:grayscale(70%);
+    background-position: center;
 }
 .skiSingle{
     background-image: url(./img/ski.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    filter:grayscale(60%);
+    background-position: top;
 }
 .bg-tennisIcon{
     background-image: url(./img/tennisIcon2023.png);
@@ -849,9 +868,11 @@ li{
     background-image: url(./img/2023-2024.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
+    filter:grayscale(70%);
+    background-position: top;
 }
 .bg-contact{
-    background-color: #2F7DED;
+    background-color: #1555A2;
 }
 .blogImage{
     height: 30vh;
