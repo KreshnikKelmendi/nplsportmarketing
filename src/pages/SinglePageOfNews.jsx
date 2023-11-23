@@ -15,7 +15,7 @@ const SinglePageOfNews = () => {
     return(
          <>
            <div className="container-fluid py-5">
-                <div className="container py-5">
+                <div className="container-fluid px-lg-5 py-5">
                     <div className="row g-5">
                         <div className="col-lg-12">
                             <div className="mb-5">

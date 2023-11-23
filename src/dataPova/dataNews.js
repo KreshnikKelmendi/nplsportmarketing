@@ -6,6 +6,7 @@ import fotoja4 from "../img/koncerti4.jpg";
 import fotoja5 from "../img/koncerti5.jpg";
 import fotoja6 from "../img/koncerti6.jpg";
 import image2 from "../img/sunset.png";
+import verDimer from "../img/maxresdefault.jpg"
 import sunset1 from "../img/sunset1.JPG";
 import sunset2 from "../img/sunset2.JPG";
 import sunset3 from "../img/sunset3.JPG";
@@ -22,6 +23,12 @@ import basket6 from "../img/basket6.jpg";
 
 
 const DataNews = [{
+    id: 1,
+    name: "NJOFTIM PËR TREGUN E FUNDVITIT \"VERË N'DIMËR\"",
+    photo: verDimer,
+    date: "21 Nëntor 2023",
+    description: "Komuna e Prishtinës dhe Ndërmarrja Publike Lokale \"Sport Marketing\" njofton qytetarët se për shkak të dekorimeve të fundvitit në sheshin \"George Bush\", jemi të detyruar të shtyejmë datën e hapjes së tregut të fundvitit \"Verë n'Dimër\". Data e hapjes së tregut të fundvitit është 28.11.2023 - 10.01.2024."
+},{
     id:3,
     name: "\"MAMBA Celebrity Game\" për nder të legjendës Kobe Bryant",
     date: "20 Korrik 2023",

@@ -22,7 +22,7 @@ const NewsEvents = () => {
 
     return(
        <>
-        <div className="container-fluid py-5 newsBg" style={{marginBottom: "90px"}}>
+        <div className="container-fluid py-5 newsBg" style={{marginBottom: "50px"}}>
             <div className="row py-5">
                 <div className="col-12 text-center">
                     <h1 className="display-4 text-white">Lajme & Ngjarje</h1>
@@ -31,7 +31,7 @@ const NewsEvents = () => {
         </div>
 
         <div className="container-fluid">
-            <div className="container">
+            <div className="container-fluid px-lg-5">
                 <div className="section-title text-center position-relative pb-3 mb-5 mx-auto" style={{maxWidth: "600px"}}>
                     <h5 className="textOn text-primary text-uppercase">
                         Të fundit
