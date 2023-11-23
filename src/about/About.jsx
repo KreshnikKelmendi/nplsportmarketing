@@ -180,8 +180,9 @@ const About = () => {
     <div className="my-5 py-5 section-title text-center position-relative pb-3 mb-3 mx-auto" style={{maxWidth: "600px"}}>
                 <h5 className="textOn text-primary text-uppercase">Pyetje të shpeshta</h5>
         </div>
-    <Accordion title="Kur është themeluar Ndërmarrja Publike Lokale Sport Marketing" content="Është themeluar me vendimin e Pleqësisë së Fondit të Kulturës Fizike dhe Sportit të Komunës së Prishtinës, nr. 499 të datës: 23.12.2091, viti i regjistrimit në regjistrin e Gjyqit Ekonomik të Prishtinës nën nr FI-2642/2091." />
-    <Accordion title="Cilat janë asetet që menaxhon NPL - Sport Marketing" content="Asetet që menaxhohen nga NPL - Sport Marketing janë: Gërmia, Akull n'Verë etj." />
+    <Accordion title="Kur është themeluar Ndërmarrja Publike Lokale Sport Marketing ?" content="Është themeluar me vendimin e Pleqësisë së Fondit të Kulturës Fizike dhe Sportit të Komunës së Prishtinës, nr. 499 të datës: 23.12.1991, viti i regjistrimit në regjistrin e Gjyqit Ekonomik të Prishtinës nën nr FI-2642/2091." />
+    <Accordion title="Cilat janë katër shtyllat kryesore që e karakterizojnë veprimtarinë e ndërmarrjes ?" content="Katër shtyllat që e karakterizojnë veprimtarinë e ndërmarrjes janë: sporti, natyra, kultura dhe marketingu." />
+    <Accordion title="Cilat janë asetet që menaxhon NPL - Sport Marketing ?" content="Asetet që menaxhohen nga NPL - Sport Marketing janë: Gërmia, Akull n'Verë etj." />
        </>
     )
 }
