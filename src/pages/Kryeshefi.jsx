@@ -59,6 +59,7 @@ const Kryeshefi = () => {
                         Ka të përfunduar Administrimin e Biznesit në "Univesitetin Fatih" të Stambollit,"2007-2010", poashtu ka të përfunduar shkollën profesionale në AUK, atë të Akademisë Cisco's, ku u certifikua me titullin Inxhinier i Rrjetave Telekomunikuese.
                         Bardhi ka punuar në kompaninë 3CIS për 9 vite, duke qenë pjesë e implementimit të rrjetave 3G dhe 4G për disa prej telefonive më të mëdha në botë, sic është VODAFONE UK, TELLABS, AT&T USA, etj.
                         Është themelues i njërës prej kompanive më kreative në vend, "TREKUARTISTA" për tash e 10 vite, dhe ka menaxhuar shumë projekte brenda dhe jashtë shtetit.
+                        <br /> <br />
                         Në dhjetor të 2022 është përzgjedhur dhe mban pozitën e Kryeshefit në Ndërmarrjen Publike Lokale "Sport Marketing"
                         Është pasionant i gjuhëve të huaja, dhe flet rrjedhshëm 5 gjuhë.
                         Në Prishtinë dhe në Kosovë, njihej si njëri ndër talentët më të mëdhenjë të gjeneratës së tij në sportin e Basketbollit, ku për shumë vite djersiti fanelat e shumë klubeve vendore dhe ndërkombëtare duke qenë edhe pjesë e Përfaqësueses së Kosovës në Basketboll.
