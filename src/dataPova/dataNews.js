@@ -54,10 +54,10 @@ const DataNews = [{
     galery6: sunset6
 },{
     id: 1,
-    name: "U shenua hapja e Pishinës së Gërmisë",
+    name: "Hapja e Pishinës së Gërmisë",
     photo: image1,
-    date: "23 Qershor 2023",
-    description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam quisquam pariatur in dolores earum sed adipisci voluptatem nam qui numquam cumque ipsum eligendi soluta nostrum nemo, rem incidunt harum dolore?,                                                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam quisquam pariatur in dolores earum sed adipisci voluptatem nam qui numquam cumque ipsum eligendi soluta nostrum nemo, rem incidunt harum dolore?                                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam quisquam pariatur in dolores earum sed adipisci voluptatem nam qui numquam cumque ipsum eligendi soluta nostrum nemo, rem incidunt harum dolore?                                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam quisquam pariatur in dolores earum sed adipisci voluptatem nam qui numquam cumque ipsum eligendi soluta nostrum nemo, rem incidunt harum dolore?",
+    date: "22 Qershor 2023",
+    description: "Në prani të kryetarit të Komunës së Prishtinës z.Përparim Rama dhe Kryeshefit Ekzekutiv të NPL \"Sport Marketing\" z.Bardh Krasniqi u shënua hapja e pishinës së Gërmisë për vitin 2023. Ky vit pishinën e Gërmisë e gjen me shumë ndryshime si në infrastrukturë ashtu edhe në shërbime tjera që për qëllim kanë ofrimin e kushteve sa më të mira për vizitorët dhe pushuesit. Nga Kryetari i Komunës Përparim Rama dhe Kryeshefi Ekzekutiv Bardh Krasniqi u premtua se çdo vit do të ketë të reja dhe ndryshime në mirëqenien dhe permirësimin e jetës së qytetarëve.",
     galery1 :fotoja1,
     galery2: fotoja2,
     galery3: fotoja3,
