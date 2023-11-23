@@ -883,6 +883,9 @@ li{
     height: 60vh;
     object-fit:cover;
 }
+.singleDiv{
+    margin: 0 auto;
+}
 .galeryMap{
     transition: transform 1.5s ease;
 }

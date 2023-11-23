@@ -19,7 +19,7 @@ const NplStaff = () => {
 
 
       <div className="container-xxl py-5 ">
-          <div className="container">
+          <div className="container-fluid px-lg-5">
               <div className="row g-5 justify-content-center align-items-center">
               <h3 className="text-center text-uppercase">Stafi</h3>
                   <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.7s">

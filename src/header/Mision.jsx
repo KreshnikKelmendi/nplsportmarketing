@@ -16,8 +16,8 @@ const Mision = () => {
     return(
         <>
           <div className="container-fluid py-5 testat" data-aos="fade-down">
-             <div className="container py-5">
-                 <div className="row g-5">
+             <div className="container-fluid px-lg-5 py-5">
+                 <div className="row g-5 justify-content-center align-items-center">
                      <div className="col-lg-7 sectionText">
                         <div className="section-title position-relative pb-3 mb-2">
                             <h5 className="text-primary text-uppercase textPoppins">Misioni & Vizioni  </h5>
@@ -55,7 +55,7 @@ const Mision = () => {
     {/* VIDEO CONTENT */}
 
     <div className="container-fluid " data-aos="fade-up">
-        <div className="container py-5">
+        <div className="container-fluid px-lg-5 py-5">
             <div className="section-title text-center position-relative pb-3 mb-5 mx-auto" style={{maxWidth: "600px"}}>
                 <h5 className="text-primary text-uppercase textPoppins">Promovim i sportit</h5>
                 <p className="mb-0 textOn">
@@ -65,8 +65,8 @@ const Mision = () => {
                 </p>
             </div>
                 <div className="row g-5">
-                    <div className="col-lg-12 zoomIn" style={{minHeight: "350px"}}>
-                        <div className="position-relative h-100">
+                    <div className="col-lg-12 zoomIn" style={{minHeight: "55vh"}}>
+                        <div className="position-relative h-100 object-fit-cover">
                             <Video src={video1} muted autoPlay />
                         </div>
                     </div>

@@ -10,7 +10,7 @@ const Germia = () => {
         </div>
 
         <div className="container-fluid">
-        <div className="container">
+        <div className="container-fluid px-lg-5">
             {/* <div className="section-title text-center position-relative  mx-auto" style={{maxWidth: "600px"}}>
                 
             </div> */}

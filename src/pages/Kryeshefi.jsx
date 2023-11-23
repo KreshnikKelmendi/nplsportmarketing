@@ -68,7 +68,7 @@ const Kryeshefi = () => {
                 </div>
                 <div className="col-lg-6 h-auto mt-3 mt-lg-0"  >
                    
-                        <img className="col-12 staffPhoto" alt="" src={Bardhi} style={{objectFit: "cover"}} />
+                        <img className="col-12 staffPhoto p-xxl-5" alt="" src={Bardhi} style={{objectFit: "cover"}} />
                  
                 </div>
                 

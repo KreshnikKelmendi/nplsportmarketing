@@ -1,4 +1,3 @@
-import Bardhi from "../img/bardhi.png";
 import 'animate.css';
 
 const Staff = () => {

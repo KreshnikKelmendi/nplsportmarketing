@@ -14,18 +14,18 @@ const SinglePageOfNews = () => {
 
     return(
          <>
-           <div className="container-fluid py-5">
+           <div className="container-fluid py-lg-5">
                 <div className="container-fluid px-lg-5 py-5">
                     <div className="row g-5">
                         <div className="col-lg-12">
-                            <div className="mb-5">
+                            <div className="mb-5 px-lg-5 mx-lg-5">
                                 <img className="img-fluid w-100 rounded mb-5 singleImage" 
                                     //  src={`http://localhost:1337${data?.data?.attributes?.image?.data?.attributes?.url}`} 
                                     src={photo} 
                                     alt="eventsPhoto"
                                 />
                                 {/* <h1 className="mb-4">{data?.data?.attributes?.title}</h1> */}
-                                <h1 className="mb-4 textOn">{name}</h1>
+                                <h2 className="mb-4 textOn">{name}</h2>
                                 <h6 className="text-success textOn">Data e publikimit: <small className="text-dark">{date}</small></h6>
                                 {/* <h6 className="text-success">Data e publikimit: <small><b className="text-dark">
                                     {data?.data?.attributes?.date}</b></small>
@@ -39,7 +39,7 @@ const SinglePageOfNews = () => {
                     <div className="section-title text-center position-relative pb-3 mb-5 mx-auto" style={{maxWidth: "600px"}}>
                 <h5 className="fw-bold text-primary text-uppercase">galeria e eventit</h5>
             </div>
-                        <div className="row g-4 justify-content-center">
+                        <div className="row g-4 justify-content-center px-lg-5 mx-lg-5">
                         <div className="col-lg-4">
                             <img className="col-12 object-fit-cover rounded-5" src={galery1} alt="" />
                         </div>

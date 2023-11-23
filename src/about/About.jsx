@@ -47,7 +47,7 @@ const About = () => {
 
 
         <div className="container-fluid py-lg-5">
-        <div className="container-fluid">
+        <div className="container-fluid px-lg-5">
             <div className="row g-5">
                 <div className="col-lg-5" style={{minHeight: "190px"}}>
                     <div className="position-relative h-100">
@@ -118,7 +118,7 @@ const About = () => {
     </div> */}
 
     <div className="choose">
-         <div className="container">
+         <div className="container-fluid px-lg-5">
             <div className="d-lg-flex">
                <div className="col-lg-6 col-md-7 px-3 px-lg-0">
                   <div className="titlepage textOn3">
@@ -160,7 +160,7 @@ const About = () => {
       </div>
 
     <div className="container-fluid my-5">
-        <div className="container">
+        <div className="container-fluid px-lg-5">
             <div className="section-title text-center position-relative pb-2 mb-lg-5 mx-auto" style={{maxWidth: "600px"}}>
                 <h5 className="text-primary text-uppercase">galeria</h5>
             </div>

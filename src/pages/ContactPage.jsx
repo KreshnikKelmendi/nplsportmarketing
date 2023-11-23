@@ -12,7 +12,7 @@ const ContactPage = () => {
         </div>
 
         <div className="container-fluid py-5">
-        <div className="container ">
+        <div className="container-fluid px-lg-5">
             <div className="section-title text-center position-relative pb-3 mb-5 mx-auto" style={{maxWidth: "600px"}}>
                 <h6 className="mb-0 textOn">Ju lutemi të mos ngurroni të na kontaktoni për çdo pyetje, kërkesë ose informacion shtesë. Ne jemi këtu për t'ju ndihmuar.</h6>
             </div>

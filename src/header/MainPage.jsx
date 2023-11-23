@@ -36,7 +36,7 @@ const MainPage = () => {
             </Fade>
 
          <div className="three_box">
-            <div className="container">
+            <div className="container-fluid px-lg-5">
                <div className="row justify-content-center align-items-center">
                   <div className="px-1 col-md-3 col-lg-2 col-xl-3">
                      <div id="text_hover1" className="const text_align_center custom-div">

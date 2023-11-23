@@ -5,7 +5,7 @@ const Footer = () => {
     return(
        <>
         <div className="container-fluid bg-footerBackground text-light mt-5">
-        <div className="container">
+        <div className="container-fluid">
             <div className="row gx-5">
                 <div className="col-lg-6 col-md-6 footer-about">
                     <div className="d-flex flex-column align-items-center justify-content-center text-center h-100 p-4">

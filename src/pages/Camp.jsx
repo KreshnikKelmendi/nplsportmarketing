@@ -10,7 +10,7 @@ const Camp = () => {
         </div>    
 
         <div className="container-fluid">
-        <div className="container">
+        <div className="container-fluid px-lg-5">
             {/* <div className="section-title text-center position-relative pb-3 mb-5 mx-auto" style={{maxWidth: "600px"}}>
                 <h5 className="text-dark text-uppercase">informata për Festivalet</h5>
             </div> */}
