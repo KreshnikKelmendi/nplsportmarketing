@@ -66,7 +66,7 @@ const Kryeshefi = () => {
                         Bardhi është i martuar dhe babë i dy vajzave.
                     </p>
                 </div>
-                <div className="col-lg-6 h-auto mt-2 mt-lg-0"  >
+                <div className="col-lg-6 h-auto mt-3 mt-lg-0"  >
                    
                         <img className="col-12 staffPhoto" alt="" src={Bardhi} style={{objectFit: "cover"}} />
                  
