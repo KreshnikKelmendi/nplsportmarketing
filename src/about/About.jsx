@@ -70,7 +70,7 @@ const About = () => {
                         Aksionarët kanë rregulluar statutin sipas ligjit të plotësuar së fundi dhe ka ndryshuar emrin dhe logon e ndërmarrjes. <br/> <br/>
                         Nga Kompania Publike Komunale “Sportmarketing” sh.a në Ndërrmarrja Publike Lokale “Sport Marketing” sh.a. Prishtinë. 
                         NPL “Sport Marketing” sh.a. menaxhon, shfrytëzon, mirëmbanë dhe ndërton objekte sportive-rekreative. Selia e ndërmarrjes është 
-                        në rrugën Sylejman Vokshi 5/A në Prishtinë.
+                        në objektin e Pallatit të Rinisë dhe Sporteve "Adem Jashari" në Prishtinë.
                     </p>
                 </div>
             </div>
