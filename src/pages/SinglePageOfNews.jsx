@@ -14,7 +14,7 @@ const SinglePageOfNews = () => {
 
     return(
          <>
-           <div className="container-fluid py-lg-5">
+           <div className="container-fluid py-lg-2">
                 <div className="container-fluid px-lg-5 py-5">
                     <div className="row g-5">
                         <div className="col-lg-12">
@@ -26,12 +26,12 @@ const SinglePageOfNews = () => {
                                 />
                                 {/* <h1 className="mb-4">{data?.data?.attributes?.title}</h1> */}
                                 <h2 className="mb-4 textOn">{name}</h2>
-                                <h6 className="text-success textOn">Data e publikimit: <small className="text-dark">{date}</small></h6>
+                                <h6 className="text-success textOn">Data e publikimit: <small className="textOn">{date}</small></h6>
                                 {/* <h6 className="text-success">Data e publikimit: <small><b className="text-dark">
                                     {data?.data?.attributes?.date}</b></small>
                                 </h6>
                                 <p>{data?.data?.attributes?.description}</p> */}
-                                <p>{description}</p>
+                                <p className="textOn">{description}</p>
                             </div>
                        </div>
                     </div>
