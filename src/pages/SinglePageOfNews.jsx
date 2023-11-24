@@ -41,22 +41,22 @@ const SinglePageOfNews = () => {
             </div>
                         <div className="row g-4 justify-content-center px-lg-5 mx-lg-5">
                         <div className="col-lg-4">
-                            <img className="col-12 object-fit-cover rounded-5" src={galery1} alt="" />
+                            <img className="col-12 galerySingle object-fit-cover rounded-5" src={galery1} alt="" />
                         </div>
                         <div className="col-lg-4">
-                            <img className="col-12 object-fit-cover rounded-5" src={galery5} alt="" />
+                            <img className="col-12 galerySingle object-fit-cover rounded-5" src={galery5} alt="" />
                         </div>
                         <div className="col-lg-4">
-                            <img className="col-12 object-fit-cover rounded-5" src={galery2} alt="" />
+                            <img className="col-12 galerySingle object-fit-cover rounded-5" src={galery2} alt="" />
                         </div>
                         <div className="col-lg-4">
-                            <img className="col-12 object-fit-cover rounded-5" src={galery3} alt="" />
+                            <img className="col-12 galerySingle object-fit-cover rounded-5" src={galery3} alt="" />
                         </div>
                         <div className="col-lg-4">
-                            <img className="col-12 object-fit-cover rounded-5" src={galery6} alt="" />
+                            <img className="col-12 galerySingle object-fit-cover rounded-5" src={galery6} alt="" />
                         </div>
                         <div className="col-lg-4">
-                            <img className="col-12 object-fit-cover rounded-5" src={galery4} alt="" />
+                            <img className="col-12 galerySingle object-fit-cover rounded-5" src={galery4} alt="" />
                         </div>
                        
                         </div>

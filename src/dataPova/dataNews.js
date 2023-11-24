@@ -3,7 +3,7 @@ import fotoja1 from "../img/fotoja1.jpg";
 import fotoja2 from "../img/koncerti1.jpg";
 import fotoja3 from "../img/koncerti2.jpg";
 import fotoja4 from "../img/koncerti4.jpg";
-import fotoja5 from "../img/koncerti5.jpg";
+import fotoja5 from "../img/hapjaGermise.jpg";
 import fotoja6 from "../img/koncerti6.jpg";
 import image2 from "../img/sunset.png";
 import verDimer from "../img/maxresdefault.jpg"
