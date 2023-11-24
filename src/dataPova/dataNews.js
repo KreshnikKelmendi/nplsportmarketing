@@ -1,4 +1,4 @@
-import image1 from "../img/hapjaGermise.jpg";
+import image1 from "../img/pishina-e-germise.jpg";
 import fotoja1 from "../img/fotoja1.jpg";
 import fotoja2 from "../img/koncerti1.jpg";
 import fotoja3 from "../img/koncerti2.jpg";
