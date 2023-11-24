@@ -40,7 +40,7 @@ const NewsEvents = () => {
                 <div className="row g-5">
                     {DataNews?.map((item) => (
                             <div className="col-lg-4" key={item.id}>
-                                <div className="blog-item bg-light rounded overflow-hidden h-100" data-aos="fade-down">
+                                <div className="blog-item bg-light rounded overflow-hidden h-100">
                                     <div className="blog-img position-relative overflow-hidden">
                                         <img className="blogImage" 
                                             src={item?.photo} 

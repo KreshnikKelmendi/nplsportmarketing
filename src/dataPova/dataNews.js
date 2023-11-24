@@ -58,7 +58,7 @@ const DataNews = [{
     photo: image1,
     date: "22 Qershor 2023",
     description: "- Në prani të kryetarit të Komunës së Prishtinës z.Përparim Rama dhe Kryeshefit Ekzekutiv të NPL \"Sport Marketing\" z.Bardh Krasniqi u shënua hapja e pishinës së Gërmisë për vitin 2023. Ky vit pishinën e Gërmisë e gjen me shumë ndryshime si në infrastrukturë ashtu edhe në shërbime tjera që për qëllim kanë ofrimin e kushteve sa më të mira për vizitorët dhe pushuesit. Nga Kryetari i Komunës Përparim Rama dhe Kryeshefi Ekzekutiv Bardh Krasniqi u premtua se çdo vit do të ketë të reja dhe ndryshime në mirëqenien dhe permirësimin e jetës së qytetarëve.",
-    galery1 :fotoja1,
+    galery1: fotoja1,
     galery2: fotoja2,
     galery3: fotoja3,
     galery4: fotoja4,
