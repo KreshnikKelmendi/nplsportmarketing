@@ -3,7 +3,7 @@ import 'animate.css';
 const ContactPage = () => {
     return(
       <>
-        <div className="container-fluid py-5 bg-contact" style={{marginBottom: "90px"}}>
+        <div className="container-fluid py-5 bg-contact" style={{marginBottom: "50px"}}>
             <div className="row py-5">
                 <div className="col-12 text-center">
                     <h1 className="display-4 text-white">Kontakti</h1>

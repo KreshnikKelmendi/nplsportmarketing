@@ -1,15 +1,22 @@
 import { Link } from "react-router-dom";
-import FetchData from "../hooks/FetchData";
+
 import 'animate.css';
+import { useEffect, useState } from "react";
+import { fetchDataFromApi } from "../utils/api";
 
 
 const AdsPage = () => {
-    const { loading, error, data } = FetchData('http://localhost:1337/api/shpalljets?populate=*')
+    const [data, setData] = useState(null);
 
-    if (loading) return <p>Loading...</p>
-    if (error) return <p>Error...</p>
-   
-    console.log("testimi", data)
+    useEffect(() => {
+         fetchProducts()
+    }, [])
+ 
+    const fetchProducts = async () => {
+        const { data } = await fetchDataFromApi("/api/lajmets")
+        setData(data)
+    }
+    console.log("gg", data)
 
     return(
        <>
@@ -28,7 +35,7 @@ const AdsPage = () => {
                     <h5 className="fw-bold text-primary text-uppercase">Të fundit</h5>
                 </div>
                     <div className="row g-5">
-                        {data?.data?.map((element) => (
+                        {data?.map((element) => (
                             <div className="col-lg-4 wow slideInUp" key={element.id}>
                                 <div className="blog-item bg-light overflow-hidden h-100">
                                     <div className="blog-img position-relative overflow-hidden">
@@ -38,7 +45,7 @@ const AdsPage = () => {
                                         <div className="d-flex mb-3">
                                             <small><i className="far fa-calendar-alt text-primary me-2"></i>{element?.attributes?.Date}</small>
                                         </div>
-                                        <h5 className="mb-3 text-uppercase">{element?.attributes?.Title}</h5>
+                                        <h5 className="mb-3 text-uppercase">{element?.attributes?.title}</h5>
                                         <Link onClick={() => window.scrollTo({
                                                 top: 0,
                                                 left: 0,
