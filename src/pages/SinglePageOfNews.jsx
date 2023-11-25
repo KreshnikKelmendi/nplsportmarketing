@@ -1,70 +1,88 @@
 import { useParams } from "react-router-dom";
-import { DataNews } from "../dataPova/dataNews";
-// import FetchData from "../hooks/FetchData";
+import { useEffect, useState } from "react";
+import { fetchDataFromApi } from "../utils/api";
 
 const SinglePageOfNews = () => {
-    const { id } = useParams()
+    const { id } = useParams();
+    const [data, setData] = useState(null);
 
-    // let { loading, error, data} = FetchData(`http://localhost:1337/api/latest-news/${id}?populate=*`)
- 
-    //  if (loading) return <p>Loading...</p>
-    //  if (error) return <p>Error...</p>
-    const product = DataNews?.find((item) => item.id == id)
-    const {photo, name, date, description, galery1, galery2, galery3, galery4, galery5, galery6} = product;
+    useEffect(() => {
+        singleProducts();
+    }, []);
 
-    return(
-         <>
-           <div className="container-fluid py-lg-2">
+    const singleProducts = async () => {
+        try {
+            const { data } = await fetchDataFromApi(`/api/lajmets/${id}?populate=*`);
+            setData(data);
+        } catch (error) {
+            console.error("Error fetching data:", error);
+        }
+    };
+
+    const renderGalleryImages = () => {
+        const galleryImages = [
+            data?.attributes?.image1,
+            data?.attributes?.image2,
+            data?.attributes?.image3,
+            data?.attributes?.image4,
+            data?.attributes?.image5,
+            data?.attributes?.image6,
+        ];
+
+        return (
+            galleryImages &&
+            galleryImages
+                .filter((image) => image) // Filter out null or undefined values
+                .map((image, index) => (
+                    <div className="col-lg-4" key={index}>
+                        {image?.data?.[0]?.attributes?.url && (
+                            <img
+                                className="col-12 galerySingle object-fit-cover rounded-5"
+                                src={image.data[0].attributes.url}
+                                alt={`galleryImage-${index}`}
+                            />
+                        )}
+                    </div>
+                ))
+        );
+    };
+
+    return (
+        <>
+            <div className="container-fluid py-lg-2">
                 <div className="container-fluid px-lg-5 py-5">
                     <div className="row g-5">
                         <div className="col-lg-12">
                             <div className="mb-5 px-lg-5 mx-lg-5">
-                                <img className="img-fluid w-100 rounded mb-5 singleImage" 
-                                    //  src={`http://localhost:1337${data?.data?.attributes?.image?.data?.attributes?.url}`} 
-                                    src={photo} 
+                                <img
+                                    className="img-fluid w-100 rounded mb-5 singleImage"
+                                    src={data?.attributes?.img?.data[0]?.attributes?.url}
                                     alt="eventsPhoto"
                                 />
-                                {/* <h1 className="mb-4">{data?.data?.attributes?.title}</h1> */}
-                                <h2 className="mb-4 textOn">{name}</h2>
-                                <h6 className="text-success textOn">Data e publikimit: <small className="textOn">{date}</small></h6>
-                                {/* <h6 className="text-success">Data e publikimit: <small><b className="text-dark">
-                                    {data?.data?.attributes?.date}</b></small>
+                                <h2 className="mb-4 textOn">{data?.attributes?.title}</h2>
+                                <h6 className="text-success textOn">
+                                    Data e publikimit:{" "}
+                                    <small className="textOn">{data?.attributes?.date}</small>
                                 </h6>
-                                <p>{data?.data?.attributes?.description}</p> */}
-                                <p className="textOn">{description}</p>
+                                <p className="textOn">{data?.attributes?.description}</p>
                             </div>
-                       </div>
+                        </div>
                     </div>
                     <div className="col-12 text-center textOn text-uppercase">
-                    <div className="section-title text-center position-relative pb-3 mb-5 mx-auto" style={{maxWidth: "600px"}}>
-                <h5 className="fw-bold text-primary text-uppercase">galeria e eventit</h5>
-            </div>
+                        <div
+                            className="section-title text-center position-relative pb-3 mb-5 mx-auto"
+                            style={{ maxWidth: "600px" }}
+                        >
+                            <h5 className="fw-bold text-primary text-uppercase">galeria e eventit</h5>
+                        </div>
                         <div className="row g-4 justify-content-center px-lg-5 mx-lg-5">
-                        <div className="col-lg-4">
-                            <img className="col-12 galerySingle object-fit-cover rounded-5" src={galery1} alt="" />
-                        </div>
-                        <div className="col-lg-4">
-                            <img className="col-12 galerySingle object-fit-cover rounded-5" src={galery5} alt="" />
-                        </div>
-                        <div className="col-lg-4">
-                            <img className="col-12 galerySingle object-fit-cover rounded-5" src={galery2} alt="" />
-                        </div>
-                        <div className="col-lg-4">
-                            <img className="col-12 galerySingle object-fit-cover rounded-5" src={galery3} alt="" />
-                        </div>
-                        <div className="col-lg-4">
-                            <img className="col-12 galerySingle object-fit-cover rounded-5" src={galery6} alt="" />
-                        </div>
-                        <div className="col-lg-4">
-                            <img className="col-12 galerySingle object-fit-cover rounded-5" src={galery4} alt="" />
-                        </div>
-                       
+                            {renderGalleryImages()}
                         </div>
                     </div>
                 </div>
-           </div>
-         </>
-    )
-}
+            </div>
+        </>
+    );
+};
 
 export default SinglePageOfNews;

@@ -1,9 +1,7 @@
 import { Link } from "react-router-dom";
-
 import 'animate.css';
 import { useEffect, useState } from "react";
 import { fetchDataFromApi } from "../utils/api";
-
 
 const AdsPage = () => {
     const [data, setData] = useState(null);
@@ -13,9 +11,15 @@ const AdsPage = () => {
     }, [])
  
     const fetchProducts = async () => {
-        const { data } = await fetchDataFromApi("/api/lajmets")
-        setData(data)
+        try {
+            const { data } = await fetchDataFromApi("/api/shpalljets?populate=*");
+            const sortedData = data.sort((a, b) => new Date(b.attributes.date) - new Date(a.attributes.date));
+            setData(sortedData);
+        } catch (error) {
+            console.error("Error fetching data:", error);
+        }
     }
+
     console.log("gg", data)
 
     return(
@@ -39,17 +43,17 @@ const AdsPage = () => {
                             <div className="col-lg-4 wow slideInUp" key={element.id}>
                                 <div className="blog-item bg-light overflow-hidden h-100">
                                     <div className="blog-img position-relative overflow-hidden">
-                                        <img className="blogImage" src={`http://localhost:1337${element?.attributes?.Image?.data?.attributes?.url}`} alt=""/>
+                                        <img className="blogImage" src={element?.attributes.image.data[0].attributes.url} alt=""/>
                                     </div>
                                     <div className="p-4">
                                         <div className="d-flex mb-3">
-                                            <small><i className="far fa-calendar-alt text-primary me-2"></i>{element?.attributes?.Date}</small>
+                                            <small><i className="far fa-calendar-alt text-primary me-2"></i>{element?.attributes?.date}</small>
                                         </div>
                                         <h5 className="mb-3 text-uppercase">{element?.attributes?.title}</h5>
                                         <Link onClick={() => window.scrollTo({
                                                 top: 0,
                                                 left: 0,
-                                            })}  to={`/ads/${element.id}`} className="text-uppercase text-decoration-none">shiko konkursin<i className="bi bi-arrow-right"></i></Link>
+                                            })} to={`/ads/${element.id}`} className="text-uppercase text-decoration-none">shiko konkursin<i className="bi bi-arrow-right"></i></Link>
                                     </div>
                                 </div>
                             </div>

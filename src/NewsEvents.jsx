@@ -1,24 +1,28 @@
 import { Link } from "react-router-dom";
-import FetchData from "./hooks/FetchData";
 import 'animate.css';
-import AOS from "aos";
-import "aos/dist/aos.css";
-import { useEffect } from "react";
 import { DataNews } from "./dataPova/dataNews";
+import { useEffect, useState } from "react";
+import { fetchDataFromApi } from "./utils/api";
 
 const NewsEvents = () => {
+    const [data, setData] = useState(null);
 
     useEffect(() => {
-        AOS.init({ duration: 3000})
-      }, [])
+         fetchProducts()
+    }, [])
+ 
+    const fetchProducts = async () => {
+        try {
+            const { data } = await fetchDataFromApi("/api/lajmets?populate=*");
+            const sortedData = data.sort((a, b) => new Date(b.attributes.date) - new Date(a.attributes.date));
+            setData(sortedData);
+        } catch (error) {
+            console.error("Error fetching data:", error);
+        }
+    }
 
-    // // const baseUrl = process.env.REACT_APP_API_URL
-    // const { loading, error, data } = FetchData('http://localhost:1337/api/latest-news?populate=*')
-
-    // if (loading) return <p>Loading...</p>
-    // if (error) return <p>Error...</p>
-   
-    // console.log("test", data)
+    console.log("lajmet", data)
+    
 
     return(
        <>
@@ -38,23 +42,23 @@ const NewsEvents = () => {
                     </h5>
                 </div>
                 <div className="row g-5">
-                    {DataNews?.map((item) => (
+                    {data?.map((item) => (
                             <div className="col-lg-4" key={item.id}>
                                 <div className="blog-item bg-light rounded overflow-hidden h-100">
                                     <div className="blog-img position-relative overflow-hidden">
                                         <img className="blogImage" 
-                                            src={item?.photo} 
+                                            src={item?.attributes?.img?.data[0]?.attributes?.url} 
                                             alt="" 
                                         />
                                     </div>
                                         <div className="p-4 ">
                                             <div className="d-flex mb-3">
                                                 <small><i className="far fa-calendar-alt text-primary me-2"></i>
-                                                    {item?.date}
+                                                    {item?.attributes?.date}
                                                 </small>
                                             </div>
                                                 <h5 className="mb-3 textOn text-uppercase">
-                                                    {item?.name}
+                                                    {item?.attributes?.title}
                                                 </h5>
                                                 <Link onClick={() => window.scrollTo({
                                                         top: 0,

@@ -1,29 +1,37 @@
+import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom"
-import FetchData from "../hooks/FetchData"
+import { fetchDataFromApi } from "../utils/api";
 
 const SinglePageOfAds = () => {
     const { id } = useParams()
+    const [data, setData] = useState(null);
 
-    let { loading, error, data} = FetchData(`http://localhost:1337/api/shpalljets/${id}?populate=*`)
+    useEffect(() => {
+         singleProducts()
+    }, [])
  
-     if (loading) return <p>Loading...</p>
-     if (error) return <p>Error...</p>
+    const singleProducts = async () => {
+        const { data } = await fetchDataFromApi(`/api/shpalljets/${id}?populate=*`)
+        setData(data)
+    }
+    // console.log("id", data)
+
     return(
        <>
          <div className="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
-                <div className="container py-5">
+                <div className="container-fluid px-lg-5">
                     <div className="row g-5">
                         <div className="col-lg-12">
-                            <div className="mb-5">
-                                <img className="img-fluid w-100 rounded mb-5 object-fit-cover singleImage" 
-                                     src={`http://localhost:1337${data?.data?.attributes?.Image?.data?.attributes?.url}`} 
+                        <div className="mb-5 px-lg-5 mx-lg-5">
+                            <img className="img-fluid w-100 rounded mb-5 singleAdsImage" 
+                                     src={data?.attributes?.image?.data[0]?.attributes?.url} 
                                      alt=""
                                 />
-                                <h1 className="mb-4">{data?.data?.attributes?.Title}</h1>
-                                <h6 className="text-success">Data e publikimit: <small><b className="text-dark">
-                                    {data?.data?.attributes?.Date}</b></small>
+                                <h2 className="mb-4 textOn">{data?.attributes?.title}</h2>
+                                <h6 className="text-success textOn">Data e publikimit: <small className="textOn">
+                                    {data?.attributes?.date}</small>
                                 </h6>
-                                <p>{data?.data?.attributes?.Description}</p>
+                                <p className="textOn">{data?.attributes?.description}</p>
                             </div>
                        </div>
                     </div>
