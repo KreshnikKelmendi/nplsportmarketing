@@ -13,7 +13,8 @@ const NewsEvents = () => {
  
     const fetchProducts = async () => {
         try {
-            const response = await fetchDataFromApi("/api/lajmets?populate=*");
+            const response = await fetchDataFromApi(`/api/lajmets?populate=*&timestamp=${Date.now()}`);
+            
             console.log('Full response:', response);
             const { data: responseData } = response;
             const sortedData = responseData.sort((a, b) => new Date(b.attributes.date) - new Date(a.attributes.date));
