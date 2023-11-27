@@ -13,7 +13,10 @@ const NewsEvents = () => {
  
     const fetchProducts = async () => {
         try {
-            const response = await fetchDataFromApi(`/api/lajmets?populate=*&timestamp=${Date.now()}`);
+            const response = await fetch('/api/lajmets?populate=*', {
+                cache: 'no-store', // This will prevent caching
+              });
+              
             
             console.log('Full response:', response);
             const { data: responseData } = response;
