@@ -32,7 +32,7 @@ const SinglePageOfNews = () => {
         return (
             galleryImages &&
             galleryImages
-                .filter((image) => image) // Filter out null or undefined values
+                .filter((image) => image)
                 .map((image, index) => (
                     <div className="col-lg-4" key={index}>
                         {image?.data?.[0]?.attributes?.url && (
