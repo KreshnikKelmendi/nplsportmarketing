@@ -13,13 +13,15 @@ const NewsEvents = () => {
  
     const fetchProducts = async () => {
         try {
-            const { data } = await fetchDataFromApi("/api/lajmets?populate=*");
-            const sortedData = data.sort((a, b) => new Date(b.attributes.date) - new Date(a.attributes.date));
+            const response = await fetchDataFromApi("/api/lajmets?populate=*");
+            console.log('Full response:', response);
+            const { data: responseData } = response;
+            const sortedData = responseData.sort((a, b) => new Date(b.attributes.date) - new Date(a.attributes.date));
             setData(sortedData);
         } catch (error) {
             console.error("Error fetching data:", error);
         }
-    }
+    };
 
     console.log("lajmet", data)
     
