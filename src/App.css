@@ -944,8 +944,14 @@ li{
   .icon{
     color:#FF931E;
   }
-  .linkHover:hover{
+  .linkHover{
     color: var(--primary);
+  }
+  .linkHover:hover{
+    color: rgba(149, 143, 164, 0.805);
+    font-size: 17px;
+    transition: 0.5s all ease;
+    margin: 4px;
   }
 
   .choose {

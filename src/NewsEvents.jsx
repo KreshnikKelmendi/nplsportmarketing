@@ -15,7 +15,7 @@ const NewsEvents = () => {
         try {
             const response = await fetchDataFromApi("/api/lajmets?populate=*");
             
-            console.log('Full response:', response);
+            // console.log('Full response:', response);
             const { data: responseData } = response;
             const sortedData = responseData.sort((a, b) => new Date(b.attributes.date) - new Date(a.attributes.date));
             setData(sortedData);
@@ -24,7 +24,7 @@ const NewsEvents = () => {
         }
     };
 
-    console.log("lajmet", data)
+    // console.log("lajmet", data)
     
 
     return(
@@ -67,7 +67,7 @@ const NewsEvents = () => {
                                                         top: 0,
                                                         left: 0,
                                                     })} to={`/news/${item.id}`} 
-                                                    className="text-uppercase text-primary textOn text-decoration-none">
+                                                    className=" linkHover textOn text-decoration-none">
                                                         Lexo më shumë<i className="mx-2 bi bi-arrow-right"></i>
                                                 </Link>
                                         </div>
