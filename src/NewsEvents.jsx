@@ -56,7 +56,7 @@ const NewsEvents = () => {
                                     </div>
                                         <div className="p-4 ">
                                             <div className="d-flex mb-3">
-                                                <small><i className="far fa-calendar-alt text-primary me-2"></i>
+                                                <small className="text-success textOn"><i className="far fa-calendar-alt text-primary me-2"></i>
                                                     {item?.attributes?.date}
                                                 </small>
                                             </div>
