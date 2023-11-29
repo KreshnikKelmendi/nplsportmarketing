@@ -32,7 +32,7 @@ h6,
     font-family: 'Poppins', sans-serif;               
 }
 .logo-npl{
-    width: 28vh;
+    width: 195px;
     height: auto;
 }
 .textOn{
@@ -641,6 +641,10 @@ li{
         font-size: 14px;
         text-align: center;
         margin: 0;
+    }
+    .logo-npl{
+        width: 150px;
+        object-fit: cover;
     }
 }
 
