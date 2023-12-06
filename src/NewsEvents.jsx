@@ -6,8 +6,7 @@ import { RingLoader } from 'react-spinners';
 
 // Import the component using React.lazy
 
-
-const NewsEvents = () => {
+const NewsEvents = React.memo(() => {
   const [data, setData] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
@@ -95,6 +94,6 @@ const NewsEvents = () => {
       {error && <p style={{ color: 'red' }}>{error}</p>}
     </>
   );
-};
+});
 
 export default NewsEvents;
