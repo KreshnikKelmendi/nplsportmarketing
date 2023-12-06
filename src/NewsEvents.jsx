@@ -49,8 +49,8 @@ const NewsEvents = () => {
           </div>
           <div className="row g-5">
             {loading ? (
-              <div className="text-center">
-                <RingLoader color="#007BFF" loading={loading} size={150} />
+              <div className="text-center justify-content-center align-items-center">
+                <RingLoader color="#007BFF" loading={loading} size={100} />
               </div>
             ) : (
               data?.map((item) => (
