@@ -1,28 +1,8 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import { Link } from "react-router-dom";
 import { DataNews } from '../dataPova/dataNews';
 
 const AdsPage = () => {
-  const [ads, setAds] = useState([]);
-
-  useEffect(() => {
-    const loadAds = () => {
-      const storedAdsJSON = localStorage.getItem('ads');
-      const storedAds = storedAdsJSON ? JSON.parse(storedAdsJSON) : [];
-      // Combine the static DataNews with the stored ads
-      const combinedAds = [...DataNews, ...storedAds];
-      setAds(combinedAds);
-    };
-
-    loadAds();
-
-    // Optional: Listen for local storage changes
-    // This is helpful if you have multiple tabs adding ads and want to keep them in sync
-    window.addEventListener('storage', loadAds);
-
-    // Cleanup the event listener
-    return () => window.removeEventListener('storage', loadAds);
-  }, []);
 
   return (
     <div className="container-fluid py-5 wow fadeInUp">
@@ -30,8 +10,8 @@ const AdsPage = () => {
         <div className="section-title text-center position-relative pb-3 mb-5 mx-auto" style={{maxWidth: '600px'}}>
           <h5 className="fw-bold text-primary text-uppercase">Të fundit</h5>
         </div>
-        <div className="row g-5">
-          {ads.map((element) => (
+        {/* <div className="row g-5">
+          {DataNews.map((element) => (
             <div className="col-lg-4 wow slideInUp" key={element.id}>
               <div className="blog-item bg-light overflow-hidden h-100">
                 <div className="blog-img position-relative overflow-hidden">
@@ -50,7 +30,7 @@ const AdsPage = () => {
               </div>
             </div>
           ))}
-        </div>
+        </div> */}
       </div>
     </div>
   );

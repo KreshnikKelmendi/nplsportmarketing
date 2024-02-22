@@ -22,9 +22,6 @@ import ScrollToTop from 'react-scroll-to-top';
 import NplStaff from './pages/NplStaff';
 import Aksionaret from './pages/Aksionaret';
 import ErrorPage from './pages/ErrorPage';
-import AddAdForm from './pages/AddAdForm';
-import ProtectedRoute from './pages/ProtectedRoute';
-import LoginPage from './pages/LoginPage';
 
 function App() {
   return (
@@ -52,15 +49,6 @@ function App() {
          <Route path='/stafiNpl' element={<NplStaff />} />
          <Route path='/board' element={<Aksionaret />} />
          <Route path='*' element={<ErrorPage />} />
-         <Route path="/login" element={<LoginPage />} />
-         <Route 
-          path="/ads/new" 
-          element={
-            <ProtectedRoute>
-              <AddAdForm />
-            </ProtectedRoute>
-          } 
-        />
         </Routes>
         <Footer />
     </BrowserRouter>  
