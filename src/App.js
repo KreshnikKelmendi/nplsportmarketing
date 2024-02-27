@@ -22,6 +22,7 @@ import ScrollToTop from 'react-scroll-to-top';
 import NplStaff from './pages/NplStaff';
 import Aksionaret from './pages/Aksionaret';
 import ErrorPage from './pages/ErrorPage';
+import PasqyraFinanciare from './pages/PasqyraFinanciare';
 
 function App() {
   return (
@@ -49,6 +50,7 @@ function App() {
          <Route path='/stafiNpl' element={<NplStaff />} />
          <Route path='/board' element={<Aksionaret />} />
          <Route path='*' element={<ErrorPage />} />
+         <Route path='/pasqyra-financiare' element={<PasqyraFinanciare />} />
         </Routes>
         <Footer />
     </BrowserRouter>  

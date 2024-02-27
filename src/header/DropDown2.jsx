@@ -12,6 +12,10 @@ const DropDown2 = ({ navToggle }) => {
         {
           label: <Link onClick={navToggle} className="text-decoration-none text-uppercase" to="/korniza-ligjore-npl">Korniza ligjore</Link>,
           key: '1',
+        },
+        {
+          label: <Link onClick={navToggle} className="text-decoration-none text-uppercase" to="/pasqyra-financiare">Pasqyra financiare</Link>,
+          key: '1',
         }
       ];
     return(
