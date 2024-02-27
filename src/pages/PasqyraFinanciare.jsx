@@ -10,7 +10,7 @@ const PasqyraFinanciare = () => {
     { id: 1, data: 'Pasqyra financiare për tremujorin e parë periudha JANAR - MARS/2023 ', downloadLink: document1 },
     { id: 2, data: 'Pasqyra financiare për tremujorin e dytë periudha PRILL - QERSHOR/2023 ', downloadLink: document2 },
     { id: 3, data: 'Pasqyra financiare për tremujorin e tretë periudha KORRIK - SHTATOR/2023', downloadLink: document3},
-    { id: 4, data: 'Pasqyra financiare për tremujorin e tretë periudha TETOR -  DHJETOR/2023', downloadLink: document4 },
+    { id: 4, data: 'Pasqyra financiare për tremujorin e katërt periudha TETOR -  DHJETOR/2023', downloadLink: document4 },
   ];
 
   const handleDownload = (downloadLink) => {
