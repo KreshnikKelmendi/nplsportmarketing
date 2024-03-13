@@ -65,7 +65,7 @@ const NewsEvents = React.memo(() => {
                     <div className="blog-img position-relative overflow-hidden">
                       <img
                         className="blogImage"
-                        src={item?.attributes?.img?.data[0]?.attributes?.url}
+                        src={`https:${item?.attributes?.img?.data[0]?.attributes?.url}`}
                         alt={item?.attributes?.title || 'Image'}
                       />
                        {console.log('Image URL:', item?.attributes?.img?.data[0]?.attributes?.url)}
