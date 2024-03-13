@@ -22,7 +22,7 @@ const Kryeshefi = () => {
                     </p>
                 </div>
                 <div className="col-lg-6 h-auto mt-3 mt-lg-0"  >
-                        <img className="col-12 staffPhoto p-xxl-5" alt=""  src={`${apiUrl}${data?.data[0].attributes?.image?.data?.attributes?.url}`} style={{objectFit: "cover"}} />
+                        <img className="col-12 staffPhoto p-xxl-5" alt="" src={`${apiUrl}${data?.attributes?.image?.data?.attributes?.url}`} style={{objectFit: "cover"}} />
                 </div>
                 
             </div>
