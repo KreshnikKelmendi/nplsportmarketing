@@ -2,7 +2,7 @@ import FetchData from "../hooks/FetchData";
 
 const NplStaff = () => {
     const apiUrl = "https://sportmarketing.onrender.com";
-    const { loading, error, data } = FetchData(`${apiUrl}/api/stafis?populate=*`);
+  const { loading, error, data } = FetchData(`${apiUrl}/api/stafis?populate=*`);
  console.log("dd", data)
     return (
      <>
