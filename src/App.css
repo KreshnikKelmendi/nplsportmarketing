@@ -74,7 +74,16 @@ h6,
     padding: 0 20px;
     justify-content: space-between;
 }
-
+.custom-ordered-list {
+    list-style-type: decimal; /* or use other values like 'lower-alpha', 'upper-roman', etc. */
+    margin-left: 20px; /* Adjust the left margin as needed */
+    padding-left: 10px; /* Adjust the left padding as needed */
+  }
+  
+  .custom-ordered-list li {
+    margin-bottom: 8px; /* Adjust the space between list items as needed */
+  }
+  
 .custom-div {
     padding: 40px 0px ;
     background: #FF931E;
@@ -888,7 +897,6 @@ li{
     object-fit:cover;
 }
 .singleAdsImage{
-    height: fit-content;
     object-fit: cover;
 }
 .galerySingle{
@@ -904,6 +912,7 @@ li{
     transform: scale(1.05);
     mask-image: linear-gradient(-180deg, rgb(4, 0, 0), transparent 145%);
 }
+
 
 
 

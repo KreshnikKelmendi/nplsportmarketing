@@ -1,8 +1,13 @@
 import React from 'react';
 import { Link } from "react-router-dom";
-import { DataNews } from '../dataPova/dataNews';
+import { RingLoader } from 'react-spinners';
+import FetchData from '../hooks/FetchData';
 
 const AdsPage = () => {
+  const apiUrl = "https://sportmarketing.onrender.com";
+  const { loading, error, data } = FetchData(`${apiUrl}/api/shpalljets?populate=*`);
+
+  console.log("datas", data);
 
   return (
     <div className="container-fluid py-5 wow fadeInUp">
@@ -10,33 +15,58 @@ const AdsPage = () => {
         <div className="section-title text-center position-relative pb-3 mb-5 mx-auto" style={{maxWidth: '600px'}}>
           <h5 className="fw-bold text-primary text-uppercase">Të fundit</h5>
         </div>
-        {/* <div className="row g-5">
-          {DataNews.map((element) => (
-            <div className="col-lg-4 wow slideInUp" key={element.id}>
-              <div className="blog-item bg-light overflow-hidden h-100">
-                <div className="blog-img position-relative overflow-hidden">
-                  <img className="img-fluid" src={element.photo} alt=""/>
-                </div>
-                <div className="p-4">
-                  <div className="d-flex mb-3">
-                    <small><i className="far fa-calendar-alt text-primary me-2"></i>{element.date}</small>
-                  </div>
-                  <h5 className="mb-3 text-uppercase">{element.name}</h5>
-                  <Link onClick={() => window.scrollTo({
-                          top: 0,
-                          left: 0,
-                      })} to={`/ads/${element.id}`} className="text-uppercase text-decoration-none">shiko konkursin<i className="bi bi-arrow-right"></i></Link>
-                </div>
-              </div>
+        <div className="row g-5">
+          {loading ? (
+            <div className="text-center justify-content-center align-items-center">
+              <RingLoader color="#007BFF" loading={loading} size={100} />
             </div>
-          ))}
-        </div> */}
+          ) : (
+            data?.data
+              .sort((a, b) => new Date(b?.attributes?.date) - new Date(a?.attributes?.date)) 
+              .map((item) => (
+                <div className="col-lg-4" key={item.id}>
+                  <div className="blog-item bg-light rounded overflow-hidden h-100">
+                    <div className="blog-img position-relative overflow-hidden">
+                      <img
+                        className="blogImage"
+                        src={`${apiUrl}${item?.attributes?.image?.data?.attributes?.url}`}
+                        alt={item?.attributes?.title || 'Image'}
+                      />
+                       {console.log('Image URL:', item?.attributes?.img?.data[0]?.attributes?.url)}
+                    </div>
+                    <div className="p-4">
+                      <div className="d-flex mb-3">
+                        <small className="text-success textOn">
+                          <i className="far fa-calendar-alt text-primary me-2"></i>
+                          {item?.attributes?.date}
+                        </small>
+                      </div>
+                      <h5 className="mb-3 textOn text-uppercase">{item?.attributes?.titulli}</h5>
+                      <Link
+                        onClick={() =>
+                          window.scrollTo({
+                            top: 0,
+                            left: 0,
+                          })
+                        }
+                        to={`/ads/${item.id}`}
+                        className="linkHover textOn text-decoration-none"
+                      >
+                        Shiko konkursin<i className="mx-2 bi bi-arrow-right"></i>
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+              ))
+          )}
+        </div>
       </div>
     </div>
   );
 };
 
 export default AdsPage;
+
 
 
 
