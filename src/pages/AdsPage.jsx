@@ -29,7 +29,7 @@ const AdsPage = () => {
                     <div className="blog-img position-relative overflow-hidden">
                       <img
                         className="blogImage"
-                        src={item?.attributes?.image?.data?.attributes?.url}
+                        src={`${apiUrl}${item?.attributes?.image?.data?.attributes?.url}`}
                         alt={item?.attributes?.title || 'Image'}
                       />
                        {console.log('Image URL:', item?.attributes?.img?.data[0]?.attributes?.url)}
