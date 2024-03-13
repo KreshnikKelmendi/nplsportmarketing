@@ -1,9 +1,9 @@
 import FetchData from "../hooks/FetchData";
 
 const NplStaff = () => {
-    const apiUrl = "https://sportmarketing.onrender.com/";
+    const apiUrl = "https://sportmarketing.onrender.com";
     const { loading, error, data } = FetchData(`${apiUrl}/api/stafis?populate=*`);
- 
+ console.log("dd", data)
     return (
      <>
       <div className="container-xxl py-5 ">
@@ -14,7 +14,7 @@ const NplStaff = () => {
                   <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
                       <div className="team-item">
                           <div className="overflow-hidden position-relative">
-                              <img className="img-fluid" src={`${apiUrl}${staf?.attributes?.image?.data?.attributes?.url}`} alt="" />
+                              <img className="img-fluid" src={staf?.attributes?.image?.data?.attributes?.url} alt="" />
                           </div>
                           <div className="text-center border border-5 border-light border-top-0 p-4">
                               <h5 className="mb-0 textOn">{staf?.attributes?.emriMbiemri}</h5>
