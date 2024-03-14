@@ -1,29 +1,15 @@
 import { useParams } from "react-router-dom";
-import { useEffect, useState } from "react";
-import { fetchDataFromApi } from "../utils/api";
-import FetchData from "../hooks/FetchData";
+import { DataNews } from "../dataPova/dataNews";
 
 const SinglePageOfNews = () => {
     const { id } = useParams();
-    // const [data, setData] = useState(null);
+    const ad = DataNews?.find((ad) => ad.id == id);
+  
+    if (!ad) {
+      return <div className='justify-content-center align-items-center text-center'>LAJMI NUK U GJET</div>;
+    }
 
-    // useEffect(() => {
-    //     singleProducts();
-    // }, []);
-
-    // const singleProducts = async () => {
-    //     try {
-    //         const { data } = await fetchDataFromApi(`/api/lajmets/${id}?populate=*`);
-    //         setData(data);
-    //     } catch (error) {
-    //         console.error("Error fetching data:", error);
-    //     }
-    // };
-
-    const apiUrl = "https://sportmarketing.onrender.com";
-    const { loading, error, data } = FetchData(`${apiUrl}/api/lajmets/${id}?populate=*`);
-    console.log('test', data)
-
+     const { photo, name, date, description, galery1, galery2, galery3, galery4, galery5, galery6 } = ad
     return (
         <>
             <div className="container-fluid py-lg-2">
@@ -33,15 +19,15 @@ const SinglePageOfNews = () => {
                             <div className="mb-5 px-lg-5 mx-lg-5">
                                 <img
                                     className="img-fluid w-100 rounded mb-5 singleImage"
-                                    src={`${apiUrl}${data?.data?.attributes?.img?.data[0]?.attributes?.url}`}
+                                    src={photo}
                                     alt="eventsPhoto"
                                 />
-                                <h2 className="mb-4 textOn">{data?.data.attributes?.title}</h2>
+                                <h2 className="mb-4 textOn">{name}</h2>
                                 <h6 className="text-success textOn">
                                     Data e publikimit:{" "}
-                                    <small className="textOn">{data?.data.attributes?.date}</small>
+                                    <small className="textOn">{date}</small>
                                 </h6>
-                                <p className="textOn">{data?.data?.attributes?.description}</p>
+                                <p className="textOn">{description}</p>
                             </div>
                         </div>
                     </div>
@@ -54,13 +40,22 @@ const SinglePageOfNews = () => {
                         </div>
                         <div className="row px-lg-5 mx-lg-5 gap-1 gap-lg-0">
                        <div className="col-lg-4">
-                        <img className="col-12 h-100 object-fit-cover" src={`${apiUrl}${data?.data?.attributes?.galery1?.data?.attributes?.url}`} alt="" />
+                        <img className="col-12 h-100 object-fit-cover" src={galery1} alt="" />
                        </div>
                        <div className="col-lg-4">
-                        <img className="col-12 h-100 object-fit-cover" src={`${apiUrl}${data?.data?.attributes?.galery2?.data?.attributes?.url}`} alt="" />
+                        <img className="col-12 h-100 object-fit-cover" src={galery2} alt="" />
                        </div>
                        <div className="col-lg-4">
-                        <img className="col-12 h-100 object-fit-cover" src={`${apiUrl}${data?.data?.attributes?.galery3?.data?.attributes?.url}`} alt="" />
+                        <img className="col-12 h-100 object-fit-cover" src={galery3} alt="" />
+                       </div>
+                       <div className="col-lg-4">
+                        <img className="col-12 h-100 object-fit-cover" src={galery4} alt="" />
+                       </div>
+                       <div className="col-lg-4">
+                        <img className="col-12 h-100 object-fit-cover" src={galery5} alt="" />
+                       </div>
+                       <div className="col-lg-4">
+                        <img className="col-12 h-100 object-fit-cover" src={galery6} alt="" />
                        </div>
                        </div>
                     </div>

@@ -1,42 +1,13 @@
 import React, { useEffect, useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import 'animate.css';
-import { fetchDataFromApi } from './utils/api';
 import { RingLoader } from 'react-spinners';
-import FetchData from './hooks/FetchData';
-
-// Import the component using React.lazy
+import { DataNews } from './dataPova/dataNews';
 
 const NewsEvents = React.memo(() => {
-  // const [data, setData] = useState(null);
-  // const [loading, setLoading] = useState(true);
-  // const [error, setError] = useState(null);
-  // const navigate = useNavigate();
-
-  // useEffect(() => {
-  //   fetchProducts();
-  // }, []);
-
-  // const fetchProducts = async () => {
-  //   try {
-  //     const response = await fetchDataFromApi('/api/lajmets?populate=*');
-  //     const { data: responseData } = response;
-     
-  //     const sortedData = responseData.sort((a, b) => new Date(b.attributes.date) - new Date(a.attributes.date));
-  //     setData(sortedData);
-  //     setLoading(false);
-  //     console.log("dataaa", responseData)
-  //   } catch (error) {
-  //     console.error('Error fetching data:', error);
-  //     setError('An error occurred while fetching data.');
-  //     setLoading(false);
-  //   }
-  // };
-
-  const apiUrl = "https://sportmarketing.onrender.com";
-  const { loading, error, data } = FetchData(`${apiUrl}/api/lajmets?populate=*`);
-
-  console.log("datas", data)
+  const [data, setData] = useState(DataNews);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
 
   return (
     <>
@@ -54,30 +25,25 @@ const NewsEvents = React.memo(() => {
             <h5 className="textOn text-primary text-uppercase">Të fundit</h5>
           </div>
           <div className="row g-5">
-            {loading ? (
-              <div className="text-center justify-content-center align-items-center">
-                <RingLoader color="#007BFF" loading={loading} size={100} />
-              </div>
-            ) : (
-              data?.data.map((item) => (
+            {
+              DataNews?.map((item) => (
                 <div className="col-lg-4" key={item.id}>
                   <div className="blog-item bg-light rounded overflow-hidden h-100">
                     <div className="blog-img position-relative overflow-hidden">
                       <img
                         className="blogImage"
-                        src={`${apiUrl}${item?.attributes?.img?.data[0]?.attributes?.url}`}
-                        alt={item?.attributes?.title || 'Image'}
+                        src={item?.photo}
+                        alt=""
                       />
-                       {console.log('Image URL:', item?.attributes?.img?.data[0]?.attributes?.url)}
                     </div>
                     <div className="p-4">
                       <div className="d-flex mb-3">
                         <small className="text-success textOn">
                           <i className="far fa-calendar-alt text-primary me-2"></i>
-                          {item?.attributes?.date}
+                          {item?.date}
                         </small>
                       </div>
-                      <h5 className="mb-3 textOn text-uppercase">{item?.attributes?.title}</h5>
+                      <h5 className="mb-3 textOn text-uppercase">{item?.name}</h5>
                       <Link
                         onClick={() =>
                           window.scrollTo({
@@ -94,7 +60,7 @@ const NewsEvents = React.memo(() => {
                   </div>
                 </div>
               ))
-            )}
+            }
           </div>
         </div>
       </div>
