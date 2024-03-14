@@ -19,12 +19,12 @@ const member = [{
     id: 3,
     name: "Albulena Statovci",
     photo: albulena,
-    role: "Zyrtare për Burime Njerzore",
+    role: "Zyrtare për çështje ekonomike",
 },{
     id: 4,
     name: "Teuta Berisha",
     photo: teuta,
-    role: "Zyrtare për Burime Njerzore",
+    role: "Zyrtare Ligjore",
 },{
     id: 5,
     name: "Medina Krasniqi",
