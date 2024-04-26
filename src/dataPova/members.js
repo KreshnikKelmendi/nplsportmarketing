@@ -1,7 +1,7 @@
 import artina from "../img/artina.png"
 import gentiana from "../img/gentiana.png"
 import albulena from "../img/albulena.png"
-import medina from "../img/MK.png"
+import medina from "../img/medinaKrasniqi.JPG"
 import teuta from "../img/teuta.png"
 import arlinda from "../img/arlinda.jpg"
 

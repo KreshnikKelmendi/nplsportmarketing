@@ -1026,4 +1026,8 @@ li{
     text-align: center;
 }
 
-
+.stafImage{
+    width: 100%;
+    height: 335px; 
+    object-fit: cover;
+}
