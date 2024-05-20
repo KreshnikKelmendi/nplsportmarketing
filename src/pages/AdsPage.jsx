@@ -40,18 +40,14 @@ const AdsPage = React.memo(() => {
                       </div>
                       <h5 className="mb-3 text-uppercase">{item?.title}</h5>
                       <h5 className="mb-3 textOn text-uppercase">{item?.name}</h5>
-                      <Link
-                        onClick={() =>
-                          window.scrollTo({
-                            top: 0,
-                            left: 0,
-                          })
-                        }
-                        to={`/ads/${item.id}`}
-                        className="linkHover textOn text-decoration-none"
+                      <a
+                        href={item.pdfFile}
+                        className="btn btn-secondary mt-2"
+                        target='_blank'
+                        rel='noreferrer'
                       >
-                        Lexo më shumë<i className="mx-2 bi bi-arrow-right"></i>
-                      </Link>
+                        Shiko më shumë
+                      </a>
                     </div>
                   </div>
                 </div>
