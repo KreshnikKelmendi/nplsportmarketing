@@ -29,7 +29,7 @@ const member = [{
     id: 5,
     name: "Medina Krasniqi",
     photo: medina,
-    role: "Asistente Administrative",
+    role: "Asistente Ekzekutive",
 },{
     id: 6,
     name: "Arlinda Uka",
