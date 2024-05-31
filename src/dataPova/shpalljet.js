@@ -1,14 +1,24 @@
 import image1 from "../img/pishina-e-germise.jpg";
+import image4 from "../img/ger7.jpg"
 import file1 from "../img/shpallje_-_oferte_per_hapesirat_ne_pishine_-_final (1).pdf"
 import file2 from "../img/Njoftim per shtyerje te afatit per aplikim.pdf"
 import file3 from "../img/Njoftimi per kompanine fituese te tenderit 2022 1.pdf"
+import file4 from "../img/NJOFTIM.pdf"
 
 const shpalljet = [
+    {
+        id:4,
+        title: "NJOFTIM",
+        date: "30 Maj 2024",
+        name: "MENAXHIMI I PISHINËS DHE SHËRBIMET HOTELIERE NË PISHINËN E GËRMISË NË PRISHTINË",
+        photo: image4,
+        pdfFile: file4
+    },
     {
         id:3,
         title: "NJOFTIM PËR KOMPANINË FITUESE",
         date: "28 Maj 2024",
-        name: "MENAXHIMI I PISHINES DHE SHËRBIMET HOTELIERE NË PISHINËN E GËRMISË NË PRISHTINË",
+        name: "MENAXHIMI I PISHINËS DHE SHËRBIMET HOTELIERE NË PISHINËN E GËRMISË NË PRISHTINË",
         photo: image1,
         pdfFile: file3
     },
@@ -16,7 +26,7 @@ const shpalljet = [
         id:2,
         title: "NJOFTIM PËR SHTYERJE TË AFATIT PËR APLIKIM",
         date: "20 Maj 2024",
-        name: "MENAXHIMI I PISHINES DHE SHËRBIMET HOTELIERE NË PISHINËN E GËRMISË NË PRISHTINË",
+        name: "MENAXHIMI I PISHINËS DHE SHËRBIMET HOTELIERE NË PISHINËN E GËRMISË NË PRISHTINË",
         photo: image1,
         pdfFile: file2
     },
@@ -24,7 +34,7 @@ const shpalljet = [
         id:1,
         title: "KËRKESË PËR OFERTIM",
         date: "15 Maj 2024",
-        name: "MENAXHIMI I PISHINES DHE SHËRBIMET HOTELIERE NË PISHINËN E GËRMISË NË PRISHTINË",
+        name: "MENAXHIMI I PISHINËS DHE SHËRBIMET HOTELIERE NË PISHINËN E GËRMISË NË PRISHTINË",
         photo: image1,
         pdfFile: file1
     }
