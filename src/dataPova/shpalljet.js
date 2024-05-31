@@ -8,7 +8,7 @@ import file4 from "../img/NJOFTIM.pdf"
 const shpalljet = [
     {
         id:4,
-        title: "NJOFTIM",
+        title: "NJOFTIM PËR TËRHEQJE TË OPERATORIT EKONOMIK",
         date: "30 Maj 2024",
         name: "MENAXHIMI I PISHINËS DHE SHËRBIMET HOTELIERE NË PISHINËN E GËRMISË NË PRISHTINË",
         photo: image4,
