@@ -22,7 +22,7 @@ const AdsPage = React.memo(() => {
           <div className="row g-5">
             {
               shpalljet?.map((item) => (
-                <div className="col-lg-4" key={item.id}>
+                <div className="col-lg-4 col-xxl-3" key={item.id}>
                   <div className="blog-item bg-light rounded overflow-hidden h-100">
                     <div className="blog-img position-relative overflow-hidden">
                       <img

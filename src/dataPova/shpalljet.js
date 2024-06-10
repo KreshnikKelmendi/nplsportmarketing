@@ -5,8 +5,17 @@ import file2 from "../img/Njoftim per shtyerje te afatit per aplikim.pdf"
 import file3 from "../img/Njoftimi per kompanine fituese te tenderit 2022 1.pdf"
 import file4 from "../img/NJOFTIM.pdf"
 import file5 from "../img/rishpallje_-_oferte_per_hapesirat_ne_pishine_-_final (1).pdf"
+import file6 from "../img/Njoftimi per kompanine fituese te tenderit.pdf"
 
 const shpalljet = [
+    {
+        id:6,
+        title: "NJOFTIM PËR KOMPANINË FITUESE",
+        date: "10 Qershor 2024",
+        name: "MENAXHIMI I PISHINËS DHE SHËRBIMET HOTELIERE NË PISHINËN E GËRMISË NË PRISHTINË",
+        photo: image4,
+        pdfFile: file6
+    },
     {
         id:5,
         title: "RISHPALLJE KËRKESË PËR OFERTIM",
