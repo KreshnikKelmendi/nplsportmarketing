@@ -1,58 +1,66 @@
-import React, { useEffect, useState } from 'react';
-import { Link, useNavigate } from 'react-router-dom';
-import 'animate.css';
-import { RingLoader } from 'react-spinners';
+import React, { useState } from 'react';
 import { shpalljet } from '../dataPova/shpalljet';
 
-
-const AdsPage = React.memo(() => {
-  const [data, setData] = useState(shpalljet);
-  const [loading, setLoading] = useState(true);
+const AdsPage = () => {
+  const [data] = useState(shpalljet); // Assuming shpalljet is an array of objects
+  const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
 
   return (
     <>
-      
-
       <div className="container-fluid">
         <div className="container-fluid px-lg-5">
           <div className="section-title text-center position-relative pb-3 mb-5 mx-auto" style={{ maxWidth: '600px' }}>
             <h5 className="textOn text-primary text-uppercase mt-4">SHPALLJET</h5>
           </div>
           <div className="row g-5">
-            {
-              shpalljet?.map((item) => (
-                <div className="col-lg-4 col-xxl-3" key={item.id}>
-                  <div className="blog-item bg-light rounded overflow-hidden h-100">
-                    <div className="blog-img position-relative overflow-hidden">
-                      <img
-                        className="blogImage"
-                        src={item?.photo}
-                        alt=""
-                      />
+            {data?.map((item) => (
+              <div className="col-lg-4 col-xxl-3" key={item.id}>
+                <div className="blog-item bg-light rounded overflow-hidden h-100">
+                  <div className="blog-img position-relative overflow-hidden">
+                    <img className="blogImage bg-primary" src={item.photo} alt="" />
+                  </div>
+                  <div className="p-4">
+                    <div className="d-flex mb-3">
+                      <small className="text-success textOn">
+                        <i className="far fa-calendar-alt text-primary me-2"></i>
+                        {item.date}
+                      </small>
                     </div>
-                    <div className="p-4">
-                      <div className="d-flex mb-3">
-                        <small className="text-success textOn">
-                          <i className="far fa-calendar-alt text-primary me-2"></i>
-                          {item?.date}
-                        </small>
-                      </div>
-                      <h5 className="mb-3 text-uppercase">{item?.title}</h5>
-                      <h5 className="mb-3 textOn text-uppercase">{item?.name}</h5>
+                    <h5 className="mb-3 text-uppercase">{item.title}</h5>
+                    <h5 className="mb-3 textOn text-uppercase">{item.name}</h5>
+                    <a
+                      href={item.pdfFile}
+                      className="btn btn-secondary mt-2"
+                      target='_blank'
+                      rel='noreferrer'
+                    >
+                      Shiko më shumë
+                    </a>
+                    {item.deklarata && (
                       <a
-                        href={item.pdfFile}
-                        className="btn btn-secondary mt-2"
+                        href={item.deklarata}
+                        className="btn btn-primary mt-2"
                         target='_blank'
                         rel='noreferrer'
                       >
-                        Shiko më shumë
+                        Deklarata nën betim
                       </a>
-                    </div>
+                    )}
+                    {item.aplikacioni && (
+                      <a
+                        href={item.aplikacioni}
+                        className="btn btn-primary mt-2 mx-2"
+                        target='_blank'
+                        rel='noreferrer'
+                      >
+                        Aplikacioni
+                      </a>
+                    )}
                   </div>
                 </div>
-              ))
-            }
+              </div>
+            ))}
           </div>
         </div>
       </div>
@@ -60,9 +68,10 @@ const AdsPage = React.memo(() => {
       {error && <p style={{ color: 'red' }}>{error}</p>}
     </>
   );
-});
+};
 
 export default AdsPage;
+
 
 
 // import React from 'react';
