@@ -31,7 +31,7 @@ const AdsPage = () => {
                     <h5 className="mb-3 textOn text-uppercase">{item.name}</h5>
                     <a
                       href={item.pdfFile}
-                      className="btn btn-secondary mt-2"
+                      className="btn btn-primary mt-2"
                       target='_blank'
                       rel='noreferrer'
                     >

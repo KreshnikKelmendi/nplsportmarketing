@@ -1,6 +1,6 @@
 import image1 from "../img/pishina-e-germise.jpg";
 import image4 from "../img/ger7.jpg"
-import image5 from "../img/12logo.png"
+import image5 from "../img/14logo.png"
 import file1 from "../img/shpallje_-_oferte_per_hapesirat_ne_pishine_-_final (1).pdf"
 import file2 from "../img/Njoftim per shtyerje te afatit per aplikim.pdf"
 import file3 from "../img/Njoftimi per kompanine fituese te tenderit 2022 1.pdf"
@@ -17,6 +17,7 @@ const shpalljet = [
         title: "KONKURS PUBLIK",
         date: "08 Korrik 2024",
         name: "Kryeshef Ekzekutiv",
+        photo: image5,
         pdfFile: file7,
         deklarata: file8,
         aplikacioni: file9
