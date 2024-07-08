@@ -40,7 +40,7 @@ const AdsPage = () => {
                     {item.deklarata && (
                       <a
                         href={item.deklarata}
-                        className="btn btn-primary mt-2 mx-1 mx-lg-2"
+                        className="btn btn-primary mt-2 mx-1 mx-lg-0"
                         target='_blank'
                         rel='noreferrer'
                       >

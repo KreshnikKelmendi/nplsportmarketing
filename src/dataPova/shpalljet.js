@@ -19,8 +19,8 @@ const shpalljet = [
         name: "Kryeshef Ekzekutiv",
         photo: image5,
         pdfFile: file7,
-        deklarata: file8,
-        aplikacioni: file9
+        deklarata: file9,
+        aplikacioni: file8
     },
     {
         id:6,
