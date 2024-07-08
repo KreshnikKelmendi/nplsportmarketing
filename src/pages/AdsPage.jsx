@@ -40,7 +40,7 @@ const AdsPage = () => {
                     {item.deklarata && (
                       <a
                         href={item.deklarata}
-                        className="btn btn-primary mt-2"
+                        className="btn btn-primary mt-2 mx-2 mx-lg-2"
                         target='_blank'
                         rel='noreferrer'
                       >
@@ -50,7 +50,7 @@ const AdsPage = () => {
                     {item.aplikacioni && (
                       <a
                         href={item.aplikacioni}
-                        className="btn btn-primary mt-2 mx-2"
+                        className="btn btn-primary mt-2 mx-lg-2"
                         target='_blank'
                         rel='noreferrer'
                       >
