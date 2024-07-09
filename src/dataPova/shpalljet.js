@@ -9,7 +9,7 @@ import file5 from "../img/rishpallje_-_oferte_per_hapesirat_ne_pishine_-_final (
 import file6 from "../img/Njoftimi per kompanine fituese te tenderit.pdf"
 import file7 from "../img/KONKURSI PER KRYESHEF 2024.pdf"
 import file8 from "../img/Aplikacioni i skenuar.pdf"
-import file9 from "../img/Deklarata nen Betim.pdf"
+import file9 from "../img/DeklarataNenBetim.doc"
 
 const shpalljet = [
     {
