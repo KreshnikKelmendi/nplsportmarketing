@@ -10,8 +10,17 @@ import file6 from "../img/Njoftimi per kompanine fituese te tenderit.pdf"
 import file7 from "../img/KONKURSI PER KRYESHEF 2024.pdf"
 import file8 from "../img/Aplikacioni i skenuar.pdf"
 import file9 from "../img/DeklarataNenBetim.doc"
+import kryeshef from "../img/Lista perfundimtare per konkursin e shpallur me dt. 08.07.2024.pdf"
 
 const shpalljet = [
+    {
+        id: 8,
+        title: "Lista përfundimtare për vendin e punës",
+        date: "31 Korrik 2024",
+        name: "Kryeshef Ekzekutiv",
+        photo: image5,
+        pdfFile: kryeshef,
+    },
     {
         id: 7,
         title: "KONKURS PUBLIK",
