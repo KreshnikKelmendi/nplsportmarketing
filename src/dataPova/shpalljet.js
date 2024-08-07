@@ -11,8 +11,17 @@ import file7 from "../img/KONKURSI PER KRYESHEF 2024.pdf"
 import file8 from "../img/Aplikacioni i skenuar.pdf"
 import file9 from "../img/DeklarataNenBetim.doc"
 import kryeshef from "../img/Lista perfundimtare per konkursin e shpallur me dt. 08.07.2024.pdf"
+import kryeshefi from "../img/emerimi KE 2024.pdf"
 
 const shpalljet = [
+    {
+        id: 9,
+        title: "Vendim i emërimit të Kryeshefit Ekzekutiv",
+        date: "07 Gusht 2024",
+        name: "",
+        photo: image5,
+        pdfFile: kryeshefi,
+    },
     {
         id: 8,
         title: "Lista përfundimtare për vendin e punës",
