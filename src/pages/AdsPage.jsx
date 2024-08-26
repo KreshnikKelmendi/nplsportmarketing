@@ -10,7 +10,7 @@ const AdsPage = () => {
     <>
       <div className="container-fluid">
         <div className="container-fluid px-lg-5">
-          <div className="section-title text-center position-relative pb-3 mb-5 mx-auto" style={{ maxWidth: '600px' }}>
+          <div className="section-title text-center position-relative pb-3 mb-0 mx-auto" style={{ maxWidth: '600px' }}>
             <h5 className="textOn text-primary text-uppercase mt-4">SHPALLJET</h5>
           </div>
           <div className="row g-5">
