@@ -12,8 +12,30 @@ import file8 from "../img/Aplikacioni i skenuar.pdf"
 import file9 from "../img/DeklarataNenBetim.doc"
 import kryeshef from "../img/Lista perfundimtare per konkursin e shpallur me dt. 08.07.2024.pdf"
 import kryeshefi from "../img/emerimi KE 2024.pdf"
+import zkth from "../img/ZKF1.pdf"
+import sekretar from "../img/Sekretari1.pdf"
 
 const shpalljet = [
+    {
+        id: 11,
+        title: "Këshilltar i përgjithshëm / Sekretar",
+        date: "26 Gusht 2024",
+        name: "",
+        photo: image5,
+        pdfFile: sekretar,
+        deklarata: file9,
+        aplikacioni: file8
+    },
+    {
+        id: 10,
+        title: "Zyrtar Kryesor Financiar dhe i Thesarit",
+        date: "26 Gusht 2024",
+        name: "",
+        photo: image5,
+        pdfFile: zkth,
+        deklarata: file9,
+        aplikacioni: file8
+    },
     {
         id: 9,
         title: "Vendim i emërimit të Kryeshefit Ekzekutiv",
