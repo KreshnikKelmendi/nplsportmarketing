@@ -8,14 +8,25 @@ import file4 from "../img/NJOFTIM.pdf"
 import file5 from "../img/rishpallje_-_oferte_per_hapesirat_ne_pishine_-_final (1).pdf"
 import file6 from "../img/Njoftimi per kompanine fituese te tenderit.pdf"
 import file7 from "../img/KONKURSI PER KRYESHEF 2024.pdf"
-import file8 from "../img/Aplikacioni i skenuar.pdf"
+import file8 from "../img/Aplikacioni-Sport-Marketing.docx"
 import file9 from "../img/DeklarataNenBetim.doc"
 import kryeshef from "../img/Lista perfundimtare per konkursin e shpallur me dt. 08.07.2024.pdf"
 import kryeshefi from "../img/emerimi KE 2024.pdf"
 import zkth from "../img/ZKF1.pdf"
 import sekretar from "../img/Sekretari1.pdf"
+import shoferFurniues from "../img/Konkurs per shofer-furnizues.pdf"
 
 const shpalljet = [
+    {
+        id: 12,
+        title: "Shofer / Furnizues",
+        date: "04 Gusht 2024",
+        name: "",
+        photo: image5,
+        pdfFile: shoferFurniues,
+        deklarata: file9,
+        aplikacioni: file8
+    },
     {
         id: 11,
         title: "Këshilltar i përgjithshëm / Sekretar",
