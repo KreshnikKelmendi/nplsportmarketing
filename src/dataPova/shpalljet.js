@@ -20,7 +20,7 @@ const shpalljet = [
     {
         id: 12,
         title: "Shofer / Furnizues",
-        date: "04 Gusht 2024",
+        date: "04 Shtator 2024",
         name: "",
         photo: image5,
         pdfFile: shoferFurniues,
