@@ -15,8 +15,19 @@ import kryeshefi from "../img/emerimi KE 2024.pdf"
 import zkth from "../img/ZKF1.pdf"
 import sekretar from "../img/Sekretari1.pdf"
 import shoferFurniues from "../img/Konkurs per shofer-furnizues.pdf"
+import file10 from "../img/Njoftim per shtyrje te afatit te konkursit.pdf"
 
 const shpalljet = [
+    {
+        id: 13,
+        title: "Shyhet afati per aplikim per konkursin e shpallur Keshilltar i pergjithshem / sekretar",
+        date: "11 Shtator 2024",
+        name: "",
+        photo: image5,
+        pdfFile: file10,
+        deklarata: file9,
+        aplikacioni: file8
+    },
     {
         id: 12,
         title: "Shofer / Furnizues",
