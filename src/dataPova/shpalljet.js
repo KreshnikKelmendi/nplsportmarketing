@@ -20,7 +20,7 @@ import file10 from "../img/Njoftim per shtyrje te afatit te konkursit.pdf"
 const shpalljet = [
     {
         id: 13,
-        title: "Shyhet afati per aplikim per konkursin e shpallur Keshilltar i pergjithshem / sekretar",
+        title: "Shyhet afati për aplikim për konkursin e shpallur Këshilltar i përgjithshem / sekretar",
         date: "11 Shtator 2024",
         name: "",
         photo: image5,
