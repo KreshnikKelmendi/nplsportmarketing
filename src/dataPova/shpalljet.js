@@ -16,8 +16,17 @@ import zkth from "../img/ZKF1.pdf"
 import sekretar from "../img/Sekretari1.pdf"
 import shoferFurniues from "../img/Konkurs per shofer-furnizues.pdf"
 import file10 from "../img/Njoftim per shtyrje te afatit te konkursit.pdf"
+import file11 from "../img/Njoftim-25 shtator 2024.pdf"
 
 const shpalljet = [
+    {
+        id: 14,
+        title: "Anulohet konkursi Keshilltar i Pergjithshem /Sekretar ne NPL Sport Marketing SH.A.",
+        date: "25 Shtator 2024",
+        name: "",
+        photo: image5,
+        pdfFile: file11,
+    },
     {
         id: 13,
         title: "Shtyhet afati për aplikim për konkursin e shpallur Këshilltar i përgjithshem / sekretar",
