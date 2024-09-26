@@ -22,11 +22,13 @@ import file12 from "../img/sekretari rishpallje.pdf"
 const shpalljet = [
     {
         id: 15,
-        title: "Rishpallje e konkursit per Keshilltar te Pergjithshem / Sekretar.",
+        title: "Rishpallje e konkursit për Këshilltar të Përgjithshëm / Sekretar.",
         date: "26 Shtator 2024",
         name: "",
         photo: image5,
         pdfFile: file12,
+        deklarata: file9,
+        aplikacioni: file8
     },
     {
         id: 14,
