@@ -17,8 +17,17 @@ import sekretar from "../img/Sekretari1.pdf"
 import shoferFurniues from "../img/Konkurs per shofer-furnizues.pdf"
 import file10 from "../img/Njoftim per shtyrje te afatit te konkursit.pdf"
 import file11 from "../img/Njoftim-25 shtator 2024.pdf"
+import file12 from "../img/sekretari rishpallje.pdf"
 
 const shpalljet = [
+    {
+        id: 15,
+        title: "Rishpallje e konkursit per Keshilltar te Pergjithshem / Sekretar.",
+        date: "26 Shtator 2024",
+        name: "",
+        photo: image5,
+        pdfFile: file12,
+    },
     {
         id: 14,
         title: "Anulohet konkursi Keshilltar i Pergjithshem /Sekretar ne NPL Sport Marketing SH.A.",
