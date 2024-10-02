@@ -18,12 +18,21 @@ import shoferFurniues from "../img/Konkurs per shofer-furnizues.pdf"
 import file10 from "../img/Njoftim per shtyrje te afatit te konkursit.pdf"
 import file11 from "../img/Njoftim-25 shtator 2024.pdf"
 import file12 from "../img/sekretari rishpallje.pdf"
+import file13 from "../img/NR.225-02.10.2024-NJOFIM PER LISTEN PERFUNDIMTARE TE TESTIT ME GOJE-INTERVISTA PER ZKFTH.pdf"
 
 const shpalljet = [
     {
+        id: 16,
+        title: "Lista përfundimtare e pikëve të intervistes për pozitën Zyrtar Kryesor Financiar dhe i Thesarit në NPL Sport Marketing SH.A.",
+        date: "02 TETOR 2024",
+        name: "",
+        photo: image5,
+        pdfFile: file13,
+    },
+    {
         id: 15,
         title: "Rishpallje e konkursit për Këshilltar të Përgjithshëm / Sekretar.",
-        date: "26 Shtator 2024",
+        date: "26 SHTATOR 2024",
         name: "",
         photo: image5,
         pdfFile: file12,
@@ -33,7 +42,7 @@ const shpalljet = [
     {
         id: 14,
         title: "Anulohet konkursi Keshilltar i Pergjithshem /Sekretar ne NPL Sport Marketing SH.A.",
-        date: "25 Shtator 2024",
+        date: "25 SHTATOR 2024",
         name: "",
         photo: image5,
         pdfFile: file11,
@@ -41,7 +50,7 @@ const shpalljet = [
     {
         id: 13,
         title: "Shtyhet afati për aplikim për konkursin e shpallur Këshilltar i përgjithshem / sekretar",
-        date: "11 Shtator 2024",
+        date: "11 SHTATOR 2024",
         name: "",
         photo: image5,
         pdfFile: file10,
@@ -51,7 +60,7 @@ const shpalljet = [
     {
         id: 12,
         title: "Shofer / Furnizues",
-        date: "04 Shtator 2024",
+        date: "04 SHTATOR 2024",
         name: "",
         photo: image5,
         pdfFile: shoferFurniues,
@@ -61,7 +70,7 @@ const shpalljet = [
     {
         id: 11,
         title: "Këshilltar i përgjithshëm / Sekretar",
-        date: "26 Gusht 2024",
+        date: "26 GUSHT 2024",
         name: "",
         photo: image5,
         pdfFile: sekretar,
@@ -71,7 +80,7 @@ const shpalljet = [
     {
         id: 10,
         title: "Zyrtar Kryesor Financiar dhe i Thesarit",
-        date: "26 Gusht 2024",
+        date: "26 GUSHT 2024",
         name: "",
         photo: image5,
         pdfFile: zkth,
@@ -81,7 +90,7 @@ const shpalljet = [
     {
         id: 9,
         title: "Vendim i emërimit të Kryeshefit Ekzekutiv",
-        date: "07 Gusht 2024",
+        date: "07 GUSHT 2024",
         name: "",
         photo: image5,
         pdfFile: kryeshefi,
@@ -89,7 +98,7 @@ const shpalljet = [
     {
         id: 8,
         title: "Lista përfundimtare për vendin e punës",
-        date: "31 Korrik 2024",
+        date: "31 KORRIK 2024",
         name: "Kryeshef Ekzekutiv",
         photo: image5,
         pdfFile: kryeshef,
@@ -97,7 +106,7 @@ const shpalljet = [
     {
         id: 7,
         title: "KONKURS PUBLIK",
-        date: "08 Korrik 2024",
+        date: "08 KORRIK 2024",
         name: "Kryeshef Ekzekutiv",
         photo: image5,
         pdfFile: file7,
@@ -107,7 +116,7 @@ const shpalljet = [
     {
         id:6,
         title: "NJOFTIM PËR KOMPANINË FITUESE",
-        date: "10 Qershor 2024",
+        date: "10 QERSHOR 2024",
         name: "MENAXHIMI I PISHINËS DHE SHËRBIMET HOTELIERE NË PISHINËN E GËRMISË NË PRISHTINË",
         photo: image4,
         pdfFile: file6
@@ -115,7 +124,7 @@ const shpalljet = [
     {
         id:5,
         title: "RISHPALLJE KËRKESË PËR OFERTIM",
-        date: "30 Maj 2024",
+        date: "30 MAJ 2024",
         name: "MENAXHIMI I PISHINËS DHE SHËRBIMET HOTELIERE NË PISHINËN E GËRMISË NË PRISHTINË",
         photo: image4,
         pdfFile: file5
@@ -123,7 +132,7 @@ const shpalljet = [
     {
         id:4,
         title: "NJOFTIM PËR TËRHEQJE TË OPERATORIT EKONOMIK",
-        date: "30 Maj 2024",
+        date: "30 MAJ 2024",
         name: "MENAXHIMI I PISHINËS DHE SHËRBIMET HOTELIERE NË PISHINËN E GËRMISË NË PRISHTINË",
         photo: image4,
         pdfFile: file4
@@ -131,7 +140,7 @@ const shpalljet = [
     {
         id:3,
         title: "NJOFTIM PËR KOMPANINË FITUESE",
-        date: "28 Maj 2024",
+        date: "28 MAJ 2024",
         name: "MENAXHIMI I PISHINËS DHE SHËRBIMET HOTELIERE NË PISHINËN E GËRMISË NË PRISHTINË",
         photo: image1,
         pdfFile: file3
@@ -139,7 +148,7 @@ const shpalljet = [
     {
         id:2,
         title: "NJOFTIM PËR SHTYERJE TË AFATIT PËR APLIKIM",
-        date: "20 Maj 2024",
+        date: "20 MAJ 2024",
         name: "MENAXHIMI I PISHINËS DHE SHËRBIMET HOTELIERE NË PISHINËN E GËRMISË NË PRISHTINË",
         photo: image1,
         pdfFile: file2
@@ -147,7 +156,7 @@ const shpalljet = [
     {
         id:1,
         title: "KËRKESË PËR OFERTIM",
-        date: "15 Maj 2024",
+        date: "15 MAJ 2024",
         name: "MENAXHIMI I PISHINËS DHE SHËRBIMET HOTELIERE NË PISHINËN E GËRMISË NË PRISHTINË",
         photo: image1,
         pdfFile: file1

@@ -5,6 +5,18 @@ const AdsPage = () => {
   const [data] = useState(shpalljet); // Assuming shpalljet is an array of objects
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
+  
+  // State to control the number of items visible
+  const [visibleCount, setVisibleCount] = useState(12);
+  
+  // Function to toggle between "Show More" and "Show Less"
+  const toggleShowMore = () => {
+    if (visibleCount === 12) {
+      setVisibleCount(data.length); // Show all data
+    } else {
+      setVisibleCount(12); // Show only 12 items
+    }
+  };
 
   return (
     <>
@@ -14,7 +26,8 @@ const AdsPage = () => {
             <h5 className="textOn text-primary text-uppercase mt-4">SHPALLJET</h5>
           </div>
           <div className="row g-5">
-            {data?.map((item) => (
+            {/* Display only up to `visibleCount` items */}
+            {data?.slice(0, visibleCount).map((item) => (
               <div className="col-lg-4 col-xxl-3" key={item.id}>
                 <div className="blog-item bg-light rounded overflow-hidden h-100">
                   <div className="blog-img position-relative overflow-hidden">
@@ -30,7 +43,6 @@ const AdsPage = () => {
                     <h5 className="mb-3 text-uppercase">{item.title}</h5>
                     <h5 className="mb-3 textOn text-uppercase">{item.name}</h5>
 
-                    {/* Updated Button Styles */}
                     <a
                       href={item.pdfFile}
                       className="btn btn-outline-primary mt-2 btn-block"
@@ -69,6 +81,16 @@ const AdsPage = () => {
               </div>
             ))}
           </div>
+          
+          {/* "Show More" or "Show Less" button */}
+          <div className="text-center mt-4">
+            <button
+              className="btn btn-primary"
+              onClick={toggleShowMore}
+            >
+              {visibleCount === 12 ? 'SHFAQ MË SHUMË' : 'SHFAQ MË PAK'}
+            </button>
+          </div>
         </div>
       </div>
 
@@ -78,6 +100,7 @@ const AdsPage = () => {
 };
 
 export default AdsPage;
+
 
 
 
