@@ -19,14 +19,14 @@ import file10 from "../img/Njoftim per shtyrje te afatit te konkursit.pdf"
 import file11 from "../img/Njoftim-25 shtator 2024.pdf"
 import file12 from "../img/sekretari rishpallje.pdf"
 import file13 from "../img/NR.225-02.10.2024-NJOFIM PER LISTEN PERFUNDIMTARE TE TESTIT ME GOJE-INTERVISTA PER ZKFTH.pdf"
-import file14 from "../img/BASHKË MENAXHIMIN E TREGUT VEROR DHE DIMËROR VERË N'DIMËR DHE AKULL N'VERË.pdf"
+import file14 from "../img/KËRKESË PËR OFERTIM - PËR BASHKË MENAXHIMIN E TREGUT VEROR DHE DIMËROR.pdf"
 
 const shpalljet = [
     {
         id: 17,
         title: "KËRKESË PËR OFERTIM",
         date: "04 TETOR 2024",
-        name: `PËR BASHKË MENAXHIMIN E TREGUT VEROR DHE DIMËROR "VERË N'DIMËR" DHE "AKULL N'VERË"`,
+        name: `PËR BASHKË MENAXHIMIN E TREGUT VEROR DHE DIMËROR "VERË N'DIMËR" DHE "AKULL N'VERË""`,
         photo: image5,
         pdfFile: file14,
     },
