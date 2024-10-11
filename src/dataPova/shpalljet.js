@@ -20,8 +20,17 @@ import file11 from "../img/Njoftim-25 shtator 2024.pdf"
 import file12 from "../img/sekretari rishpallje.pdf"
 import file13 from "../img/NR.225-02.10.2024-NJOFIM PER LISTEN PERFUNDIMTARE TE TESTIT ME GOJE-INTERVISTA PER ZKFTH.pdf"
 import file14 from "../img/KËRKESË PËR OFERTIM - PËR BASHKË MENAXHIMIN E TREGUT VEROR DHE DIMËROR.pdf"
+import file15 from "../img/NR.239-11.10.2024-VENDIM PER PERZGJEDHJEN E KANDIDATIT ME TE SUKSESSHEM SHOFER-FURNIZUES.pdf"
 
 const shpalljet = [
+    {
+        id: 18,
+        title: "VENDIM",
+        date: "11 TETOR 2024",
+        name: `PËR PËRZGJEDHJEN E KANDIDATIT MË TË SUKSESSHËM PËR POZITËN SHOFER/FURNIZUES""`,
+        photo: image5,
+        pdfFile: file15,
+    },
     {
         id: 17,
         title: "KËRKESË PËR OFERTIM",
