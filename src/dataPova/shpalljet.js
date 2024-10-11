@@ -27,7 +27,7 @@ const shpalljet = [
         id: 18,
         title: "VENDIM",
         date: "11 TETOR 2024",
-        name: `PËR PËRZGJEDHJEN E KANDIDATIT MË TË SUKSESSHËM PËR POZITËN SHOFER/FURNIZUES""`,
+        name: `PËR PËRZGJEDHJEN E KANDIDATIT MË TË SUKSESSHËM PËR POZITËN SHOFER / FURNIZUES`,
         photo: image5,
         pdfFile: file15,
     },
