@@ -21,7 +21,7 @@ import file12 from "../img/sekretari rishpallje.pdf"
 import file13 from "../img/NR.225-02.10.2024-NJOFIM PER LISTEN PERFUNDIMTARE TE TESTIT ME GOJE-INTERVISTA PER ZKFTH.pdf"
 import file14 from "../img/KËRKESË PËR OFERTIM - PËR BASHKË MENAXHIMIN E TREGUT VEROR DHE DIMËROR.pdf"
 import file15 from "../img/NR.239-11.10.2024-VENDIM PER PERZGJEDHJEN E KANDIDATIT ME TE SUKSESSHEM SHOFER-FURNIZUES.pdf"
-import file16 from "../img/Vendim per emerimin e Zyrtarit Kryesor Financiar dhe i Thesarit.pdf"
+import file16 from "../img/NR.243-17.10.2024-VENDIM PER EMERIMIN E ZYRTARIT KRYESOR FINANCIAR DHE I THESARIT ISMET PACOLLI.pdf"
 
 const shpalljet = [
     {
