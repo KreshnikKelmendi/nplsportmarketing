@@ -22,17 +22,17 @@ import file13 from "../img/NR.225-02.10.2024-NJOFIM PER LISTEN PERFUNDIMTARE TE 
 import file14 from "../img/KËRKESË PËR OFERTIM - PËR BASHKË MENAXHIMIN E TREGUT VEROR DHE DIMËROR.pdf"
 import file15 from "../img/NR.239-11.10.2024-VENDIM PER PERZGJEDHJEN E KANDIDATIT ME TE SUKSESSHEM SHOFER-FURNIZUES.pdf"
 import file16 from "../img/NR.243-17.10.2024-VENDIM PER EMERIMIN E ZYRTARIT KRYESOR FINANCIAR DHE I THESARIT ISMET PACOLLI.pdf"
-import file17 from "../img/NR.251-18.10.2024-NJOFTIM-PER-SHPALLJEN-E-FITUESIT-TË-THIRRJES-PUBLIKE-BASHKEMENAXHIM-I-TREGUT-VEROR-DHE-DIMEROR-VERE-NDIMER-DHE-AKULL-N-VERE.pdf"
+import file17 from "../img/Njoftim per thirrjen publike.pdf"
 
 const shpalljet = [
-    // {
-    //     id: 20,
-    //     title: "NJOFTIM",
-    //     date: "18 TETOR 2024",
-    //     name: `Njoftim për kompaninë fituese në thirrjen publike: PËR BASHKË MENAXHIMIN E TREGUT VEROR DHE DIMËROR "VERË N'DIMËR" DHE "AKULL N'VERË"`,
-    //     photo: image5,
-    //     pdfFile: file17,
-    // },
+    {
+        id: 20,
+        title: "NJOFTIM",
+        date: "18 TETOR 2024",
+        name: `Njoftim për kompaninë fituese në thirrjen publike: PËR BASHKË MENAXHIMIN E TREGUT VEROR DHE DIMËROR "VERË N'DIMËR" DHE "AKULL N'VERË"`,
+        photo: image5,
+        pdfFile: file17,
+    },
     {
         id: 19,
         title: "VENDIM",
