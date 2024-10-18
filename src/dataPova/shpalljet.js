@@ -25,14 +25,14 @@ import file16 from "../img/NR.243-17.10.2024-VENDIM PER EMERIMIN E ZYRTARIT KRYE
 import file17 from "../img/NR.251-18.10.2024-NJOFTIM-PER-SHPALLJEN-E-FITUESIT-TË-THIRRJES-PUBLIKE-BASHKEMENAXHIM-I-TREGUT-VEROR-DHE-DIMEROR-VERE-NDIMER-DHE-AKULL-N-VERE.pdf"
 
 const shpalljet = [
-    {
-        id: 20,
-        title: "NJOFTIM",
-        date: "18 TETOR 2024",
-        name: `Njoftim për kompaninë fituese në thirrjen publike: PËR BASHKË MENAXHIMIN E TREGUT VEROR DHE DIMËROR "VERË N'DIMËR" DHE "AKULL N'VERË"`,
-        photo: image5,
-        pdfFile: file17,
-    },
+    // {
+    //     id: 20,
+    //     title: "NJOFTIM",
+    //     date: "18 TETOR 2024",
+    //     name: `Njoftim për kompaninë fituese në thirrjen publike: PËR BASHKË MENAXHIMIN E TREGUT VEROR DHE DIMËROR "VERË N'DIMËR" DHE "AKULL N'VERË"`,
+    //     photo: image5,
+    //     pdfFile: file17,
+    // },
     {
         id: 19,
         title: "VENDIM",
