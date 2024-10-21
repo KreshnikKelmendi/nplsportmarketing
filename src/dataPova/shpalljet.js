@@ -23,8 +23,17 @@ import file14 from "../img/KËRKESË PËR OFERTIM - PËR BASHKË MENAXHIMIN E TR
 import file15 from "../img/NR.239-11.10.2024-VENDIM PER PERZGJEDHJEN E KANDIDATIT ME TE SUKSESSHEM SHOFER-FURNIZUES.pdf"
 import file16 from "../img/NR.243-17.10.2024-VENDIM PER EMERIMIN E ZYRTARIT KRYESOR FINANCIAR DHE I THESARIT ISMET PACOLLI.pdf"
 import file17 from "../img/Njoftim per thirrjen publike.pdf"
+import file18 from "../img/NR.252-21.10.2024-VENDIM PER ANULIMIN E KONKURSIT TE RISHPALLUR PER KESHILLTAR TE PERGJITHSHEM-SEKRETAR.pdf"
 
 const shpalljet = [
+    {
+        id: 21,
+        title: "NJOFTIM",
+        date: "21 TETOR 2024",
+        name: `Vendimi për anulimin e konkursit të rishpallur për pozitën Këshilltar i Pergjithshëm/ Sekretar`,
+        photo: image5,
+        pdfFile: file18,
+    },
     {
         id: 20,
         title: "NJOFTIM",
