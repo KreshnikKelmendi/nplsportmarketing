@@ -24,8 +24,17 @@ import file15 from "../img/NR.239-11.10.2024-VENDIM PER PERZGJEDHJEN E KANDIDATI
 import file16 from "../img/NR.243-17.10.2024-VENDIM PER EMERIMIN E ZYRTARIT KRYESOR FINANCIAR DHE I THESARIT ISMET PACOLLI.pdf"
 import file17 from "../img/Njoftim per thirrjen publike.pdf"
 import file18 from "../img/NR.252-21.10.2024-VENDIM PER ANULIMIN E KONKURSIT TE RISHPALLUR PER KESHILLTAR TE PERGJITHSHEM-SEKRETAR.pdf"
+import file19 from "../img/Njoftim per kompanine fituese per bashkmenaxhim te tregut verore dhe dimeror.pdf"
 
 const shpalljet = [
+    {
+        id: 22,
+        title: "NJOFTIM",
+        date: "25 TETOR 2024",
+        name: `NPL Sport Marketing SH.A. Njoftim per shpalljen e  kompanise fituese per bashkmenaxhimin e tregut veror dhe dimeror. `,
+        photo: image5,
+        pdfFile: file19,
+    },
     {
         id: 21,
         title: "NJOFTIM",
