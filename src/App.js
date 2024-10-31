@@ -23,6 +23,7 @@ import NplStaff from './pages/NplStaff';
 import Aksionaret from './pages/Aksionaret';
 import ErrorPage from './pages/ErrorPage';
 import PasqyraFinanciare from './pages/PasqyraFinanciare';
+import ApplyForm from './pages/ApplyForm';
 
 function App() {
   return (
@@ -51,6 +52,7 @@ function App() {
          <Route path='/board' element={<Aksionaret />} />
          <Route path='*' element={<ErrorPage />} />
          <Route path='/pasqyra-financiare' element={<PasqyraFinanciare />} />
+         <Route path='/apliko' element={<ApplyForm />} />
         </Routes>
         <Footer />
     </BrowserRouter>  
