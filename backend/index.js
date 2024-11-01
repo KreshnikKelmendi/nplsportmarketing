@@ -20,14 +20,14 @@ app.post('/upload', upload.single('file'), async (req, res) => {
   const transporter = nodemailer.createTransport({
     service: 'gmail',
     auth: {
-      user: process.env.REACT_APP_EMAIL_USER,
-      pass: process.env.REACT_APP_EMAIL_PASS,
+      user: process.env.REACT_APP_EMAIL_USER, // emaili qe dergon mesazhe shenoje ne .env  REACT_APP_EMAIL_USER=emaili per dergim
+      pass: process.env.REACT_APP_EMAIL_PASS,// app passwordi i emailit shenoje ne .env  REACT_APP_EMAIL_PASS=passwordi i gjeneruar i app
     },
   });
 
   const mailOptions = {
     from: process.env.REACT_APP_EMAIL_USER,
-    to: 'kukajdori@gmail.com',
+    to: 'example@gmail.com',// emaili qe ju dergohen emailat (zevendsoje me emailin e npl sport marketingut)
     subject: `New Form Submission - ${new Date().toISOString()}`, 
     html: `
       <div style="font-family: Arial, sans-serif; line-height: 1.5;">
@@ -60,6 +60,8 @@ app.post('/upload', upload.single('file'), async (req, res) => {
   }
 });
 
+
+//shenoje ne .env PORT=5000 
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
   console.log(`Server is running on http://localhost:${PORT}`);
