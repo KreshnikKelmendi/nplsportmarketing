@@ -20,15 +20,15 @@ app.post('/upload', upload.single('file'), async (req, res) => {
   const transporter = nodemailer.createTransport({
     service: 'gmail',
     auth: {
-      user: process.env.REACT_APP_EMAIL_USER, // emaili qe dergon mesazhe shenoje ne .env  REACT_APP_EMAIL_USER=emaili per dergim
-      pass: process.env.REACT_APP_EMAIL_PASS,// app passwordi i emailit shenoje ne .env  REACT_APP_EMAIL_PASS=passwordi i gjeneruar i app
+      user: process.env.REACT_APP_EMAIL_USER,
+      pass: process.env.REACT_APP_EMAIL_PASS,
     },
   });
 
   const mailOptions = {
-    from: process.env.REACT_APP_EMAIL_USER,
-    to: 'example@gmail.com',// emaili qe ju dergohen emailat (zevendsoje me emailin e npl sport marketingut)
-    subject: `New Form Submission - ${new Date().toISOString()}`, 
+    from: `"NPL Sport Marketing" <${process.env.REACT_APP_EMAIL_USER}>`,
+    to: 'kreshnik.kelmendi@trekuartista.com, shenoemailinedyte@gmail.com',
+    subject: `New Form Submission from ${companyName}`,  
     html: `
       <div style="font-family: Arial, sans-serif; line-height: 1.5;">
         <h2 style="color: #333;">New Form Submission</h2>
@@ -45,12 +45,12 @@ app.post('/upload', upload.single('file'), async (req, res) => {
       },
     ],
     headers: {
-      'Message-ID': `<${uuidv4()}@gmail.com>`,
-      'In-Reply-To': '',
-      'References': ''
+      'Message-ID': `<${uuidv4()}@gmail.com>`,  
+      'In-Reply-To': '',  
+      'References': ''    
     },
   };
-
+  
   try {
     await transporter.sendMail(mailOptions);
     res.status(200).json({ message: 'Email sent successfully!' });
@@ -60,8 +60,6 @@ app.post('/upload', upload.single('file'), async (req, res) => {
   }
 });
 
-
-//shenoje ne .env PORT=5000 
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
   console.log(`Server is running on http://localhost:${PORT}`);
