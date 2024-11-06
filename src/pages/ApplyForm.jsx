@@ -74,7 +74,7 @@ const ApplyForm = () => {
           />
         </div>
         <button type="submit" className="btn btn-primary w-100" disabled={loading}>
-          {loading ? 'Dërgo në proces...' : 'Dërgo'}
+          {loading ? 'Në proces...' : 'Dërgo'}
         </button>
       </form>
 

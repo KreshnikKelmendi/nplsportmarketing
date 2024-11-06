@@ -27,7 +27,7 @@ app.post('/upload', upload.single('file'), async (req, res) => {
 
   const mailOptions = {
     from: process.env.REACT_APP_EMAIL_USER,
-    to: 'example@gmail.com',// emaili qe ju dergohen emailat (zevendsoje me emailin e npl sport marketingut)
+    to: 'kreshnik.kelmendi1994@gmail.com',// emaili qe ju dergohen emailat (zevendsoje me emailin e npl sport marketingut)
     subject: `New Form Submission - ${new Date().toISOString()}`, 
     html: `
       <div style="font-family: Arial, sans-serif; line-height: 1.5;">
