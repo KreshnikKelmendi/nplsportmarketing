@@ -12,74 +12,24 @@ dotenv.config();
 
 const app = express();
 app.use(cors());
-app.use(helmet()); 
+app.use(helmet());
 
 const limiter = rateLimit({
-  windowMs: 15 * 60 * 1000, 
-  max: 100, 
+  windowMs: 15 * 60 * 1000,
+  max: 100,
   message: 'Too many requests, please try again later.',
 });
 app.use('/upload', limiter);
 
 const storage = multer.memoryStorage();
-const upload = multer({
-  storage,
+const upload = multer({ storage });
 
-<<<<<<< HEAD
-app.post('/upload', upload.single('file'), async (req, res) => {
-  const { companyName, emailAddress } = req.body;
-  const file = req.file;
+app.use(express.json());
 
-  const transporter = nodemailer.createTransport({
-    service: 'gmail',
-    auth: {
-      user: process.env.REACT_APP_EMAIL_USER, // emaili qe dergon mesazhe shenoje ne .env  REACT_APP_EMAIL_USER=emaili per dergim
-      pass: process.env.REACT_APP_EMAIL_PASS,// app passwordi i emailit shenoje ne .env  REACT_APP_EMAIL_PASS=passwordi i gjeneruar i app
-    },
-  });
-
-  const mailOptions = {
-    from: process.env.REACT_APP_EMAIL_USER,
-    to: 'kreshnik.kelmendi1994@gmail.com',// emaili qe ju dergohen emailat (zevendsoje me emailin e npl sport marketingut)
-    subject: `New Form Submission - ${new Date().toISOString()}`, 
-    html: `
-      <div style="font-family: Arial, sans-serif; line-height: 1.5;">
-        <h2 style="color: #333;">New Form Submission</h2>
-        <p>You have received a new form submission with the following details:</p>
-        <p><strong>Company Name:</strong> ${companyName}</p>
-        <p><strong>Email Address:</strong> ${emailAddress}</p>
-        <p>A file has also been attached to this email for your reference.</p>
-      </div>
-    `,
-    attachments: [
-      {
-        filename: file.originalname,
-        content: file.buffer,
-      },
-    ],
-    headers: {
-      'Message-ID': `<${uuidv4()}@gmail.com>`,
-      'In-Reply-To': '',
-      'References': ''
-    },
-  };
-
-  try {
-    await transporter.sendMail(mailOptions);
-    res.status(200).json({ message: 'Email sent successfully!' });
-  } catch (error) {
-    console.error(error);
-    res.status(500).json({ message: 'Failed to send email' });
-  }
-=======
->>>>>>> 61a1798e4f03188b92f2190991421c120d0f472f
-});
-
-app.use(express.json()); 
-
-app.post('/upload', 
-  upload.single('file'), 
-  body('companyName').isString().trim().escape(), 
+app.post(
+  '/upload',
+  upload.single('file'),
+  body('companyName').isString().trim().escape(),
   body('emailAddress').isEmail().normalizeEmail(),
   async (req, res) => {
     const errors = validationResult(req);
@@ -93,22 +43,22 @@ app.post('/upload',
     const transporter = nodemailer.createTransport({
       service: 'gmail',
       auth: {
-        user: process.env.REACT_APP_EMAIL_USER,
-        pass: process.env.REACT_APP_EMAIL_PASS,
+        user: "noreplynplsport@gmail.com",
+        pass: "vhmb lrkt xzrj fwof",
       },
     });
 
     const mailOptions = {
-      from: `"NPL Sport Marketing" <${process.env.REACT_APP_EMAIL_USER}>`,
-      to: 'kreshnik.kelmendi@trekuartista.com, shenoemailinedyte@gmail.com',
-      subject: `New Form Submission from ${companyName} - ${new Date().toLocaleString()}`,  
+      from: `${companyName} <${process.env.REACT_APP_EMAIL_USER}>`,
+      to: 'kreshnik.kelmendi@trekuartista.com, kreshnik.kelmendi1994@gmail.com',
+      subject: `Aplikim i ri nga ${companyName}`,
       html: `
         <div style="font-family: Arial, sans-serif; line-height: 1.5;">
-          <h2 style="color: #333;">New Form Submission</h2>
-          <p>You have received a new form submission with the following details:</p>
-          <p><strong>Company Name:</strong> ${companyName}</p>
-          <p><strong>Email Address:</strong> ${emailAddress}</p>
-          <p>A file has also been attached to this email for your reference.</p>
+        
+          <h3>KENI PRANUAR NJË APLIKIM TË RI ME KËTO TË DHËNA TË KOMPANISË APLIKUESE:</h3>
+          <p><strong>Emri i Kompanisë:</strong> ${companyName}</p>
+          <p><strong>E-mail Adresa:</strong> ${emailAddress}</p>
+          <p>Një dokument është bashkangjitur gjithashtu në këtë email për referencën tuaj.</p>
         </div>
       `,
       attachments: [
@@ -123,7 +73,7 @@ app.post('/upload',
         'References': ''
       },
     };
-    
+
     try {
       await transporter.sendMail(mailOptions);
       res.status(200).json({ message: 'Email sent successfully!' });

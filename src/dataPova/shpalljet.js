@@ -25,8 +25,17 @@ import file16 from "../img/NR.243-17.10.2024-VENDIM PER EMERIMIN E ZYRTARIT KRYE
 import file17 from "../img/Njoftim per thirrjen publike.pdf"
 import file18 from "../img/NR.252-21.10.2024-VENDIM PER ANULIMIN E KONKURSIT TE RISHPALLUR PER KESHILLTAR TE PERGJITHSHEM-SEKRETAR.pdf"
 import file19 from "../img/Njoftim per kompanine fituese per bashkmenaxhim te tregut verore dhe dimeror.pdf"
+import file20 from "../img/Thirrja per aplikim per tregun e fundvitit (3).pdf"
 
 const shpalljet = [
+    {
+        id: 23,
+        title: "NJOFTIM",
+        date: "08 NËNTOR 2024",
+        name: `NPL Sport Marketing SH.A., në bashkëpunim me Operatorin Ekonomik, shpall thirrjen publike për aplikime në tregun dimëror "Verë N’Dimën".`,
+        photo: image5,
+        pdfFile: file20,
+    },
     {
         id: 22,
         title: "NJOFTIM",

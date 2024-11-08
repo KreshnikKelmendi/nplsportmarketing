@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 
 const ApplyForm = () => {
@@ -7,6 +7,16 @@ const ApplyForm = () => {
   const [companyName, setCompanyName] = useState('');
   const [emailAddress, setEmailAddress] = useState('');
   const [file, setFile] = useState(null);
+
+  useEffect(() => {
+    if (showModal) {
+      const timer = setTimeout(() => {
+        setShowModal(false);
+      }, 10000); 
+
+      return () => clearTimeout(timer); // clear timeout if modal is closed earlier
+    }
+  }, [showModal]);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -79,17 +89,18 @@ const ApplyForm = () => {
       </form>
 
       {showModal && (
-        <div className="modal fade show" style={{ display: 'block' }} tabIndex="-1" aria-labelledby="modalLabel" aria-hidden="true">
-          <div className="modal-dialog">
+        <div className="modal fade show d-flex align-items-center justify-content-center" style={{ display: 'block', backgroundColor: 'rgba(0, 0, 0, 0.5)' }} tabIndex="-1" aria-labelledby="modalLabel" aria-hidden="true">
+          <div className="modal-dialog modal-dialog-centered">
             <div className="modal-content">
-              <div className="modal-header">
+              <div className="modal-header" style={{ backgroundColor: '#4CAF50', color: '#fff' }}>
                 <h5 className="modal-title" id="modalLabel">Sukses!</h5>
                 <button type="button" className="btn-close" onClick={() => setShowModal(false)} aria-label="Close"></button>
               </div>
               <div className="modal-body">
-                Emaili u dërgua me sukses!
+                <h3>Emaili u dërgua me sukses!</h3>
+                <p>Faleminderit për aplikim {companyName}. Për detaje tjera do të njoftoheni me kohë përmes e-mailit zyrtar të NPL Sport Marketing!</p>
               </div>
-              <div className="modal-footer">
+              <div className="modal-footer justify-content-center">
                 <button type="button" className="btn btn-secondary" onClick={() => setShowModal(false)}>Mbyll</button>
               </div>
             </div>
