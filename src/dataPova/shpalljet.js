@@ -32,7 +32,7 @@ import file21 from "../img/konkursSekretar-2024.pdf"
 const shpalljet = [
     {
         id: 23,
-        title: "KONKURS PUBLIK",
+        title: "RI-SHPALLJE E KONKURSIT PUBLIK",
         date: "12 DHJETOR 2024",
         name: `Këshilltar i përgjithshëm / Sekretar`,
         photo: image5,
