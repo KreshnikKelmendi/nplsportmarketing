@@ -26,8 +26,20 @@ import file17 from "../img/Njoftim per thirrjen publike.pdf"
 import file18 from "../img/NR.252-21.10.2024-VENDIM PER ANULIMIN E KONKURSIT TE RISHPALLUR PER KESHILLTAR TE PERGJITHSHEM-SEKRETAR.pdf"
 import file19 from "../img/Njoftim per kompanine fituese per bashkmenaxhim te tregut verore dhe dimeror.pdf"
 import file20 from "../img/Thirrja per aplikim per tregun e fundvitit (3).pdf"
+import file21 from "../img/konkursSekretar-2024.pdf"
+
 
 const shpalljet = [
+    {
+        id: 23,
+        title: "KONKURS PUBLIK",
+        date: "12 DHJETOR 2024",
+        name: `Këshilltar i përgjithshëm / Sekretar`,
+        photo: image5,
+        pdfFile: file21,
+        deklarata: file9,
+        aplikacioni: file8
+    },
     {
         id: 23,
         title: "NJOFTIM",
