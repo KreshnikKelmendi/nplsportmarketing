@@ -27,9 +27,18 @@ import file18 from "../img/NR.252-21.10.2024-VENDIM PER ANULIMIN E KONKURSIT TE 
 import file19 from "../img/Njoftim per kompanine fituese per bashkmenaxhim te tregut verore dhe dimeror.pdf"
 import file20 from "../img/Thirrja per aplikim per tregun e fundvitit (3).pdf"
 import file21 from "../img/konkursSekretar-2024.pdf"
+import file22 from "../img/Lista përfundimtare e intervistës për pozitën Këshilltar i përgjithshëm  Sekretar në NPL Sport Marketing Sh.A.pdf"
 
 
 const shpalljet = [
+    {
+        id: 23-2,
+        title: "Lista përfundimtare e intervistës për pozitën Këshilltar i përgjithshëm / Sekretar në NPL Sport Marketing Sh.A",
+        date: "17 JANAR 2025",
+        name: `Këshilltar i përgjithshëm / Sekretar`,
+        photo: image5,
+        pdfFile: file22,
+    },
     {
         id: 23,
         title: "RI-SHPALLJE E KONKURSIT PUBLIK",
@@ -41,7 +50,7 @@ const shpalljet = [
         aplikacioni: file8
     },
     {
-        id: 23,
+        id: 330,
         title: "NJOFTIM",
         date: "08 NËNTOR 2024",
         name: `NPL Sport Marketing SH.A., në bashkëpunim me Operatorin Ekonomik, shpall thirrjen publike për aplikime në tregun dimëror "Verë N’Dimën".`,
