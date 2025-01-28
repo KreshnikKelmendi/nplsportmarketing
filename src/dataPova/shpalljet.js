@@ -28,9 +28,18 @@ import file19 from "../img/Njoftim per kompanine fituese per bashkmenaxhim te tr
 import file20 from "../img/Thirrja per aplikim per tregun e fundvitit (3).pdf"
 import file21 from "../img/konkursSekretar-2024.pdf"
 import file22 from "../img/Lista përfundimtare e intervistës për pozitën Këshilltar i përgjithshëm  Sekretar në NPL Sport Marketing Sh.A.pdf"
+import file23 from "../img/vendim per emerimin e sekretarit.pdf"
 
 
 const shpalljet = [
+    {
+        id: 23-3,
+        title: "Vendim per emerimin e sekretarit",
+        date: "28 JANAR 2025",
+        name: `Vendim per emerimin e sekretarit`,
+        photo: image5,
+        pdfFile: file23,
+    },
     {
         id: 23-2,
         title: "Lista përfundimtare e intervistës për pozitën Këshilltar i përgjithshëm / Sekretar në NPL Sport Marketing Sh.A",
