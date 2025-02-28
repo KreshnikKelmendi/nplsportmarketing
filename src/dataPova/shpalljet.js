@@ -33,16 +33,16 @@ import file24 from "../img/Konkursi për Arkivist.pdf"
 
 
 const shpalljet = [
-    {
-        id: 23-4,
-        title: "Konkurs për plotësimin e vendit të punës",
-        date: "01 MARS 2025",
-        name: `Arkivist/e`,
-        photo: image5,
-        pdfFile: file24,
-        deklarata: file9,
-        aplikacioni: file8
-    },
+    // {
+    //     id: 23-4,
+    //     title: "Konkurs për plotësimin e vendit të punës",
+    //     date: "01 MARS 2025",
+    //     name: `Arkivist/e`,
+    //     photo: image5,
+    //     pdfFile: file24,
+    //     deklarata: file9,
+    //     aplikacioni: file8
+    // },
     {
         id: 23-3,
         title: "Vendim per emerimin e sekretarit",
