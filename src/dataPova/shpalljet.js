@@ -29,14 +29,14 @@ import file20 from "../img/Thirrja per aplikim per tregun e fundvitit (3).pdf"
 import file21 from "../img/konkursSekretar-2024.pdf"
 import file22 from "../img/Lista përfundimtare e intervistës për pozitën Këshilltar i përgjithshëm  Sekretar në NPL Sport Marketing Sh.A.pdf"
 import file23 from "../img/vendim per emerimin e sekretarit.pdf"
-import file24 from "../img/Konkursi për Arkivistë.pdf"
+import file24 from "../img/Konkursi për Arkivist.pdf"
 
 
 const shpalljet = [
     {
         id: 23-4,
         title: "Konkurs për plotësimin e vendit të punës",
-        date: "28 SHKURT 2025",
+        date: "01 MARS 2025",
         name: `Arkivist/e`,
         photo: image5,
         pdfFile: file24,
