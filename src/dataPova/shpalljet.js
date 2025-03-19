@@ -30,9 +30,18 @@ import file21 from "../img/konkursSekretar-2024.pdf"
 import file22 from "../img/Lista përfundimtare e intervistës për pozitën Këshilltar i përgjithshëm  Sekretar në NPL Sport Marketing Sh.A.pdf"
 import file23 from "../img/vendim per emerimin e sekretarit.pdf"
 import file24 from "../img/Konkursi për Arkivist.pdf"
+import file25 from "../img/arkivist-njoftim.pdf"
 
 
 const shpalljet = [
+    {
+        id: 23-5,
+        title: "Njoftim",
+        date: "19 MARS 2025",
+        name: `për vendin e punës Arkivist/e`,
+        photo: image5,
+        pdfFile: file25,
+    },
     {
         id: 23-4,
         title: "Konkurs për plotësimin e vendit të punës",
