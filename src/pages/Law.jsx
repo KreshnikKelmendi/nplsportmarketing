@@ -128,48 +128,47 @@ const Law = () => {
 
   return (
     <div className="law-container">
-      {/* Elegant Hero Section */}
-      <div className="text-white position-relative overflow-hidden" style={{height: "40vh"}}>
-  <div className="position-absolute top-0 end-0 bottom-0 start-0 lawBg"></div>
-  <div className="position-absolute top-0 end-0 bottom-0 start-0 bg-gradient opacity-10"></div>
-  
-  <div className="container h-100 position-relative z-index-1">
-    <div className="row h-100 justify-content-center align-items-center">
-      <div className="col-lg-10 text-center">
-        <h1 className="display-4 fw-bold mb-3 animate__animated animate__fadeInDown">
-          Korniza Ligjore
-        </h1>
-        <p className="lead mb-4 animate__animated animate__fadeIn animate__delay-1s">
-          Dokumentet zyrtare të <b>NPL Sport Marketing Prishtina</b>
-        </p>
-      </div>
-    </div>
-  </div>
-</div>
-
-      {/* Documents Section with Elegant Cards */}
-      <div className="container my-5 py-4">
-        <div className="row justify-content-center">
-          <div className="col-lg-11">
-            <div className="text-center mb-5">
-              <h2 className="fw-bold mb-3">Dokumentet Tona Ligjore</h2>
-              <p className="text-muted">Të gjitha dokumentet zyrtare në një vend</p>
-              <div className="divider mx-auto bg-primary" style={{width: '80px', height: '3px'}}></div>
+      {/* Elegant Hero Section - Made responsive */}
+      <div className="text-white position-relative overflow-hidden" style={{minHeight: "300px", height: "40vh"}}>
+        <div className="position-absolute top-0 end-0 bottom-0 start-0 lawBg"></div>
+        <div className="position-absolute top-0 end-0 bottom-0 start-0 bg-gradient opacity-10"></div>
+        
+        <div className="container h-100 position-relative z-index-1">
+          <div className="row h-100 justify-content-center align-items-center">
+            <div className="col-12 col-md-10 text-center px-3">
+              <h1 className="display-4 fw-bold mb-3 animate__animated animate__fadeInDown" style={{fontSize: "clamp(1.5rem, 5vw, 2.5rem)"}}>
+                Korniza Ligjore
+              </h1>
+              <p className="lead mb-4 animate__animated animate__fadeIn animate__delay-1s" style={{fontSize: "clamp(1rem, 2vw, 1.25rem)"}}>
+                Dokumentet zyrtare të <b>NPL Sport Marketing Prishtina</b>
+              </p>
             </div>
+          </div>
+        </div>
+      </div>
 
-            <div className="row g-5">
+      {/* Documents Section with Elegant Cards - Made responsive */}
+      <div className="container my-4 my-md-5 py-2 py-md-4">
+        <div className="row justify-content-center">
+          <div className="col-12 col-lg-11 px-3 px-md-0">
+            
+
+            <div className="row g-3 g-md-4 g-lg-5 overflow-hidden">
               {documents.map((doc, index) => (
-                <div key={index} className="col-md-6">
+                <div key={index} className="col-12 col-sm-6">
                   <div className="card h-100 border-0 shadow-sm hover-shadow transition-all">
-                    <div className="card-body p-4">
+                    <div className="card-body p-3 p-md-4">
                       <div className="d-flex flex-column h-100">
-                        <h5 className="fw-semibold mb-3">{doc.title}</h5>
+                        <h5 className="fw-semibold mb-2 mb-md-3" style={{fontSize: "clamp(1rem, 1.5vw, 1.25rem)"}}>
+                          {doc.title}
+                        </h5>
                         <div className="mt-auto">
                           <a 
                             href={doc.file} 
                             target="_blank" 
                             rel="noopener noreferrer"
-                            className="btn btn-outline-primary w-100"
+                            className="btn btn-outline-primary w-100 py-2"
+                            style={{fontSize: "0.9rem"}}
                           >
                             Shkarko Dokumentin
                           </a>
