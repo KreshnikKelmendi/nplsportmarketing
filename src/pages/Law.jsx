@@ -105,7 +105,7 @@ import korniza5 from "../img/NR.36-1-ORGANOGRAMI.pdf";
 const Law = () => {
   const documents = [
     {
-      title: "Statuti i Ndërmarrjes Publike Lokale ”Sport Marketing” SH.A. Prishtinë",
+      title: "RREGULLORE MBI PAGAT DHE KOMPENSIMET TJERA",
       file: korniza1
     },
     {
