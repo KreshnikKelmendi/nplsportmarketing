@@ -31,9 +31,18 @@ import file22 from "../img/Lista përfundimtare e intervistës për pozitën Kë
 import file23 from "../img/vendim per emerimin e sekretarit.pdf"
 import file24 from "../img/Konkursi për Arkivist.pdf"
 import file25 from "../img/arkivist-njoftim.pdf"
+import file26 from "../img/Vendim - arkivist.pdf"
 
 
 const shpalljet = [
+    {
+        id: 23-6,
+        title: "Vendim",
+        date: "27 MARS 2025",
+        name: `Vlerësimi i kandidatëve në testin me shkrim për pozitën Arkivist/e në NPL Sport Marketing Sh.a.`,
+        photo: image5,
+        pdfFile: file26,
+    },
     {
         id: 23-5,
         title: "Njoftim",
