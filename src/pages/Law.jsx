@@ -98,7 +98,7 @@ import React from 'react';
 import 'animate.css';
 import korniza1 from "../img/NR.35-RREGULLORE MBI PAGAT DHE KOMPENSIMET TJERA  (1).pdf";
 import korniza2 from "../img/NR.86- RREGULLORE E MIRESJELLJES DHE ETIKES.pdf";
-import korniza3 from "../img/NR.36-UDHEZIMI MBI PERSHKRIMIN E DETYRAVE TE PUNES.pdf";
+// import korniza3 from "../img/NR.36-UDHEZIMI MBI PERSHKRIMIN E DETYRAVE TE PUNES.pdf";
 import korniza4 from "../img/NR.87- RREGULLORE E MARDHENJES SE PUNES DHE PROCEDURES DISIPLINORE.pdf";
 import korniza5 from "../img/NR.36-1-ORGANOGRAMI.pdf";
 
@@ -112,10 +112,10 @@ const Law = () => {
       title: "RREGULLORE E MIRËSJELLJES DHE ETIKES",
       file: korniza2
     },
-    {
-      title: "UDHËZIMI MBI PËRSHKRIMIN E DETYRAVE TË PUNËS",
-      file: korniza3
-    },
+    // {
+    //   title: "UDHËZIMI MBI PËRSHKRIMIN E DETYRAVE TË PUNËS",
+    //   file: korniza3
+    // },
     {
       title: "RREGULLORE E MARËDHËNIES SË PUNËS DHE PROCEDURËS DISIPLINORE",
       file: korniza4
