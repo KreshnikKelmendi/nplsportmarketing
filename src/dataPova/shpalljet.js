@@ -34,9 +34,20 @@ import file25 from "../img/arkivist-njoftim.pdf"
 import file26 from "../img/Vendim - arkivist.pdf"
 import file27 from "../img/NR.96-VENDIM I PIKEVE PERFUNDIMTARE -ARKIVISTE.pdf"
 import file28 from "../img/NR.99-KONKURS I JASHTEM SIGURIM NE PISHINEN E GERMISE.pdf"
+import file29 from "../img/vendim-2025.pdf"
 
 
 const shpalljet = [
+    {
+        id: 23-9,
+        title: "VENDIM",
+        date: "28 PRILL 2025",
+        name: `për vendin e punës Arkivist/e`,
+        photo: image5,
+        pdfFile: file29,
+        // deklarata: file9,
+        // aplikacioni: file8
+    },
     {
         id: 23-8,
         title: "KONKURS",
