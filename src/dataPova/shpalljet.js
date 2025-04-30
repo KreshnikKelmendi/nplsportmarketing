@@ -35,9 +35,19 @@ import file26 from "../img/Vendim - arkivist.pdf"
 import file27 from "../img/NR.96-VENDIM I PIKEVE PERFUNDIMTARE -ARKIVISTE.pdf"
 import file28 from "../img/NR.99-KONKURS I JASHTEM SIGURIM NE PISHINEN E GERMISE.pdf"
 import file29 from "../img/vendim-2025.pdf"
-
+import file30 from "../img/konkurs-i-brendshem-2025.pdf"
 
 const shpalljet = [
+    {
+        id: 23-10,
+        title: "KONKURS I BRENDSHËM",
+        date: "30 PRILL 2025",
+        name: `Menaxher/e në Departamentin e Pishinës së Gërmisë`,
+        photo: image5,
+        pdfFile: file30,
+        deklarata: file9,
+        aplikacioni: file8
+    },
     {
         id: 23-9,
         title: "VENDIM",
