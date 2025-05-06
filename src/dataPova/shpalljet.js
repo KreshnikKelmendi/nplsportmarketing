@@ -39,6 +39,13 @@ import file30 from "../img/konkurs-i-brendshem-2025.pdf"
 
 const shpalljet = [
     {
+        id: 23-11,
+        title: "NJOFTIM",
+        date: "06 Maj 2025",
+        name: `Për shtyrje të afatit për aplikim për konkursin e shpallur për pozitën Punëtor sigurimi në NPL Sport Marketing Sh.A`,
+        photo: image5,
+    },
+    {
         id: 23-10,
         title: "KONKURS I BRENDSHËM",
         date: "30 PRILL 2025",
