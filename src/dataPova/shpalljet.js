@@ -36,6 +36,7 @@ import file27 from "../img/NR.96-VENDIM I PIKEVE PERFUNDIMTARE -ARKIVISTE.pdf"
 import file28 from "../img/NR.99-KONKURS I JASHTEM SIGURIM NE PISHINEN E GERMISE.pdf"
 import file29 from "../img/vendim-2025.pdf"
 import file30 from "../img/konkurs-i-brendshem-2025.pdf"
+import file31 from "../img/NR.117-NJOFTIM PER SHTYRJEN E AFATIT TE KONKURSIT SIGURIM.pdf"
 
 const shpalljet = [
     {
@@ -44,6 +45,7 @@ const shpalljet = [
         date: "06 Maj 2025",
         name: `Për shtyrje të afatit për aplikim për konkursin e shpallur për pozitën Punëtor sigurimi në NPL Sport Marketing Sh.A`,
         photo: image5,
+        pdfFile: file31,
     },
     {
         id: 23-10,
