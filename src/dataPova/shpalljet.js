@@ -37,8 +37,18 @@ import file28 from "../img/NR.99-KONKURS I JASHTEM SIGURIM NE PISHINEN E GERMISE
 import file29 from "../img/vendim-2025.pdf"
 import file30 from "../img/konkurs-i-brendshem-2025.pdf"
 import file31 from "../img/NR.117-NJOFTIM PER SHTYRJEN E AFATIT TE KONKURSIT SIGURIM.pdf"
+import file32 from "../img/Njoftim-21-2025.pdf"
+
 
 const shpalljet = [
+    {
+        id: 23-11,
+        title: "NJOFTIM",
+        date: "21 Maj 2025",
+        name: `Pikët e kandidatëve të fituara në testin me shkrim. Pozita: Menaxher/e në Departamentin e Pishinës së Gërmisë.`,        
+        photo: image5,
+        pdfFile: file32,
+    },
     {
         id: 23-11,
         title: "NJOFTIM",
