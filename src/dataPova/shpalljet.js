@@ -45,7 +45,7 @@ const shpalljet = [
         id: 23-11,
         title: "NJOFTIM",
         date: "21 Maj 2025",
-        name: `Pikët e kandidatëve të fituara në testin me shkrim. Pozita: Menaxher/e në Departamentin e Pishinës së Gërmisë.`,        
+        name: `Pikët e kandidatëve të fituara në testin me shkrim për poziten - Menaxher/e në Departamentin e Pishinës së Gërmisë.`,        
         photo: image5,
         pdfFile: file32,
     },
