@@ -38,9 +38,18 @@ import file29 from "../img/vendim-2025.pdf"
 import file30 from "../img/konkurs-i-brendshem-2025.pdf"
 import file31 from "../img/NR.117-NJOFTIM PER SHTYRJEN E AFATIT TE KONKURSIT SIGURIM.pdf"
 import file32 from "../img/Njoftim-21-2025.pdf"
+import file33 from "../img/142.pdf"
 
 
 const shpalljet = [
+    {
+        id: 23-12,
+        title: "VENDIM",
+        date: "23 Maj 2025",
+        name: `Pikët e testit me shkrim për pozitën Punëtor sigurimi në Pishinën e Gërmisë.`,        
+        photo: image5,
+        pdfFile: file33,
+    },
     {
         id: 23-11,
         title: "NJOFTIM",
