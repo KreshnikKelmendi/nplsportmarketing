@@ -45,7 +45,7 @@ const shpalljet = [
     {
         id: 23-12,
         title: "VENDIM",
-        date: "23 Maj 2025",
+        date: "23 MAJ 2025",
         name: `Pikët e testit me shkrim për pozitën Punëtor sigurimi në Pishinën e Gërmisë.`,        
         photo: image5,
         pdfFile: file33,
