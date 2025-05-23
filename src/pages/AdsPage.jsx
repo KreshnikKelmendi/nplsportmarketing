@@ -236,11 +236,11 @@ const AdsPage = () => {
           </div>
         ) : (
           <>
-            <div className="row g-4">
+            <div className="row g-4 px-2">
               {filteredData.slice(0, visibleCount).map((item) => (
                 <div className="col-lg-4 col-xl-3" key={item.id}>
                   <div className="card h-100 border-0 shadow-sm transition-all hover-shadow">
-                    <div className="card-img-top overflow-hidden position-relative" style={{ height: '180px' }}>
+                    <div className="card-img-top overflow-hidden position-relative" style={{ height: '220px' }}>
                       <img 
                         src={item.photo} 
                         alt={item.title} 
