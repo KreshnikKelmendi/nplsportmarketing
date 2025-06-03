@@ -39,9 +39,18 @@ import file30 from "../img/konkurs-i-brendshem-2025.pdf"
 import file31 from "../img/NR.117-NJOFTIM PER SHTYRJEN E AFATIT TE KONKURSIT SIGURIM.pdf"
 import file32 from "../img/Njoftim-21-2025.pdf"
 import file33 from "../img/142.pdf"
+import file34 from "../img/158-Vendim-03-Qershor-2025.pdf"
 
 
 const shpalljet = [
+      {
+        id: 23-13,
+        title: "VENDIM",
+        date: "03 Qershor 2025",
+        name: `Vendim i përzgjedhjes së kandidates së suksesshme për vendin e punës Menaxhere në Pishinën e Gërmisë`,        
+        photo: image5,
+        pdfFile: file34,
+    },
     {
         id: 23-12,
         title: "VENDIM",
