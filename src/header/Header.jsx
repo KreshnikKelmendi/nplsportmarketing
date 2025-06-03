@@ -52,7 +52,7 @@ const Header = () => {
          <ul className={active}>
             <li className="nav__item"><NavLink to="/" className="nav__link" onClick={navToggle} >Ballina</NavLink></li>
             <li className="nav__item"><NavLink to="/news" className="nav__link" onClick={navToggle}>Lajme</NavLink></li>
-            <li className="nav__item"><NavLink to="/ads" className="nav__link" onClick={navToggle}>Shpalljet</NavLink></li>
+            <li className="nav__item"><NavLink to="/shpalljet" className="nav__link" onClick={navToggle}>Shpalljet</NavLink></li>
             <li className="nav__item"><DropDown1 className="text-decoration-none" navToggle={navToggle} /></li>
             <li className="nav__item"><DropDown2 className="text-decoration-none" navToggle={navToggle} /></li>
             <li className="nav__item"><NavLink to="/contact" className="nav__link" onClick={navToggle}>Kontakti</NavLink></li>

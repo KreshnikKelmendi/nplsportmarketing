@@ -34,7 +34,7 @@ function App() {
         <Routes>
          <Route path='/' element={<HomePage />} />
          <Route path='/news' element={<News />} />
-         <Route path='/ads' element={<AdsPage />} />
+         <Route path='/shpalljet' element={<AdsPage />} />
          <Route path='/staff' element={<Staff />} />
          <Route path='/kryeshefi-ekzekutiv' element={<Kryeshefi />} />
          <Route path='/about-us' element={<AboutUsPage />} />
@@ -47,7 +47,7 @@ function App() {
          <Route path='/skijimi' element={<Ski />} />
          <Route path='/kampshtepiza' element={<Camp />} />
          <Route path="/news/:id" element={<SinglePageOfNews />} />
-         <Route path="/ads/:id" element={<SinglePageOfAds />} />
+         <Route path="/shpalljet/:id" element={<SinglePageOfAds />} />
          <Route path='/stafiNpl' element={<NplStaff />} />
          <Route path='/board' element={<Aksionaret />} />
          <Route path='*' element={<ErrorPage />} />
