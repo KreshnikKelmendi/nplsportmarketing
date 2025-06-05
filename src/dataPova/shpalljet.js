@@ -40,9 +40,18 @@ import file31 from "../img/NR.117-NJOFTIM PER SHTYRJEN E AFATIT TE KONKURSIT SIG
 import file32 from "../img/Njoftim-21-2025.pdf"
 import file33 from "../img/142.pdf"
 import file34 from "../img/158-Vendim-03-Qershor-2025.pdf"
+import file35 from "../img/163.pdf"
 
 
 const shpalljet = [
+     {
+        id: 23-14,
+        title: "VENDIM",
+        date: "05 Qershor 2025",
+        name: `Vendim i përzgjedhjes së kandidatit të suksesshëm për pozitën Punëtor i Sigurisë në Pishinën e Gërmisë`,        
+        photo: image5,
+        pdfFile: file35,
+    },
       {
         id: 23-13,
         title: "VENDIM",

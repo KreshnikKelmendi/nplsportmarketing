@@ -94,9 +94,9 @@ const AdsPage = () => {
           <div className="card shadow-sm border-0 rounded-lg overflow-hidden">
             <div className="card-header bg-white border-0 py-3">
               <div className="d-flex justify-content-between align-items-center">
-                <h3 className="h5 mb-0 text-dark fw-semibold">
-                  <FaFilter className="me-2 text-primary" />
-                  Filtro Shpalljet
+                <h3 className="h5 mb-0 text-dark fw-semibold textOn3">
+                  <FaFilter className="me-2 text-primary textOn3" />
+                  Kërko shpallje
                 </h3>
                 <button 
                   className="btn btn-sm btn-link text-decoration-none"
@@ -123,7 +123,7 @@ const AdsPage = () => {
                   {/* Search Field */}
                   <div className="col-md-8">
                     <div className="search-box">
-                      <label htmlFor="searchInput" className="form-label small text-muted mb-1">
+                      <label htmlFor="searchInput" className="form-label textOn3 small text-muted mb-1">
                         Kërko sipas titullit ose emrit
                       </label>
                       <div className="input-group">
@@ -153,7 +153,7 @@ const AdsPage = () => {
                   {/* Year Filter */}
                   <div className="col-md-4">
                     <div className="year-filter">
-                      <label htmlFor="yearSelect" className="form-label small text-muted mb-1">
+                      <label htmlFor="yearSelect" className="form-label textOn3 small text-muted mb-1">
                         Filtro sipas vitit
                       </label>
                       <select
@@ -175,7 +175,7 @@ const AdsPage = () => {
                   {(searchTerm || yearFilter !== 'all') && (
                     <div className="col-12">
                       <button
-                        className="btn btn-sm btn-outline-secondary"
+                        className="btn btn-sm btn-outline-secondary textOn3"
                         onClick={clearFilters}
                       >
                         <FaTimes className="me-1" />
@@ -213,7 +213,7 @@ const AdsPage = () => {
               <span className="visually-hidden">Duke u ngarkuar...</span>
             </div>
             <h4 className="text-primary mb-3">Duke u ngarkuar...</h4>
-            <p className="text-muted">Ju lutem prisni ndërsa aplikojmë filtrat</p>
+            <p className="text-muted">Ju lutem prisni . . .</p>
           </div>
         )}
 
@@ -246,15 +246,15 @@ const AdsPage = () => {
                         alt={item.title} 
                         className="img-fluid w-100 h-100 object-fit-cover"
                       />
-                      <div className="date-badge bg-primary text-white position-absolute top-0 end-0 m-3 px-2 py-1 rounded small">
+                      <div className="date-badge textOn3 bg-primary text-white position-absolute top-0 end-0 m-3 px-2 py-1 rounded small fw-medium">
                         <FaCalendarAlt className="me-1" />
                         {item.date}
                       </div>
                     </div>
                     <div className="card-body d-flex flex-column">
-                      <h5 className="card-title text-dark mb-2">{item.title}</h5>
+                      <h5 className="card-title text-dark mb-2 textOn3">{item.title}</h5>
                       {item.name && (
-                        <h6 className="card-subtitle mb-3 text-muted small">{item.name}</h6>
+                        <h6 className="card-subtitle mb-3 text-muted small textOn3">{item.name}</h6>
                       )}
                       
                       <div className="mt-auto d-grid gap-2">

@@ -10,31 +10,36 @@ const member = [{
     name: "Artina Canolli",
     photo: artina,
     role: "Zyrtare për Media dhe Marketing",
-},{
+}, 
+{
     id: 2,
     name: "Gentiana Daci",
     photo: gentiana,
     role: "Zyrtare për Burime Njerzore",
-},{
+}, 
+{
+    id: 5,
+    name: "Medina Krasniqi",
+    photo: medina,
+    role: "Menaxhere e Departamentit të Pishinës së Gërmisë",
+}, 
+{
     id: 3,
     name: "Albulena Statovci",
     photo: albulena,
     role: "Zyrtare për çështje ekonomike",
-},{
+}, 
+{
     id: 4,
     name: "Teuta Berisha",
     photo: teuta,
-    role: "Zyrtare Ligjore",
-},{
-    id: 5,
-    name: "Medina Krasniqi",
-    photo: medina,
-    role: "Asistente Ekzekutive",
-},{
+    role: "Zyrtare e lartë Ligjore",
+}, 
+{
     id: 6,
     name: "Arlinda Uka",
     photo: arlinda,
     role: "Koordinatore për manifestime sportive",
 }]
 
-export { member}
+export { member }
