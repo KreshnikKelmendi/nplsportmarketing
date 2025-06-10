@@ -19,7 +19,7 @@ const member = [{
 }, 
 {
     id: 5,
-    name: "Medina Krasniqi",
+    name: "Medina Mushica",
     photo: medina,
     role: "Menaxhere e Departamentit të Pishinës së Gërmisë",
 }, 
