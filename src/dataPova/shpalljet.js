@@ -41,9 +41,18 @@ import file32 from "../img/Njoftim-21-2025.pdf"
 import file33 from "../img/142.pdf"
 import file34 from "../img/158-Vendim-03-Qershor-2025.pdf"
 import file35 from "../img/163.pdf"
+import file36 from "../img/konkurs per asistente administrative (2).pdf"
 
 
 const shpalljet = [
+    {
+        id: 23-15,
+        title: "KONKURS",
+        date: "12 Qershor 2025",
+        name: `Asistent/e Administrativ/e ne NPL Sport Marketing Sh.A.`,        
+        photo: image5,
+        pdfFile: file36,
+    },
      {
         id: 23-14,
         title: "VENDIM",
