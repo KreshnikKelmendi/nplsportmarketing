@@ -52,6 +52,8 @@ const shpalljet = [
         name: `Asistent/e Administrativ/e ne NPL Sport Marketing Sh.A.`,        
         photo: image5,
         pdfFile: file36,
+        deklarata: file9,
+        aplikacioni: file8
     },
      {
         id: 23-14,
