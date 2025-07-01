@@ -40,13 +40,13 @@ const PasqyraFinanciare = () => {
   const sortedYears = Object.keys(groupedData).sort((a, b) => b - a);
 
   return (
-    <div className="container mt-4">
+    <div className="container mt-5">
       {/* Minimal Feature Banner for Raporti i Auditoreve te Pavarur dhe Pasqyrat Financiare NPL Sportmarketing_FINAL */}
-      <div className="mb-4 p-0" style={{background: 'linear-gradient(90deg, #43cea2 0%, #185a9d 100%)', border: '1.5px solid #43cea2', boxShadow: '0 2px 12px rgba(24,90,157,0.10)'}}>
+      <div className="mb-4 p-0" style={{background: 'linear-gradient(90deg, #000000 0%, #185a9d 100%)', boxShadow: '0 2px 12px rgba(24,90,157,0.10)'}}>
         <div className="p-3 text-start">
           <h2 className="fw-bold mb-1 text-white" style={{fontSize: '1.15rem', letterSpacing: '0.2px'}}>Raporti i Auditorëve të Pavarur dhe Pasqyrat Financiare</h2>
           <p className="mb-3 text-white" style={{fontSize: '0.95rem'}}>Shikoni raportin e plotë të auditimit të pavarur dhe pasqyrat financiare të NPL Sport Marketing për vitin që përfundoi deri më <b>31 Dhjetor 2024.</b></p>
-          <a href={RaportiAuditoreve} target="_blank" rel="noopener noreferrer" className="btn btn-primary px-3 py-2 shadow-sm" style={{fontSize: '1rem', borderRadius: '0.25rem'}}>
+          <a href={RaportiAuditoreve} target="_blank" rel="noopener noreferrer" className="btn btn-primary shadow-sm" style={{fontSize: '1rem', borderRadius: '0.25rem'}}>
             Shiko Raportin (PDF)
           </a>
         </div>
