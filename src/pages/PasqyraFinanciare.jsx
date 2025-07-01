@@ -40,7 +40,7 @@ const PasqyraFinanciare = () => {
   const sortedYears = Object.keys(groupedData).sort((a, b) => b - a);
 
   return (
-    <div className="container mt-5">
+    <div className="container mt-4">
       {/* Minimal Feature Banner for Raporti i Auditoreve te Pavarur dhe Pasqyrat Financiare NPL Sportmarketing_FINAL */}
       <div className="mb-4 p-0" style={{background: 'linear-gradient(90deg, #000000 0%, #185a9d 100%)', boxShadow: '0 2px 12px rgba(24,90,157,0.10)'}}>
         <div className="p-3 text-start">
