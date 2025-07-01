@@ -8,6 +8,7 @@ import document5 from "../img/RAPORT_FINANCIAR_TM_1_2024_.docx";
 import document6 from "../img/RAPORT_FINANCIAR_TM_2_2024.pdf";
 import document7 from "../img/RAPORT_FINANCIAR_TM_3_2024.pdf";
 import document8 from "../img/RAPORT_FINANCIAR_TM_4_2024.pdf";
+import RaportiAuditoreve from "../img/Raporti i Auditoreve te Pavarur dhe Pasqyrat Financare NPL Sportmarketing_FINAL.pdf";
 
 const PasqyraFinanciare = () => {
   const dataSets = [
@@ -40,6 +41,17 @@ const PasqyraFinanciare = () => {
 
   return (
     <div className="container mt-4">
+      {/* Minimal Feature Banner for Raporti i Auditoreve te Pavarur dhe Pasqyrat Financiare NPL Sportmarketing_FINAL */}
+      <div className="mb-4 p-0" style={{background: 'linear-gradient(90deg, #43cea2 0%, #185a9d 100%)', borderRadius: '0.5rem', border: '1.5px solid #43cea2', boxShadow: '0 2px 12px rgba(24,90,157,0.10)'}}>
+        <div className="p-3 text-start">
+          <h2 className="fw-bold mb-1 text-white" style={{fontSize: '1.15rem', letterSpacing: '0.2px'}}>Raporti i Auditorëve të Pavarur dhe Pasqyrat Financiare</h2>
+          <p className="mb-3 text-white" style={{fontSize: '0.95rem'}}>Shikoni raportin e plotë të auditimit të pavarur dhe pasqyrat financiare të NPL Sport Marketing për vitin që përfundoi deri më <b>31 Dhjetor 2024</b>, duke klikuar butonin më poshtë.</p>
+          <a href={RaportiAuditoreve} target="_blank" rel="noopener noreferrer" className="btn btn-danger px-3 py-2 fw-bold shadow-sm" style={{fontSize: '1rem', borderRadius: '0.25rem'}}>
+            Shiko Raportin (PDF)
+          </a>
+        </div>
+      </div>
+      {/* Existing financial reports by year */}
       {sortedYears.map((year) => (
         <div className='p-3 bg-amfiteatriIcon mb-4' key={year}>
           <h2 className="mb-4 bg-bluecolor p-2 text-white">Pasqyra Financiare për vitin {year}</h2>
