@@ -51,7 +51,7 @@ const shpalljet = [
         id: 23-17,
         title: "VENDIM",
         date: "18 Korrik 2025",
-        name: `Vendim mbi piket përfundimtare pozita Asistent/e administrative`,        
+        name: `Vendim mbi pikët përfundimtare pozita Asistent/e Administrative`,        
         photo: image5,
         pdfFile: file38,
     },
