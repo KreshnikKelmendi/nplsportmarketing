@@ -44,9 +44,17 @@ import file35 from "../img/163.pdf"
 import file36 from "../img/konkurs per asistente administrative (2).pdf"
 import file37 from "../img/Vendim-08-07-2025.pdf"
 import file38 from "../img/NR.240-VENDIM.pdf"
-
+import file39 from "../img/vendim-i-perzgjedhjes  (1).pdf"
 
 const shpalljet = [
+    {
+        id: 23-18,
+        title: "VENDIM",
+        date: "28 Korrik 2025",
+        name: `Vendim i përzgjedhjes , pozita Asistent/e Administrativ/e`,        
+        photo: image5,
+        pdfFile: file39,
+    },
     {
         id: 23-17,
         title: "VENDIM",
