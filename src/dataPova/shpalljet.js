@@ -130,7 +130,7 @@ const shpalljet = [
         id: 23-19,
         title: "KONKURS",
         date: "22 Gusht 2025",
-        name: `Shofer i KRYESHEFIT EKZEKUTIV`,        
+        name: `Shofer në Kabinetin e Kryeshefit Ekzekutiv`,        
         photo: image5,
         pdfFile: file40,
         deklarata: file9,
