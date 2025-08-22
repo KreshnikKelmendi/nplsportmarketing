@@ -45,8 +45,97 @@ import file36 from "../img/konkurs per asistente administrative (2).pdf"
 import file37 from "../img/Vendim-08-07-2025.pdf"
 import file38 from "../img/NR.240-VENDIM.pdf"
 import file39 from "../img/vendim-i-perzgjedhjes  (1).pdf"
+import file40 from "../img/shofer.pdf"
+import file41 from "../img/sigurim.pdf"
+import file42 from "../img/mirembajtes.pdf"
+import file43 from "../img/biletari.pdf"
+import file44 from "../img/fotograf.pdf"
+import file45 from "../img/marketing (1).pdf"
+import file46 from "../img/asistente.pdf"
+import file47 from "../img/menaxher.pdf"
+
 
 const shpalljet = [
+    {
+        id: 23-26,
+        title: "KONKURS",
+        date: "22 Gusht 2025",
+        name: `Menaxher/e në Departamentin e Shërbimeve Rekreative / Sektori Parku i Aventurave - 1 pozitë`,        
+        photo: image5,
+        pdfFile: file47,
+        deklarata: file9,
+        aplikacioni: file8
+    },
+    {
+        id: 23-25,
+        title: "KONKURS",
+        date: "22 Gusht 2025",
+        name: `Asistent/e Administrativ/e Ndihmës në Departamentin e Shërbimeve Rekreative / Sektori Parku i Aventurave - 1 pozitë`,        
+        photo: image5,
+        pdfFile: file46,
+        deklarata: file9,
+        aplikacioni: file8
+    },
+    {
+        id: 23-24,
+        title: "KONKURS",
+        date: "22 Gusht 2025",
+        name: `Zyrtar/e për Marketing në Departamentin e Shërbimeve Rekreative / Sektori Parku i Aventurave - 1 pozitë`,        
+        photo: image5,
+        pdfFile: file45,
+        deklarata: file9,
+        aplikacioni: file8
+    },
+    {
+        id: 23-23,
+        title: "KONKURS",
+        date: "22 Gusht 2025",
+        name: `Kameraman/Fotograf në Departamentin e Shërbimeve Rekreative / Sektori Parku i Aventurave - 1 pozitë`,        
+        photo: image5,
+        pdfFile: file44,
+        deklarata: file9,
+        aplikacioni: file8
+    },
+    {
+        id: 23-22,
+        title: "KONKURS",
+        date: "22 Gusht 2025",
+        name: `Biletar në Departamentin e Shërbimeve Rekreative / Sektori Parku i Aventurave - 2 pozita`,        
+        photo: image5,
+        pdfFile: file43,
+        deklarata: file9,
+        aplikacioni: file8
+    },
+    {
+        id: 23-21,
+        title: "KONKURS",
+        date: "22 Gusht 2025",
+        name: `Mirëmbajtës në Departamentin e Shërbimeve Rekreative / Sektori Parku i Aventurave - 2 pozita`,        
+        photo: image5,
+        pdfFile: file42,
+        deklarata: file9,
+        aplikacioni: file8
+    },
+    {
+        id: 23-20,
+        title: "KONKURS",
+        date: "22 Gusht 2025",
+        name: `Punëtor Sigurimi në Departamentin e Shërbimeve Rekreative / Sektori Parku i Aventurave - 2 pozita`,        
+        photo: image5,
+        pdfFile: file41,
+        deklarata: file9,
+        aplikacioni: file8
+    },
+    {
+        id: 23-19,
+        title: "KONKURS",
+        date: "22 Gusht 2025",
+        name: `Shofer i KRYESHEFIT EKZEKUTIV`,        
+        photo: image5,
+        pdfFile: file40,
+        deklarata: file9,
+        aplikacioni: file8
+    },
     {
         id: 23-18,
         title: "VENDIM",
