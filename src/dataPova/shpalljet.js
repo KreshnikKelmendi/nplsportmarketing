@@ -53,9 +53,31 @@ import file44 from "../img/fotograf.pdf"
 import file45 from "../img/marketing (1).pdf"
 import file46 from "../img/asistente.pdf"
 import file47 from "../img/menaxher.pdf"
+import file48 from "../img/njoftim (1).pdf"
+import file49 from "../img/njoftim000.pdf"
 
 
 const shpalljet = [
+    {
+        id: 23-28,
+        title: "NJOFTIM",
+        date: "11 Shtator 2025",
+        name: `Njoftim për shtyrje të afatit të aplikimit për pozitën Kameraman / Fotograf në Departamentin e Shërbimeve Rekreative / Sektori Parku i Aventurave`,        
+        photo: image5,
+        pdfFile: file49,
+        deklarata: file9,
+        aplikacioni: file8
+    },
+    {
+        id: 23-27,
+        title: "NJOFTIM",
+        date: "11 Shtator 2025",
+        name: `Njoftim për shtyrje të afatit të aplikimit për pozitën Mirëmbajtës në Departamentin e Shërbimeve Rekreative / Sektori Parku i Aventurave`,        
+        photo: image5,
+        pdfFile: file48,
+        deklarata: file9,
+        aplikacioni: file8
+    },
     {
         id: 23-26,
         title: "KONKURS",

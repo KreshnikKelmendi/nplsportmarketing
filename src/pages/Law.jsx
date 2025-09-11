@@ -99,7 +99,7 @@ import 'animate.css';
 import korniza1 from "../img/NR.35-RREGULLORE MBI PAGAT DHE KOMPENSIMET TJERA  (1).pdf";
 import korniza2 from "../img/NR.86- RREGULLORE E MIRESJELLJES DHE ETIKES.pdf";
 // import korniza3 from "../img/NR.36-UDHEZIMI MBI PERSHKRIMIN E DETYRAVE TE PUNES.pdf";
-import korniza4 from "../img/NR.87- RREGULLORE E MARDHENJES SE PUNES DHE PROCEDURES DISIPLINORE.pdf";
+import korniza4 from "../img/Rregullore per mardhenien e punes dhe proceduren disiplinore.pdf";
 import korniza5 from "../img/NR.36-1-ORGANOGRAMI.pdf";
 import korniza6 from "../img/NR.34- STATUTI 26.02.2025.pdf"
 
