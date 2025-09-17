@@ -55,9 +55,63 @@ import file46 from "../img/asistente.pdf"
 import file47 from "../img/menaxher.pdf"
 import file48 from "../img/njoftim (1).pdf"
 import file49 from "../img/njoftim000.pdf"
+import file50 from "../img/386.pdf"
+import file51 from "../img/385.pdf"
+import file52 from "../img/384.pdf"
+import file53 from "../img/383.pdf"
+import file54 from "../img/382.pdf"
+import file55 from "../img/381.pdf"
 
 
 const shpalljet = [
+    {
+        id: 23-33,
+        title: "NJOFTIM",
+        date: "17 Shtator 2025",
+        name: `Rezultatet e testit me shkrim për poziten Shofer/e në Kabinetin e Kryeshefit Ekzekutiv`,        
+        photo: image5,
+        pdfFile: file55,
+    },
+    {
+        id: 23-32,
+        title: "NJOFTIM",
+        date: "17 Shtator 2025",
+        name: `Rezultatet e testit me shkrim për poziten Menaxher/e në Departamentin e Shërbimeve Rekreative/Parku i Aventurave.`,        
+        photo: image5,
+        pdfFile: file54,
+    },
+    {
+        id: 23-32,
+        title: "NJOFTIM",
+        date: "17 Shtator 2025",
+        name: `Rezultatet e testit me shkrim për poziten Zyrtar/e Marketingu në Departamentin e Shërbimeve Rekreative/Parku i Aventurave.`,        
+        photo: image5,
+        pdfFile: file53,
+    },
+    {
+        id: 23-31,
+        title: "NJOFTIM",
+        date: "17 Shtator 2025",
+        name: `Rezultatet e testit me shkrim për poziten Punëtor i Sigurisë në Departamentin e Shërbimeve Rekreative/Parku i Aventurave`,        
+        photo: image5,
+        pdfFile: file52,
+    },
+    {
+        id: 23-30,
+        title: "NJOFTIM",
+        date: "17 Shtator 2025",
+        name: `Rezultatet e testit me shkrim për poziten Asistent/e Administrative në Departamentin e Shërbimeve Rekreative/Parku i Aventurave`,        
+        photo: image5,
+        pdfFile: file51,
+    },
+    {
+        id: 23-29,
+        title: "NJOFTIM",
+        date: "17 Shtator 2025",
+        name: `Rezultatet e testit me shkrim për poziten Biletar/e në Departamentin e Shërbimeve Rekreative/Parku i Aventurave`,        
+        photo: image5,
+        pdfFile: file50,
+    },
     {
         id: 23-28,
         title: "NJOFTIM",
