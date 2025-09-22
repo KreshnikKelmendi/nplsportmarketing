@@ -61,9 +61,20 @@ import file52 from "../img/384.pdf"
 import file53 from "../img/383.pdf"
 import file54 from "../img/382.pdf"
 import file55 from "../img/381.pdf"
+import file56 from "../img/konkurs-22-september-2025.pdf"
 
 
 const shpalljet = [
+    {
+        id: 23-34,
+        title: "KONKURS",
+        date: "22 Shtator 2025",
+        name: `Biologe`,        
+        photo: image5,
+        pdfFile: file56,
+        deklarata: file9,
+        aplikacioni: file8
+    },
     {
         id: 23-33,
         title: "NJOFTIM",
