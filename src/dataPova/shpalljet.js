@@ -62,9 +62,28 @@ import file53 from "../img/383.pdf"
 import file54 from "../img/382.pdf"
 import file55 from "../img/381.pdf"
 import file56 from "../img/konkurs-22-september-2025.pdf"
+import file57 from "../img/393.pdf"
+import file58 from "../img/394.pdf"
+
 
 
 const shpalljet = [
+    {
+        id: 23-36,
+        title: "VENDIM",
+        date: "23 Shtator 2025",
+        name: `Vendim për anulimin e konkursit për vendin e punës mirëmbajtës/e në Departamentin e Shërbimeve Rekreative/ Parku i Aventurave në NPL Sport Marketing Sh.A`,        
+        photo: image5,
+        pdfFile: file58,
+    },
+    {
+        id: 23-35,
+        title: "VENDIM",
+        date: "23 Shtator 2025",
+        name: `Vendim për anulimin e konkursit për vendin e punës Fotograf/e në Departamentin e Shërbimeve Rekreative/ Parku i Aventurave në NPL Sport Marketing Sh.A`,        
+        photo: image5,
+        pdfFile: file57,
+    },
     {
         id: 23-34,
         title: "KONKURS",
