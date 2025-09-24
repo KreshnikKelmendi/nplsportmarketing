@@ -71,7 +71,7 @@ const shpalljet = [
     {
         id: 23-36,
         title: "VENDIM",
-        date: "23 Shtator 2025",
+        date: "24 Shtator 2025",
         name: `Vendim për anulimin e konkursit për vendin e punës mirëmbajtës/e në Departamentin e Shërbimeve Rekreative/ Parku i Aventurave në NPL Sport Marketing Sh.A`,        
         photo: image5,
         pdfFile: file58,
@@ -79,7 +79,7 @@ const shpalljet = [
     {
         id: 23-35,
         title: "VENDIM",
-        date: "23 Shtator 2025",
+        date: "24 Shtator 2025",
         name: `Vendim për anulimin e konkursit për vendin e punës Fotograf/e në Departamentin e Shërbimeve Rekreative/ Parku i Aventurave në NPL Sport Marketing Sh.A`,        
         photo: image5,
         pdfFile: file57,
