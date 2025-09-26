@@ -64,10 +64,64 @@ import file55 from "../img/381.pdf"
 import file56 from "../img/konkurs-22-september-2025.pdf"
 import file57 from "../img/393.pdf"
 import file58 from "../img/394.pdf"
+import file59 from "../img/396.pdf"
+import file60 from "../img/397.pdf"
+import file61 from "../img/398.pdf"
+import file62 from "../img/399.pdf"
+import file63 from "../img/400.pdf"
+import file64 from "../img/401.pdf"
 
 
 
 const shpalljet = [
+    {
+        id: 23-42,
+        title: "NJOFTIM",
+        date: "26 Shtator 2025",
+        name: `Pikët përfundimtare për vendin e punës Punëtor i Sigurisë në Departamentin e Shërbimeve Rekreative/Parku i Aventurave`,        
+        photo: image5,
+        pdfFile: file64,
+    },
+    {
+        id: 23-41,
+        title: "NJOFTIM",
+        date: "26 Shtator 2025",
+        name: `Pikët përfundimtare për vendin e punës Shofer/e në Kabinetin e Kryeshefit Ekzekutiv`,        
+        photo: image5,
+        pdfFile: file63,
+    },
+    {
+        id: 23-40,
+        title: "NJOFTIM",
+        date: "26 Shtator 2025",
+        name: `Pikët përfundimtare për vendin e punës Zyrtar/e për Marketing në Departamentin e Shërbimeve Rekreative/Parku i Aventurave`,        
+        photo: image5,
+        pdfFile: file62,
+    },
+    {
+        id: 23-39,
+        title: "NJOFTIM",
+        date: "26 Shtator 2025",
+        name: `Pikët përfundimtare për vendin e punës Asistent/e Administrativ/e në Departamentin e Shërbimeve Rekreative/Parku i Aventurave`,        
+        photo: image5,
+        pdfFile: file61,
+    },
+    {
+        id: 23-38,
+        title: "NJOFTIM",
+        date: "26 Shtator 2025",
+        name: `Pikët përfundimtare për vendin e punës Biletar/e në Departamentin e Shërbimeve Rekreative/Parku i Aventurave`,        
+        photo: image5,
+        pdfFile: file60,
+    },
+    {
+        id: 23-37,
+        title: "NJOFTIM",
+        date: "26 Shtator 2025",
+        name: `Pikët përfundimtare për vendin e punës Menaxher/e në Departamentin e Shërbimeve Rekreative/Parku i Aventurave`,        
+        photo: image5,
+        pdfFile: file59,
+    },
     {
         id: 23-36,
         title: "VENDIM",
