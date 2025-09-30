@@ -70,10 +70,55 @@ import file61 from "../img/398.pdf"
 import file62 from "../img/399.pdf"
 import file63 from "../img/400.pdf"
 import file64 from "../img/401.pdf"
+import file65 from "../img/408.pdf"
+import file66 from "../img/409.pdf"
+import file67 from "../img/410-01.pdf"
+import file68 from "../img/411.pdf"
+import file69 from "../img/412.pdf"
 
 
 
 const shpalljet = [
+    {
+        id: 23-47,
+        title: "NJOFTIM PËR KANDIDATËT MË TË SUKSESSHËM",
+        date: "30 Shtator 2025",
+        name: `Për vendin e punës Biletar/e në Departamentin e Shërbimeve Rekreative/Parku i Aventurave`,        
+        photo: image5,
+        pdfFile: file69,
+    },
+    {
+        id: 23-46,
+        title: "NJOFTIM PËR KANDIDATIN MË TË SUKSESSHËM",
+        date: "30 Shtator 2025",
+        name: `Për vendin e punës Shofer/e në Kabinetin e Kryeshefit Ekzekutiv në NPL Sport Marketing Sh.A`,        
+        photo: image5,
+        pdfFile: file68,
+    },
+    {
+        id: 23-45,
+        title: "NJOFTIM PËR KANDIDATIN MË TË SUKSESSHËM",
+        date: "30 Shtator 2025",
+        name: `Për vendin e punës Asistent/e Administrativ/e Ndihmës/e në Departamentin e Shërbimeve Rekreative/Parku i Aventurave`,        
+        photo: image5,
+        pdfFile: file67,
+    },
+    {
+        id: 23-44,
+        title: "NJOFTIM PËR KANDIDATËT MË TË SUKSESSHËM",
+        date: "30 Shtator 2025",
+        name: `Për vendin e punës Punëtor Sigurimi në Departamentin e Shërbimeve Rekreative/Parku i Aventurave`,        
+        photo: image5,
+        pdfFile: file66,
+    },
+    {
+        id: 23-43,
+        title: "NJOFTIM PËR KANDIDATIN MË TË SUKSESSHËM",
+        date: "30 Shtator 2025",
+        name: `Për vendin e punës Menaxher/e në Departamentin e Shërbimeve Rekreative/Parku i Aventurave`,        
+        photo: image5,
+        pdfFile: file65,
+    },
     {
         id: 23-42,
         title: "NJOFTIM",
