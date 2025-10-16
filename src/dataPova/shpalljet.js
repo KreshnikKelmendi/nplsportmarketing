@@ -76,21 +76,21 @@ import file67 from "../img/410-01.pdf"
 import file68 from "../img/411.pdf"
 import file69 from "../img/412.pdf"
 import file70 from "../img/423.pdf"
-// import file71 from "../img/441.pdf"
+import file71 from "../img/441.pdf"
 
 
 
 const shpalljet = [
-    // {
-    //     id: 23-49,
-    //     title: "KONKURS",
-    //     date: "16 Tetor 2025",
-    //     name: `Asistent/e Financiar në NPL Sport Marketing Sh.A.`,        
-    //     photo: image5,
-    //     pdfFile: file71,
-    //     deklarata: file9,
-    //     aplikacioni: file8
-    // },
+    {
+        id: 23-49,
+        title: "KONKURS",
+        date: "16 Tetor 2025",
+        name: `Asistent/e Financiar në NPL Sport Marketing Sh.A.`,        
+        photo: image5,
+        pdfFile: file71,
+        deklarata: file9,
+        aplikacioni: file8
+    },
     {
         id: 23-48,
         title: "VENDIM I PËRZGJEDHJES SË KANDIDATIT TË SUKSESSHËM",
