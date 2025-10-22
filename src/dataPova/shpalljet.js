@@ -77,19 +77,19 @@ import file68 from "../img/411.pdf"
 import file69 from "../img/412.pdf"
 import file70 from "../img/423.pdf"
 import file71 from "../img/441.pdf"
-// import file72 from "../img/456.pdf"
+import file72 from "../img/456000.pdf"
 
 
 
 const shpalljet = [
-    // {
-    //     id: 23-50,
-    //     title: "VENDIM",
-    //     date: "21 Tetor 2025",
-    //     name: `Për pikët e testit me shkrim për pozitën Biolog/e`,        
-    //     photo: image5,
-    //     pdfFile: file72,
-    // },
+    {
+        id: 23-50,
+        title: "VENDIM",
+        date: "22 Tetor 2025",
+        name: `Për pikët e testit me shkrim për pozitën Biolog/e`,        
+        photo: image5,
+        pdfFile: file72,
+    },
     {
         id: 23-49,
         title: "KONKURS",
