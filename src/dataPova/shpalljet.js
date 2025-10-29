@@ -78,10 +78,19 @@ import file69 from "../img/412.pdf"
 import file70 from "../img/423.pdf"
 import file71 from "../img/441.pdf"
 import file72 from "../img/456000.pdf"
+import file73 from "../img/462.pdf"
 
 
 
 const shpalljet = [
+    {
+        id: 23-51,
+        title: "VENDIM",
+        date: "29 Tetor 2025",
+        name: `Mbi pikët përfundimtare për poziten biolog/e Departamenti Pishina e Germisë`,        
+        photo: image5,
+        pdfFile: file73,
+    },
     {
         id: 23-50,
         title: "VENDIM",
