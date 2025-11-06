@@ -79,10 +79,19 @@ import file70 from "../img/423.pdf"
 import file71 from "../img/441.pdf"
 import file72 from "../img/456000.pdf"
 import file73 from "../img/462.pdf"
+import file74 from "../img/478.pdf"
 
 
 
 const shpalljet = [
+    {
+        id: 23-52,
+        title: "VENDIM",
+        date: "06 Nëntor 2025",
+        name: `Vendim i përzgjedhjes së kandidatit te suksesshëm për pozitën Biologe në NPL Sport Marketing Sh.A.`,        
+        photo: image5,
+        pdfFile: file74,
+    },
     {
         id: 23-51,
         title: "VENDIM",
