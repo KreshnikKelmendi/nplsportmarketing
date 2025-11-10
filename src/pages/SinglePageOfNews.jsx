@@ -3,7 +3,7 @@ import { DataNews } from "../dataPova/dataNews";
 
 const SinglePageOfNews = () => {
     const { id } = useParams();
-    const ad = DataNews?.find((ad) => ad.id == id);
+    const ad = DataNews?.find((ad) => String(ad.id) === String(id));
   
     if (!ad) {
       return <div className='justify-content-center align-items-center text-center'>LAJMI NUK U GJET</div>;

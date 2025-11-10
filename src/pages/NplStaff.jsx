@@ -11,7 +11,7 @@ const NplStaff = () => {
               <div
                 className="overflow-hidden"
                 style={{
-                  height: "300px",
+                  minHeight: "300px",
                   height: "clamp(300px, 40vw, 30vw)", // adjusts based on screen size
                 }}
               >

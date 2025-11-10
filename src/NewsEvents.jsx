@@ -1,14 +1,9 @@
-import React, { useEffect, useState } from 'react';
-import { Link, useNavigate } from 'react-router-dom';
+import { memo } from 'react';
+import { Link } from 'react-router-dom';
 import 'animate.css';
-import { RingLoader } from 'react-spinners';
 import { DataNews } from './dataPova/dataNews';
 
-const NewsEvents = React.memo(() => {
-  const [data, setData] = useState(DataNews);
-  const [loading, setLoading] = useState(true);
-  const [error, setError] = useState(null);
-
+const NewsEvents = memo(() => {
   return (
     <>
       <div className="container-fluid py-5 newsBg" style={{ marginBottom: '50px' }}>
@@ -64,8 +59,6 @@ const NewsEvents = React.memo(() => {
           </div>
         </div>
       </div>
-
-      {error && <p style={{ color: 'red' }}>{error}</p>}
     </>
   );
 });

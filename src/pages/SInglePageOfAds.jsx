@@ -5,7 +5,7 @@ import pdfIcon from "../img/pdf.png"
 
 const SinglePageOfAds = () => {
     const { id } = useParams();
-    const ad = shpalljet?.find((ad) => ad.id == id);
+    const ad = shpalljet?.find((ad) => String(ad.id) === String(id));
   
     if (!ad) {
       return <div className='justify-content-center align-items-center text-center'>LAJMI NUK U GJET</div>;

@@ -1,5 +1,4 @@
 import { Suspense, lazy } from "react";
-import NewsEvents from "../NewsEvents";
 
 const LazyNewsEvents  = lazy(() => import('../NewsEvents'));
 
