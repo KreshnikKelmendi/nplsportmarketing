@@ -27,7 +27,7 @@ const member = [{
     id: 3,
     name: "Albulena Statovci",
     photo: albulena,
-    role: "Zyrtare për çështje ekonomike",
+    role: "Zyrtare Financiare",
 }, 
 {
     id: 4,
