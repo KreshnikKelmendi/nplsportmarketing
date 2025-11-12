@@ -80,7 +80,7 @@ import file71 from "../img/441.pdf"
 import file72 from "../img/456000.pdf"
 import file73 from "../img/462.pdf"
 import file74 from "../img/478.pdf"
-import file75 from "../img/482000.pdf"
+import file75 from "../img/482 (1).pdf"
 
 
 
