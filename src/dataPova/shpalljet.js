@@ -82,10 +82,19 @@ import file73 from "../img/462.pdf"
 import file74 from "../img/478.pdf"
 import file75 from "../img/482 (1).pdf"
 import file76 from "../img/499000.pdf"
+import file77 from "../img/508.pdf"
 
 
 
 const shpalljet = [
+    {
+        id: 23-55,
+        title: "VENDIM",
+        date: "08 Dhjetor 2025",
+        name: `Vendim për përzgjedhjen e kandidatit të suksesshëm për pozitën Asistent/e Financiar/e në NPL Sport Marketing Sh.A.`,        
+        photo: image5,
+        pdfFile: file77,
+    },
     {
         id: 23-54,
         title: "VENDIM",
