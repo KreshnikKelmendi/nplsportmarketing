@@ -93,7 +93,7 @@ const shpalljet = [
         id: 23-56,
         title: "THIRRJE PËR OFERTIM",
         date: "21 Prill 2026",
-        name: `MENAXHIMI I PISHINËS DHE SHËRBIMET HOTELIERE NË PISHINËN E GËRMISË NË PRISHTINË`,        
+        name: `Menaxhimi i përbashkët i Pishinës dhe Shërbimeve Hoteliere në Pishinën e Gërmisë në Prishtinë`,        
         photo: image56,
         pdfFile: file78,
     },
