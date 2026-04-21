@@ -83,10 +83,20 @@ import file74 from "../img/478.pdf"
 import file75 from "../img/482 (1).pdf"
 import file76 from "../img/499000.pdf"
 import file77 from "../img/508.pdf"
+import file78 from "../img/kerkese-per-ofertim-2026.pdf"
+import image56 from "../img/22-22.jpg"
 
 
 
 const shpalljet = [
+    {
+        id: 23-56,
+        title: "THIRRJE PËR OFERTIM",
+        date: "21 Prill 2026",
+        name: `MENAXHIMI I PISHINËS DHE SHËRBIMET HOTELIERE NË PISHINËN E GËRMISË NË PRISHTINË`,        
+        photo: image56,
+        pdfFile: file78,
+    },
     {
         id: 23-55,
         title: "VENDIM",
