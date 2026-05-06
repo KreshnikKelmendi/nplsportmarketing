@@ -85,10 +85,19 @@ import file76 from "../img/499000.pdf"
 import file77 from "../img/508.pdf"
 import file78 from "../img/kerkese-per-ofertim-2026.pdf"
 import image56 from "../img/22-22.jpg"
+import file79 from "../img/Njoftim-per-kompanine-fituese.pdf"
 
 
 
 const shpalljet = [
+ {
+        id: 23-57,
+        title: "Njoftim",
+        date: "06 Maj 2026",
+        name: `Njoftim për kompaninë fituese për bashkëmenaxhimin e pishinës së Gërmisë në Prishtinë`,        
+        photo: image56,
+        pdfFile: file79,
+    },
     {
         id: 23-56,
         title: "THIRRJE PËR OFERTIM",
