@@ -86,19 +86,19 @@ import file77 from "../img/508.pdf"
 import file78 from "../img/kerkese-per-ofertim-2026.pdf"
 import image56 from "../img/22-22.jpg"
 import file79 from "../img/Njoftim-per-kompanine-fituese.pdf"
-import file80 from "../img/Vendim-14maj.pdf"
+// import file80 from "../img/Vendim-14maj.pdf"
 
 
 
 const shpalljet = [
-    {
-        id: 23-58,
-        title: "Njoftim për kompaninë fituese",
-        date: "14 Maj 2026",
-        name: `MENAXHIMI I PISHINËS DHE SHËRBIMET HOTELIERE NË PISHINËN E GËRMISË NË PRISHTINË`,        
-        photo: image56,
-        pdfFile: file80,
-    },
+    // {
+    //     id: 23-58,
+    //     title: "Njoftim për kompaninë fituese",
+    //     date: "14 Maj 2026",
+    //     name: `MENAXHIMI I PISHINËS DHE SHËRBIMET HOTELIERE NË PISHINËN E GËRMISË NË PRISHTINË`,        
+    //     photo: image56,
+    //     pdfFile: file80,
+    // },
  {
         id: 23-57,
         title: "Njoftim",
